@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 法考知识体系 · 重要程度与频率分类</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9;
+  --paper-2:#efe8d9;
+  --card:#fdfbf5;
+  --ink:#221d18;
+  --ink-soft:#5a5249;
+  --ink-faint:#8a8175;
+  --line:#ddd3bf;
+  --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b;
+  --oxblood-deep:#561520;
+  --brass:#9c7322;
+
+  --t1:#8a1c28;
+  --t1-bg:#f7e9e6;
+  --t2:#b1602a;
+  --t2-bg:#f8ede0;
+  --t3:#2f6b53;
+  --t3-bg:#e6f0e9;
+  --t4:#566b7c;
+  --t4-bg:#e9eef1;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  background:var(--paper);
+  background-image:
+    radial-gradient(circle at 18% 12%, rgba(124,31,43,0.04), transparent 38%),
+    radial-gradient(circle at 86% 88%, rgba(47,107,83,0.04), transparent 42%);
+  color:var(--ink);
+  font-family:'Noto Sans SC',sans-serif;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  padding:48px 20px 90px;
+}
+
+.wrap{max-width:1040px;margin:0 auto;}
+
+/* ---------- Header ---------- */
+.masthead{
+  border-top:4px solid var(--oxblood);
+  border-bottom:1px solid var(--line);
+  padding:30px 0 26px;
+  margin-bottom:34px;
+  position:relative;
+  animation:rise .7s cubic-bezier(.2,.7,.2,1) both;
+}
+.eyebrow{
+  font-family:'Fraunces',serif;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  font-size:11px;
+  color:var(--oxblood);
+  font-weight:600;
+  margin-bottom:14px;
+}
+h1{
+  font-family:'Noto Serif SC',serif;
+  font-weight:900;
+  font-size:clamp(28px,5vw,46px);
+  line-height:1.12;
+  letter-spacing:-.01em;
+  color:var(--ink);
+}
+h1 .sub{
+  display:block;
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  font-style:italic;
+  font-size:clamp(15px,2.4vw,21px);
+  color:var(--ink-soft);
+  margin-top:10px;
+  letter-spacing:.01em;
+}
+.meta-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:24px;
+}
+.chip{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:2px;
+  padding:8px 14px;
+  font-size:13px;
+  color:var(--ink-soft);
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+}
+.chip b{color:var(--oxblood);font-weight:700;font-family:'Noto Serif SC',serif;}
+.chip .num{font-family:'Fraunces',serif;font-weight:600;font-size:15px;color:var(--ink);}
+
+/* ---------- Section title ---------- */
+.sec-title{
+  font-family:'Noto Serif SC',serif;
+  font-weight:700;
+  font-size:20px;
+  margin:46px 0 18px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  color:var(--ink);
+}
+.sec-title::before{
+  content:"";
+  width:26px;height:2px;background:var(--oxblood);flex:none;
+}
+.sec-note{font-size:13.5px;color:var(--ink-soft);margin:-8px 0 24px;max-width:78ch;}
+
+/* ---------- Legend ---------- */
+.legend{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+  border-radius:4px;
+  overflow:hidden;
+  margin-bottom:8px;
+}
+.legend > div{background:var(--card);padding:16px 18px;}
+.legend .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14px;display:flex;align-items:center;gap:9px;margin-bottom:5px;}
+.legend .dot{width:11px;height:11px;border-radius:50%;flex:none;}
+.legend p{font-size:12.5px;color:var(--ink-soft);line-height:1.55;}
+
+/* ---------- Tier card ---------- */
+.tier{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-left:5px solid var(--tc,var(--oxblood));
+  border-radius:5px;
+  padding:0;
+  margin-bottom:20px;
+  overflow:hidden;
+  animation:rise .6s cubic-bezier(.2,.7,.2,1) both;
+}
+.tier-head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  padding:18px 22px 16px;
+  background:var(--tbg,transparent);
+  border-bottom:1px solid var(--line-soft);
+}
+.tier-head .l{display:flex;flex-direction:column;gap:3px;}
+.tier-rank{
+  font-family:'Fraunces',serif;
+  font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;
+  color:var(--tc);
+}
+.tier-name{font-family:'Noto Serif SC',serif;font-weight:900;font-size:19px;color:var(--ink);}
+.tier-tagline{font-size:12.5px;color:var(--ink-soft);margin-top:2px;}
+.tier-weight{text-align:right;flex:none;}
+.tier-weight .big{font-family:'Fraunces',serif;font-weight:600;font-size:26px;line-height:1;color:var(--tc);}
+.tier-weight .cap{font-size:11px;color:var(--ink-faint);letter-spacing:.04em;}
+
+/* subject rows */
+.subj{
+  display:grid;
+  grid-template-columns:minmax(150px,1.3fr) 96px 1.6fr;
+  gap:14px;
+  align-items:center;
+  padding:13px 22px;
+  border-bottom:1px solid var(--line-soft);
+}
+.subj:last-child{border-bottom:none;}
+.subj-name{font-family:'Noto Serif SC',serif;font-weight:600;font-size:15px;color:var(--ink);display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.tag{font-size:10px;font-weight:700;padding:2px 6px;border-radius:2px;font-family:'Noto Sans SC';letter-spacing:.02em;line-height:1.4;}
+.tag.both{background:var(--oxblood);color:#fff;}
+.tag.essay{background:var(--brass);color:#fff;}
+.tag.new{background:#fff;color:var(--t1);border:1px solid var(--t1);}
+
+.score-cell{display:flex;flex-direction:column;gap:4px;}
+.score-num{font-family:'Fraunces',serif;font-weight:600;font-size:14px;color:var(--ink);}
+.score-num small{font-weight:400;color:var(--ink-faint);font-size:11px;font-family:'Noto Sans SC';}
+.bar{height:5px;background:var(--paper-2);border-radius:3px;overflow:hidden;}
+.bar i{display:block;height:100%;background:var(--tc);border-radius:3px;}
+
+.subj-note{font-size:12.5px;color:var(--ink-soft);line-height:1.5;}
+.freq{display:inline-flex;gap:2px;vertical-align:middle;margin-right:6px;}
+.freq b{width:7px;height:7px;border-radius:50%;background:var(--tc);display:inline-block;}
+.freq b.off{background:var(--line);}
+
+/* ---------- 2026 changes callout ---------- */
+.changes{
+  background:linear-gradient(180deg,#fbf3ee,#fdfaf4);
+  border:1px solid var(--line);
+  border-top:3px solid var(--oxblood);
+  border-radius:5px;
+  padding:26px 26px 22px;
+}
+.changes h3{
+  font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;margin-bottom:6px;color:var(--oxblood-deep);
+  display:flex;align-items:center;gap:10px;
+}
+.changes h3 .yr{font-family:'Fraunces',serif;font-style:italic;font-weight:600;font-size:15px;color:var(--brass);}
+.changes > p{font-size:13px;color:var(--ink-soft);margin-bottom:18px;}
+.chg-item{
+  display:flex;gap:16px;padding:15px 0;border-top:1px solid var(--line-soft);
+}
+.chg-item:first-of-type{border-top:none;}
+.chg-icon{
+  flex:none;width:42px;height:42px;border-radius:50%;
+  background:var(--oxblood);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;font-weight:600;font-size:17px;
+}
+.chg-body h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:15px;margin-bottom:3px;color:var(--ink);}
+.chg-body .where{font-size:11.5px;color:var(--brass);font-weight:700;letter-spacing:.03em;margin-bottom:5px;}
+.chg-body p{font-size:13px;color:var(--ink-soft);line-height:1.6;}
+
+/* ---------- strategy ---------- */
+.strategy{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;
+}
+.scard{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:18px 20px;}
+.scard .ph{font-family:'Fraunces',serif;font-style:italic;font-size:13px;color:var(--brass);letter-spacing:.04em;}
+.scard h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:16px;margin:3px 0 8px;color:var(--ink);}
+.scard p{font-size:13px;color:var(--ink-soft);line-height:1.6;}
+
+/* ---------- footer ---------- */
+.foot{
+  margin-top:46px;padding-top:20px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--ink-faint);line-height:1.7;
+}
+.foot b{color:var(--ink-soft);}
+
+@keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+.tier:nth-of-type(1){animation-delay:.05s;}
+.tier:nth-of-type(2){animation-delay:.1s;}
+
+@media(max-width:620px){
+  .subj{grid-template-columns:1fr;gap:8px;}
+  .score-cell{flex-direction:row;align-items:center;gap:10px;}
+  .bar{flex:1;}
+  .tier-head{flex-direction:column;}
+  .tier-weight{text-align:left;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">国家统一法律职业资格考试 · 2026</div>
+    <h1>法考知识体系分类
+      <span class="sub">按「重要程度 × 出现频率」分层 — 据司法部公告与历年真题统计</span>
+    </h1>
+    <div class="meta-row">
+      <div class="chip">客观题 <span class="num">9/12–13</span></div>
+      <div class="chip">报名 <span class="num">6/15–6/29</span></div>
+      <div class="chip">客观题满分 <span class="num">300</span> <b>合格 180</b></div>
+      <div class="chip">主观题满分 <span class="num">180</span> <b>合格 108</b></div>
+      <div class="chip">考查 <span class="num">18</span> 门 / 归并 <span class="num">9</span> 科</div>
+    </div>
+  </header>
+
+  <!-- Legend -->
+  <div class="sec-title">分类逻辑</div>
+  <p class="sec-note">司法部不公布各科精确分值，下表分值为依据近年真题统计的<b>大致区间</b>，年度间有浮动；用于判断投入优先级，不作绝对依据。「频率」指该考点在历年试卷中的复现密度。</p>
+  <div class="legend">
+    <div>
+      <div class="lab"><span class="dot" style="background:var(--t1)"></span>第一层 · 核心基础</div>
+      <p>分值最大、难度最高、主客观双考。其余部门法的理解地基，必须最先、最扎实地拿下。</p>
+    </div>
+    <div>
+      <div class="lab"><span class="dot" style="background:var(--t2)"></span>第二层 · 关键科目</div>
+      <p>三大程序法 + 商法，主客观双考。多为程序性规定，是「过不过线」的分水岭。</p>
+    </div>
+    <div>
+      <div class="lab"><span class="dot" style="background:var(--t3)"></span>第三层 · 理论法</div>
+      <p>分值高、难度低、纯记忆，性价比最高；主观题以论述题形式考查。</p>
+    </div>
+    <div>
+      <div class="lab"><span class="dot" style="background:var(--t4)"></span>第四层 · 小法</div>
+      <p>经知环劳 + 三国法，仅客观题。记忆量大但难度低，考前 2–3 个月短期突击。</p>
+    </div>
+  </div>
+
+  <!-- TIER 1 -->
+  <div class="sec-title">分层展示</div>
+
+  <div class="tier" style="--tc:var(--t1);--tbg:var(--t1-bg);">
+    <div class="tier-head">
+      <div class="l">
+        <span class="tier-rank">Tier 1 — Core</span>
+        <span class="tier-name">核心基础科目</span>
+        <span class="tier-tagline">分值大 · 难度大 · 主客观双考 · 体系地基</span>
+      </div>
+      <div class="tier-weight"><div class="big">≈86</div><div class="cap">客观题合计分</div></div>
+    </div>
+
+    <div class="subj">
+      <div class="subj-name">民法 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈48 <small>客观</small></span><div class="bar"><i style="width:96%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b></b></span>全卷分值之最。重体系：总则—物权—合同—人格权—婚姻继承—侵权。新增/修改解释逐年关注，主观大案例核心来源。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">刑法 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈38 <small>客观</small></span><div class="bar"><i style="width:76%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b></b></span>重理解、重学说分歧。总论（犯罪构成、共犯、罪数）打底，分论（财产、人身、贪渎）落点；主观必考。</div>
+    </div>
+  </div>
+
+  <!-- TIER 2 -->
+  <div class="tier" style="--tc:var(--t2);--tbg:var(--t2-bg);">
+    <div class="tier-head">
+      <div class="l">
+        <span class="tier-rank">Tier 2 — Key</span>
+        <span class="tier-name">关键科目</span>
+        <span class="tier-tagline">程序法 + 商法 · 主客观双考 · 过线分水岭</span>
+      </div>
+      <div class="tier-weight"><div class="big">≈116</div><div class="cap">客观题合计分</div></div>
+    </div>
+
+    <div class="subj">
+      <div class="subj-name">刑事诉讼法 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈32 <small>客观</small></span><div class="bar"><i style="width:64%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b></b></span>公认最杂部门法。管辖、强制措施、证据、程序流程是骨架；细节多、记忆要求高。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">商法 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈28 <small>客观</small></span><div class="bar"><i style="width:56%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b class="off"></b></span>近年「黑马」。公司法（2024 新法）为绝对重心，证券、票据、破产、保险次之；易与民法结合命题。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">民事诉讼法 <span class="tag both">主+客</span> <span class="tag new">含仲裁·新</span></div>
+      <div class="score-cell"><span class="score-num">≈28 <small>客观</small></span><div class="bar"><i style="width:56%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b class="off"></b></span>主管管辖、当事人、证据、程序与执行为主线。<b>2026 仲裁法大修</b>落在此科，须高度关注（见下）。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">行政法与行政诉讼法 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈26 <small>客观</small></span><div class="bar"><i style="width:52%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b class="off"></b></span>实体+程序结合，命题常规但爱考细节。行政行为、复议、诉讼三大块；先理顺行政体制最易得分。</div>
+    </div>
+  </div>
+
+  <!-- TIER 3 -->
+  <div class="tier" style="--tc:var(--t3);--tbg:var(--t3-bg);">
+    <div class="tier-head">
+      <div class="l">
+        <span class="tier-rank">Tier 3 — Theory</span>
+        <span class="tier-name">理论法</span>
+        <span class="tier-tagline">分值高 · 难度低 · 纯记忆 · 性价比之王 · 主观考论述</span>
+      </div>
+      <div class="tier-weight"><div class="big">≈48</div><div class="cap">客观题合计分</div></div>
+    </div>
+
+    <div class="subj">
+      <div class="subj-name">宪法 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈16 <small>客观</small></span><div class="bar"><i style="width:32%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b class="off"></b></span>国家机构、基本权利、宪法监督为高频；条文记忆型，回报稳定。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">法理学 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈13 <small>客观</small></span><div class="bar"><i style="width:26%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b></b><b class="off"></b></span>法的运行、法律解释、法与社会；主观论述题常与习近平法治思想合考。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">司法制度和法律职业道德 <span class="tag both">主+客</span></div>
+      <div class="score-cell"><span class="score-num">≈10 <small>客观</small></span><div class="bar"><i style="width:20%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b class="off"></b><b class="off"></b></span>法官、检察官、律师职业伦理；送分性质，务必拿满。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">习近平法治思想 <span class="tag essay">主·论述</span></div>
+      <div class="score-cell"><span class="score-num">≈6 <small>客观</small></span><div class="bar"><i style="width:12%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b class="off"></b><b class="off"></b></span>客观分值小，但主观论述题必考、且权重高，需背诵核心表述。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">中国法律史</div>
+      <div class="score-cell"><span class="score-num">≈5 <small>客观</small></span><div class="bar"><i style="width:10%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b class="off"></b><b class="off"></b><b class="off"></b></span>纯记忆、仅客观，朝代法制 + 近代立法；性价比一般，背诵即可。</div>
+    </div>
+  </div>
+
+  <!-- TIER 4 -->
+  <div class="tier" style="--tc:var(--t4);--tbg:var(--t4-bg);">
+    <div class="tier-head">
+      <div class="l">
+        <span class="tier-rank">Tier 4 — Minor</span>
+        <span class="tier-name">小法（经知环劳 + 三国法）</span>
+        <span class="tier-tagline">仅客观题 · 难度低 · 记忆量大 · 考前 2–3 月突击</span>
+      </div>
+      <div class="tier-weight"><div class="big">≈50</div><div class="cap">客观题合计分</div></div>
+    </div>
+
+    <div class="subj">
+      <div class="subj-name">经济法</div>
+      <div class="score-cell"><span class="score-num">≈15 <small>客观</small></span><div class="bar"><i style="width:30%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b></b><b class="off"></b><b class="off"></b></span>反垄断、反不正当竞争、消保、劳动等单行法；记点即可，小法中分值最高。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">知识产权法</div>
+      <div class="score-cell"><span class="score-num">≈9 <small>客观</small></span><div class="bar"><i style="width:18%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b class="off"></b><b class="off"></b><b class="off"></b></span>著作权、专利、商标三块；与民法呼应，考点固定。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">国际私法</div>
+      <div class="score-cell"><span class="score-num">≈9 <small>客观</small></span><div class="bar"><i style="width:18%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b class="off"></b><b class="off"></b><b class="off"></b></span>冲突规范、法律适用、司法协助；规则型记忆，易得分。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">国际经济法</div>
+      <div class="score-cell"><span class="score-num">≈9 <small>客观</small></span><div class="bar"><i style="width:18%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b class="off"></b><b class="off"></b><b class="off"></b></span>国际货物买卖、贸易术语、WTO；条约规则型，背诵为主。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">国际公法（国际法）</div>
+      <div class="score-cell"><span class="score-num">≈6 <small>客观</small></span><div class="bar"><i style="width:12%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b></b><b class="off"></b><b class="off"></b><b class="off"></b></span>位于卷一。国家、条约、海洋法、外交关系；记忆型。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">环境资源法</div>
+      <div class="score-cell"><span class="score-num">≈6 <small>客观</small></span><div class="bar"><i style="width:12%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b class="off"></b><b class="off"></b><b class="off"></b><b class="off"></b></span>环保基本制度 + 单行法；纯记忆，考前速记。</div>
+    </div>
+    <div class="subj">
+      <div class="subj-name">劳动与社会保障法</div>
+      <div class="score-cell"><span class="score-num">≈6 <small>客观</small></span><div class="bar"><i style="width:12%"></i></div></div>
+      <div class="subj-note"><span class="freq"><b></b><b class="off"></b><b class="off"></b><b class="off"></b><b class="off"></b></span>劳动合同、工伤、社保；考点稳定，记忆即可。</div>
+    </div>
+  </div>
+
+  <!-- 2026 changes -->
+  <div class="sec-title">2026 新增与修订重点</div>
+  <p class="sec-note">每年新修法律＝当年命题富矿，"重者恒重、新者必考"。以下为已确认进入 2026 备考视野的关键变动。</p>
+  <div class="changes">
+    <h3>命题指挥棒 <span class="yr">— What's New in 2026</span></h3>
+    <p>大纲与法条变化是明确重点的信号，应优先纳入复习。</p>
+
+    <div class="chg-item">
+      <div class="chg-icon">01</div>
+      <div class="chg-body">
+        <h4>仲裁法 30 年来首次全面修订</h4>
+        <div class="where">归属：民事诉讼法（含仲裁制度） · 2026 年 3 月 1 日施行 · 8 章 96 条（+16 条）</div>
+        <p>重点：仲裁协议效力规则扩展、电子/在线仲裁与线下同等效力、涉外仲裁独立成章、支持境外机构在自贸区及海南自贸港设业务机构、仲裁监督与法院支持仲裁制度完善。客观题易在程序细节设陷阱，是当年最值得投入的新增模块。</p>
+      </div>
+    </div>
+
+    <div class="chg-item">
+      <div class="chg-icon">02</div>
+      <div class="chg-body">
+        <h4>海商法修订带动商法考点调整</h4>
+        <div class="where">归属：商法</div>
+        <p>新增"船舶油污损害责任"考点，并补充"海难救助合同的撤销情形"。属边角增量，了解即可，不必过度投入。</p>
+      </div>
+    </div>
+
+    <div class="chg-item">
+      <div class="chg-icon">03</div>
+      <div class="chg-body">
+        <h4>行政法大纲增删</h4>
+        <div class="where">归属：行政法与行政诉讼法</div>
+        <p>大纲新增《治安管理处罚法》《政府信息公开司法解释》；《行政复议法实施条例》未列入大纲（即不直接考查），但复议法主体本身仍是高频重点，须区分对待。</p>
+      </div>
+    </div>
+
+    <div class="chg-item">
+      <div class="chg-icon">04</div>
+      <div class="chg-body">
+        <h4>新公司法持续发酵</h4>
+        <div class="where">归属：商法</div>
+        <p>2024 年 7 月 1 日施行的新《公司法》仍是商法绝对重心；其配套司法解释尚未全部落地，现阶段大纲仍以现有五个司法解释为准，命题以法条本体为主。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- strategy -->
+  <div class="sec-title">基于分类的备考次序</div>
+  <div class="strategy">
+    <div class="scard">
+      <div class="ph">First</div>
+      <h4>先啃核心 + 关键</h4>
+      <p>民、刑、刑诉、民诉、行政、商六科＝主观题全部来源，约占客观题三分之二，须用整个备考期反复理解、做题。</p>
+    </div>
+    <div class="scard">
+      <div class="ph">Then</div>
+      <h4>中段吃透理论法</h4>
+      <p>分值近 50 而难度低，是拉分性价比之王；宪法、法理为重，习近平法治思想主观必背。</p>
+    </div>
+    <div class="scard">
+      <div class="ph">Finally</div>
+      <h4>考前突击小法</h4>
+      <p>经知环劳 + 三国法靠短期记忆，置于考前 2–3 个月集中速记，不宜过早投入。</p>
+    </div>
+    <div class="scard">
+      <div class="ph">Always</div>
+      <h4>盯紧新法</h4>
+      <p>仲裁法为 2026 头号新增；新公司法持续重点。新法条＝高命中考点，第一时间纳入。</p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <p><b>数据来源：</b>司法部国家司法考试中心公告、国家统一法律职业资格考试信息服务平台报名公告、全国人大常委会《仲裁法》修订决定（2026.3.1 施行）、各培训机构历年真题分值统计。</p>
+    <p style="margin-top:8px;"><b>说明：</b>客观题各科分值为历年统计的<b>近似区间</b>，司法部不公布逐科精确分值，年度间存在浮动；主观题考查法治理论、刑法、民法、刑诉、民诉、商法、行政法七科（理论法以论述、其余以案例分析为主）。请以司法部最终发布的《2026 年考试大纲》及官方公告为准。</p>
+  </div>
+
+</div>
+</body>
+</html>
