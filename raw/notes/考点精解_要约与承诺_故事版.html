@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考点精解 · 要约与承诺（故事版 / 大白话）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53; --slate:#3f6f86;
+  --s1:#8a1c28; --s1bg:#f7e9e6;
+  --s2:#b1602a; --s2bg:#f8ede0;
+  --s3:#2f6b53; --s3bg:#e6f0e9;
+  --s4:#566b7c; --s4bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 14% 8%,rgba(124,31,43,.045),transparent 40%),radial-gradient(circle at 90% 92%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink);font-family:'Noto Sans SC',sans-serif;line-height:1.7;
+  -webkit-font-smoothing:antialiased;padding:46px 20px 88px;
+}
+.wrap{max-width:1020px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:26px 0 22px;margin-bottom:14px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:11px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(28px,5vw,44px);line-height:1.12;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.3vw,19px);color:var(--ink-soft);margin-top:9px;}
+.loc{margin-top:16px;font-size:12px;color:var(--ink-faint);font-family:'Noto Serif SC',serif;}
+.loc b{color:var(--oxblood);}
+
+/* running-story banner */
+.story{background:linear-gradient(180deg,#fbf3ee,#fdfaf4);border:1px solid var(--line);border-left:5px solid var(--oxblood);border-radius:6px;padding:16px 20px;margin:20px 0 6px;}
+.story .tag{display:inline-block;background:var(--oxblood);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;margin-bottom:8px;font-family:'Noto Sans SC';letter-spacing:.04em;}
+.story p{font-size:13.5px;color:var(--ink-soft);line-height:1.7;}
+.story b{color:var(--ink);}
+.story .core{margin-top:10px;background:var(--card);border:1px dashed var(--line);border-radius:5px;padding:10px 13px;font-size:13px;}
+.story .core b{color:var(--oxblood);}
+.wang{color:var(--oxblood);font-weight:700;}
+.li{color:var(--slate);font-weight:700;}
+
+/* model nav */
+.modelnav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:20px 0 30px;}
+.modelnav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--mc);border-radius:4px;padding:11px 13px;display:block;transition:transform .15s;}
+.modelnav a:hover{transform:translateY(-2px);}
+.modelnav .n{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--mc);}
+.modelnav .t{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);margin-top:2px;}
+
+/* section */
+.block{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--bc);border-radius:6px;padding:0;margin-bottom:18px;overflow:hidden;animation:rise .55s cubic-bezier(.2,.7,.2,1) both;}
+.bhead{display:flex;align-items:center;gap:13px;padding:16px 22px 14px;background:var(--bbg);border-bottom:1px solid var(--line-soft);}
+.bnum{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:16px;}
+.btitle{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.btitle small{display:block;font-family:'Noto Sans SC';font-weight:400;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;margin-top:1px;}
+.bbody{padding:18px 22px 20px;}
+
+h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14.5px;color:var(--oxblood-deep);margin:0 0 10px;}
+p{font-size:13.5px;color:var(--ink-soft);line-height:1.68;}
+p b, li b{color:var(--ink);font-weight:600;}
+.law{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--brass);font-weight:600;}
+.subhd{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase;font-family:'Fraunces';margin:20px 0 11px;}
+
+/* example (chat-style) + plain takeaway */
+.eg{background:var(--paper-2);border-radius:6px;padding:11px 14px;margin:9px 0;}
+.eg .lbl{font-size:10.5px;font-weight:700;color:var(--brass);letter-spacing:.05em;font-family:'Fraunces';margin-bottom:5px;}
+.eg .line{font-size:13px;color:var(--ink-soft);line-height:1.7;margin:2px 0;}
+.eg .line .q{color:var(--ink);}
+.plain{display:flex;gap:9px;align-items:flex-start;margin:9px 0 4px;}
+.plain .badge{flex:none;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;font-family:'Noto Sans SC';letter-spacing:.03em;margin-top:1px;}
+.plain .txt{font-size:13.5px;color:var(--ink);font-weight:600;line-height:1.6;}
+.plain .txt em{font-style:normal;color:var(--oxblood);}
+
+/* contrast pairs */
+.pair{border:1px solid var(--line);border-radius:7px;margin-bottom:14px;overflow:hidden;}
+.pair-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;}
+.pair-top .side{padding:11px 15px;font-size:12.5px;color:var(--ink-soft);}
+.pair-top .side .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);display:block;margin-bottom:3px;}
+.pair-top .L{background:#fbf5f2;}
+.pair-top .R{background:#f3f6f4;}
+.pair-top .vs{display:flex;align-items:center;justify-content:center;padding:0 12px;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-faint);background:var(--card);border-left:1px solid var(--line-soft);border-right:1px solid var(--line-soft);}
+.pair-body{padding:12px 15px;background:var(--card);border-top:1px solid var(--line-soft);}
+.pair-body .note{font-size:12px;color:var(--ink-faint);margin-top:6px;}
+.pair-body .note b{color:var(--oxblood);}
+.mnem{display:inline-block;margin-top:6px;font-size:12.5px;background:var(--s3bg);color:var(--s3);font-weight:700;border-radius:4px;padding:4px 10px;}
+
+/* traps */
+.traps{list-style:none;counter-reset:t;}
+.traps li{counter-increment:t;position:relative;padding:10px 0 10px 38px;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+.traps li:last-child{border-bottom:none;}
+.traps li::before{content:"坑" counter(t);position:absolute;left:0;top:9px;background:var(--oxblood);color:#fff;font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px;font-family:'Noto Sans SC';}
+
+/* flow steps */
+.steps{display:flex;flex-direction:column;gap:0;margin-bottom:8px;}
+.stp{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);}
+.stp:last-child{border-bottom:none;}
+.stp .k{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--s3);width:54px;}
+.stp .d{font-size:13px;color:var(--ink-soft);}
+.stp .d b{color:var(--ink);}
+
+/* keyword table */
+.kw{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px;}
+.kw td{border:1px solid var(--line);padding:8px 12px;vertical-align:top;}
+.kw td:first-child{background:var(--paper-2);font-family:'Noto Serif SC',serif;font-weight:600;color:var(--ink);width:52%;}
+.kw td:last-child{color:var(--ink-soft);}
+.kw .ar{color:var(--brass);font-weight:700;}
+
+/* template */
+.tpl{background:var(--s4bg);border:1px solid #cdd6dd;border-radius:6px;padding:15px 17px;margin:10px 0;font-size:13px;line-height:1.9;color:var(--ink);}
+.tpl .blank{color:var(--oxblood);font-weight:700;border-bottom:1.5px dotted var(--oxblood);padding:0 3px;}
+.tpl .ref{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:12px;}
+.scoring{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.scoring span{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:5px 11px;font-size:12px;color:var(--ink-soft);}
+.scoring b{color:var(--s3);}
+
+/* footer */
+.foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.75;}
+.foot b{color:var(--ink-soft);}
+.lawindex{font-family:'Fraunces',serif;font-size:11.5px;color:var(--brass);line-height:1.9;margin-top:6px;}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:600px){
+  .modelnav{grid-template-columns:1fr 1fr;}
+  .pair-top{grid-template-columns:1fr;}
+  .pair-top .vs{padding:5px;border:none;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">民法 · 合同编 · 考点精解 · 故事版</div>
+    <h1>要约与承诺
+      <span class="sub">合同订立的第一个考点 — 一个故事讲到底 + 大白话</span>
+    </h1>
+    <div class="loc">定位：民法 › 合同编 › 合同总则 › <b>合同的订立</b>（要约 → 承诺 → 合同成立）</div>
+  </header>
+
+  <!-- running story -->
+  <div class="story">
+    <span class="tag">贯穿全卡的故事</span>
+    <p><span class="wang">老王</span>有辆二手电动车想卖，<span class="li">小李</span>想买，俩人微信聊。这张卡里所有概念，都用他俩这桩买卖来讲。</p>
+    <div class="core">合同怎么"谈成"的，说穿了就两步：一个人开口"<b>5000 卖你，要不要？</b>"（这叫<b>要约</b>），另一个人回"<b>要！</b>"（这叫<b>承诺</b>）——"要"字一出口，合同就成立了。这就是 <span class="law" style="font-style:normal">§483</span> 那句话的意思。</div>
+  </div>
+
+  <nav class="modelnav">
+    <a href="#s1" style="--mc:var(--s1)"><span class="n">01</span><span class="t">是什么 / 易混</span></a>
+    <a href="#s2" style="--mc:var(--s2)"><span class="n">02</span><span class="t">怎么考、坑在哪</span></a>
+    <a href="#s3" style="--mc:var(--s3)"><span class="n">03</span><span class="t">客观怎么答</span></a>
+    <a href="#s4" style="--mc:var(--s4)"><span class="n">04</span><span class="t">主观怎么答</span></a>
+  </nav>
+
+  <!-- 01 -->
+  <section class="block" id="s1" style="--bc:var(--s1);--bbg:var(--s1bg)">
+    <div class="bhead"><span class="bnum">1</span><span class="btitle">是什么 / 易混<small>定义谁都会背，得分全在"边界"——这几组最容易绕晕</small></span></div>
+    <div class="bbody">
+      <h4>是什么（先把两个词坐实）</h4>
+      <div class="eg">
+        <div class="lbl">用故事说</div>
+        <div class="line"><span class="wang">老王</span>私信：<span class="q">"我这车 5000，你要就给你。"</span> —— 这叫 <b>要约</b>（正式开价）。它得满足两点：① <b>说清楚了</b>（车、价钱都明确）；② <b>你一点头，他就得认账</b>。<span class="law">§472</span></div>
+        <div class="line"><span class="li">小李</span>回：<span class="q">"要！"</span> —— 这叫 <b>承诺</b>（接话说"我同意"）。<span class="law">§479</span></div>
+      </div>
+      <div class="plain"><span class="badge">大白话</span><span class="txt">老王开价（要约）→ 小李说"要"（承诺）→ <em>"要"字出口那一刻，合同成立</em>。</span></div>
+
+      <div class="subhd">易混对照 · 五组高频陷阱</div>
+
+      <!-- pair 1 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">要约</span>正式开价，你点头就成交</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">要约邀请</span>只是招呼你来谈</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>发朋友圈：<span class="q">"有辆电动车想出，有意私聊。"</span> → 只是招呼大家来谈，你回"我要了"也成不了交，他还能挑人、再谈价 = <b>要约邀请</b>。</div>
+            <div class="line"><span class="wang">老王</span>私信你：<span class="q">"这车 5000，你要就给你。"</span> → 正式开价，你点头就成 = <b>要约</b>。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">你回一句"我同意"，合同能不能<em>当场就成</em>？能 = 要约；还得他再点头 = 要约邀请。</span></div>
+          <div class="note"><b>坑：</b>广告写得特别死也算开价——比如售楼广告白纸黑字承诺"送 20 平米花园"，就当成要约，开发商赖不掉。招聘启事、寄给你的价目单，则都是邀请。</div>
+        </div>
+      </div>
+
+      <!-- pair 2 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">撤回</span>话还没送到，就喊停</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">撤销</span>话送到了、对方还没接，反悔</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>撤回：</b><span class="wang">老王</span>刚把"5000 卖你"发出去就后悔，赶在<span class="li">小李</span>看到之前补一句<span class="q">"刚那条作废"</span>。</div>
+            <div class="line"><b>撤销：</b>消息<span class="li">小李</span>已经看到了、但还没回"要"，这时<span class="wang">老王</span>说<span class="q">"算了不卖了"</span>。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt"><span class="li">小李</span>一旦回了"要"，合同就成立了；这时<span class="wang">老王</span>再反悔不是反悔，是 <em>毁约、得赔钱</em>。所以"要"（承诺）泼出去就收不回。</span></div>
+          <div class="note"><b>注意：</b>撤销有限制——老王当初要是说了"三天内答复有效"，这三天里就<b>不能</b>中途反悔。<span class="law">§475 · §476 · §485</span></div>
+        </div>
+      </div>
+
+      <!-- pair 3 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">回晚了 · 情况 A</span>怪你自己拖</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">回晚了 · 情况 B</span>怪路上耽误</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（老王说："5000 卖你，周五前答复有效。"）</div>
+            <div class="line"><b>A：</b><span class="li">小李</span>拖到<b>周六</b>才回"要" → 怪他自己晚了。合同不算成立，这句"要"反而变成<span class="li">小李</span>反过来求购，轮到老王决定卖不卖。<span class="law">§486</span></div>
+            <div class="line"><b>B：</b><span class="li">小李</span><b>周四</b>就回了"要"，正常周五能到，结果微信抽风、周六才弹到老王手机上 → 怪传送。合同算成立，除非老王立刻说"晚了，不认了"。<span class="law">§487</span></div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">怪你自己 → <em>不算数</em>（变你反过来求人）；怪路上耽误 → <em>算数</em>（除非对方马上喊停）。</span></div>
+          <div class="mnem">口诀：怪自己＝新要约；怪传送＝有效</div>
+        </div>
+      </div>
+
+      <!-- pair 4 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">改了核心</span>＝还价（重新开价）</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">小修小补</span>＝算答应</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>："5000。"　<span class="li">小李</span>：<span class="q">"4800 我就要。"</span> → 改了价钱（核心），这不是答应，是<span class="li">小李</span><b>重新开价</b>，得老王再点头。</div>
+            <div class="line"><span class="wang">老王</span>："5000。"　<span class="li">小李</span>：<span class="q">"行 5000，不过你周六送过来呗？"</span>（原来没提送货，只是小要求）→ 没动核心，<b>算答应了</b>，合同成立，按小李说的来。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">动了核心 = 还价；鸡毛蒜皮 = 算答应。</span></div>
+          <div class="note"><b>哪些算"核心"：</b>价钱、数量、质量、啥时候交/在哪交/怎么交、违约怎么赔、有纠纷找谁。<span class="law">§488 · §489</span></div>
+        </div>
+      </div>
+
+      <!-- pair 5 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">成立</span>说定了（事实）</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">生效</span>法律真能照约定办了</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>说：<span class="q">"等我下月搬完家，这车才卖你。"</span><span class="li">小李</span>答应了 → 俩人 <b>说定了（成立）</b>，可这合同得等"老王搬完家"这个条件兑现，才 <b>生效</b>。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">成立 = "说定了"；生效 = "这事法律真能照约定办了"。多数买卖<em>同时</em>发生，偶尔说定后还得等个条件才生效。</span></div>
+          <div class="note"><span class="law">§502</span>：依法成立的合同，原则上成立就生效；附条件/附期限、需审批的，是例外。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="block" id="s2" style="--bc:var(--s2);--bbg:var(--s2bg)">
+    <div class="bhead"><span class="bnum">2</span><span class="btitle">怎么考、坑在哪<small>题目长什么样 + 命题人最爱埋的雷</small></span></div>
+    <div class="bbody">
+      <h4>题目长什么样</h4>
+      <div class="eg">
+        <div class="lbl">命题角度</div>
+        <div class="line"><b>客观题：</b>给你一段老王小李这样的对话，问——这是开价还是招呼（要约/邀请）？合同成立没？啥时候成立？老王能不能反悔？小李回晚了算不算？</div>
+        <div class="line"><b>主观题：</b>大案子里，得<b>先判断"合同成立没、啥时候成立"</b>，才能往下谈该不该赔、怎么赔。所以这块是大题的<b>入口</b>。</div>
+      </div>
+
+      <div class="subhd">高频坑位</div>
+      <ul class="traps">
+        <li>把广告一律当"招呼"，漏了<b>写得特别死的广告（售楼承诺）＝正式开价</b>。</li>
+        <li>"撤回"和"撤销"的时间点搞混；以为小李那句"要"也能收回。</li>
+        <li>小李回晚了，<b>不分"怪自己"还是"怪传送"</b>这两种情况。</li>
+        <li>把"周六送过来呗"这种<b>小修小补，误当成还价</b>（其实算答应）。</li>
+        <li>把"成立"当成"生效"——附了条件的：说定了但还没生效；要审批的：没批就没生效，但"<b>该去办审批</b>"这个义务还得履行。</li>
+        <li>签书面合同：现在<b>签名、盖章、按手印，有一个就成</b>（老规矩要又签又盖）；一方已经把主要的事干了、对方也收了，也算成。<span class="law">§490</span></li>
+        <li>网购：网店挂的商品信息够具体的，你<b>"提交订单成功"那一刻</b>合同就成立（不是付款时）。<span class="law">§491</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="block" id="s3" style="--bc:var(--s3);--bbg:var(--s3bg)">
+    <div class="bhead"><span class="bnum">3</span><span class="btitle">客观怎么答<small>四步走，把"判断"练成"条件反射"</small></span></div>
+    <div class="bbody">
+      <h4>固定四步</h4>
+      <div class="steps">
+        <div class="stp"><span class="k">第 1 步</span><span class="d"><b>先定性</b>：老王这话是开价还是招呼？抓两点——说清楚没？你点头他认不认账？</span></div>
+        <div class="stp"><span class="k">第 2 步</span><span class="d"><b>画时间线</b>：撤回 / 撤销 / 回晚——把"谁的话啥时候到对方手里"排出来。默认<b>送到了才算数</b>。</span></div>
+        <div class="stp"><span class="k">第 3 步</span><span class="d"><b>看还价没</b>：小李改了核心没？改了 = 重新开价；没改 = 算答应。</span></div>
+        <div class="stp"><span class="k">第 4 步</span><span class="d"><b>成立 / 生效分两问</b>：先问成立没（小李回"要"了吗），再问生效没（有没有附条件、要不要审批）。</span></div>
+      </div>
+
+      <div class="subhd">关键词触发表（看到左边，秒选右边）</div>
+      <table class="kw">
+        <tr><td>价目单 / 招聘启事 / 招标公告</td><td><span class="ar">→</span> 只是招呼（要约邀请）</td></tr>
+        <tr><td>售楼广告里白纸黑字的具体承诺</td><td><span class="ar">→</span> 算开价（要约）</td></tr>
+        <tr><td>对方看到之前撤回</td><td><span class="ar">→</span> 行（撤回有效）</td></tr>
+        <tr><td>已经回了"要"再想撤</td><td><span class="ar">→</span> 不行（承诺收不回）</td></tr>
+        <tr><td>按时回的、路上耽误才迟到</td><td><span class="ar">→</span> 原则算数</td></tr>
+        <tr><td>把价钱 / 数量改了</td><td><span class="ar">→</span> 重新开价（新要约）</td></tr>
+        <tr><td>写了"……才生效"</td><td><span class="ar">→</span> 说定了，但还没生效</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="block" id="s4" style="--bc:var(--s4);--bbg:var(--s4bg)">
+    <div class="bhead"><span class="bnum">4</span><span class="btitle">主观怎么答<small>先给结论 → 搬法条 → 套到案子里，三样缺一扣分</small></span></div>
+    <div class="bbody">
+      <h4>怎么下笔</h4>
+      <p>大案子里，<b>第一句永远先答"合同成立没、啥时候成立"</b>——这是后面赔不赔、怎么赔的前提。每问都按"<b>先给结论 → 搬出法条 → 套到案情里</b>"写。</p>
+
+      <div class="subhd">套用故事的填空模板</div>
+      <div class="tpl">
+        <span class="wang">老王</span>发的<span class="blank">　那句话　</span>，是开价（要约）/ 只是招呼（要约邀请），因为<span class="blank">　满不满足两要件　</span><span class="ref">（§472 / §473）</span>。<span class="li">小李</span>回的<span class="blank">　那句　</span>，是答应（承诺）/ 因为改了核心算重新开价（新要约）<span class="ref">（§479 / §488）</span>。依<span class="ref">§483</span>，小李说"要"那一刻合同成立，所以合同在<span class="blank">　某时点　</span>成立。<br>
+        〔要分生效就再补一句〕合同虽说定了，但因为<span class="blank">　附了条件 / 还没审批　</span>，依<span class="ref">§502 / §158</span>，目前<span class="blank">还没生效</span>。
+      </div>
+
+      <h4 style="margin-top:16px;">两个得分关键</h4>
+      <p><b>① 说"行话"、引对条号。</b>主观题机考<b>可以查电子法条</b>——不用死背，但务必引准（要约 §472、合同成立 §483 这些）。<br>
+      <b>② 踩点意识。</b>阅卷是<b>按点给分</b>的，下面三样都得写到：</p>
+      <div class="scoring">
+        <span><b>给分点 ①</b> 结论（是要约/承诺/啥时候成立）</span>
+        <span><b>给分点 ②</b> 法条依据</span>
+        <span><b>给分点 ③</b> 套案情（把老王小李的事代进规则）</span>
+      </div>
+      <p style="margin-top:10px;">只下结论不引法条、或只抄法条不结合案子，都丢分。<b>宁可结构完整地写短，也别甩一个光秃秃的结论。</b></p>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>怎么用这张卡：</b>四格（是什么/易混 → 怎么考、坑 → 客观答 → 主观答）就是处理<b>每一个考点</b>的固定套路。下一个考点照着这四格、配一个自己的小故事填，会越来越快。</p>
+    <p style="margin-top:8px;"><b>法条索引：</b><span class="lawindex">要约 §472｜要约邀请 §473｜要约生效·到达 §474｜要约撤回 §475｜要约撤销·不可撤销 §476｜要约失效 §478｜承诺 §479｜承诺方式 §480｜承诺期限 §481｜合同成立＝承诺生效 §483｜承诺生效 §484｜承诺撤回 §485｜回晚了·新要约 §486｜回晚了·原则有效 §487｜实质性变更 §488｜非实质性变更 §489｜书面合同成立 §490｜电子合同成立 §491｜成立即生效 §502｜附条件 §158</span></p>
+    <p style="margin-top:8px;"><b>说明：</b>条文依据为现行《中华人民共和国民法典》（2021 年施行，结构稳定）；售楼广告视为开价（要约）的规则源自商品房买卖相关司法解释。请以司法部正式《2026 年考试大纲》及现行法条、司法解释为准。</p>
+  </div>
+
+</div>
+</body>
+</html>
