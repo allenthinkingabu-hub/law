@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>民法 · 目录级骨架（重要程度 × 频率 × 主客 × 依赖）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53;
+  --t1:#8a1c28; --t1-bg:#f7e9e6;
+  --t2:#b1602a; --t2-bg:#f8ede0;
+  --t3:#566b7c; --t3-bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 16% 10%,rgba(124,31,43,.04),transparent 40%),radial-gradient(circle at 88% 90%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink); font-family:'Noto Sans SC',sans-serif; line-height:1.7;
+  -webkit-font-smoothing:antialiased; padding:46px 20px 86px;
+}
+.wrap{max-width:1000px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:28px 0 24px;margin-bottom:30px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.3em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:12px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(26px,4.6vw,40px);line-height:1.15;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.2vw,19px);color:var(--ink-soft);margin-top:9px;}
+
+/* learning order strip */
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:22px;font-family:'Noto Serif SC',serif;font-size:13.5px;}
+.flow .step{background:var(--card);border:1px solid var(--line);border-radius:2px;padding:6px 11px;color:var(--ink);font-weight:600;}
+.flow .step.k{border-color:var(--oxblood);color:var(--oxblood);}
+.flow .arr{color:var(--ink-faint);font-family:'Fraunces';}
+
+/* legend */
+.key{display:flex;flex-wrap:wrap;gap:18px;margin:22px 0 6px;font-size:12px;color:var(--ink-soft);}
+.key span{display:inline-flex;align-items:center;gap:6px;}
+.kdot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+
+.sec-title{font-family:'Noto Serif SC',serif;font-weight:700;font-size:18px;margin:34px 0 6px;display:flex;align-items:center;gap:12px;}
+.sec-title::before{content:"";width:24px;height:2px;background:var(--oxblood);}
+.sec-note{font-size:12.5px;color:var(--ink-soft);margin:0 0 18px;max-width:80ch;}
+
+/* tier label */
+.tierlab{font-family:'Fraunces',serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:24px 0 10px;display:flex;align-items:center;gap:10px;}
+.tierlab .bar{width:22px;height:3px;border-radius:2px;}
+.tierlab small{font-family:'Noto Sans SC';letter-spacing:0;text-transform:none;color:var(--ink-faint);font-weight:400;font-size:12px;}
+
+/* module card */
+.mod{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--ac,var(--oxblood));border-radius:5px;padding:16px 20px 15px;margin-bottom:12px;animation:rise .5s cubic-bezier(.2,.7,.2,1) both;}
+.mod-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:7px;}
+.mod-no{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--ac);}
+.mod-name{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.mod-cap{font-size:11.5px;color:var(--ink-faint);}
+.star{font-size:11px;font-weight:700;color:var(--green);border:1px solid var(--green);border-radius:2px;padding:1px 6px;}
+
+.points{font-size:13px;color:var(--ink-soft);line-height:1.6;margin-bottom:11px;}
+.points b{color:var(--ink);font-weight:600;}
+
+/* attribute pills */
+.attrs{display:flex;flex-wrap:wrap;gap:7px;align-items:center;}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--paper-2);border-radius:3px;padding:4px 10px;font-size:12px;}
+.pill .lb{color:var(--ink-faint);font-size:10.5px;letter-spacing:.02em;}
+.pill .vl{font-weight:700;font-family:'Noto Serif SC',serif;}
+.v-hi{color:var(--oxblood);} .v-mid{color:var(--brass);} .v-lo{color:var(--t3);}
+.v-easy{color:var(--green);}
+.badge-both{background:var(--oxblood);color:#fff;font-weight:700;font-size:11px;padding:4px 10px;border-radius:3px;}
+.badge-obj{background:#e9eef1;color:var(--t3);font-weight:700;font-size:11px;padding:4px 10px;border-radius:3px;border:1px solid #cdd6dd;}
+
+.dep{font-size:12px;color:var(--ink-soft);margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);}
+.dep b{color:var(--brass);font-weight:700;}
+.dep .y26{color:var(--oxblood);font-weight:700;}
+
+/* crosscut box */
+.cross{background:linear-gradient(180deg,#fbf3ee,#fdfaf4);border:1px solid var(--line);border-top:3px solid var(--brass);border-radius:5px;padding:20px 22px;margin-top:8px;}
+.cross h3{font-family:'Noto Serif SC',serif;font-weight:900;font-size:16px;color:var(--oxblood-deep);margin-bottom:10px;}
+.cross p{font-size:13px;color:var(--ink-soft);line-height:1.65;margin-bottom:8px;}
+.cross p:last-child{margin-bottom:0;}
+.cross b{color:var(--ink);font-weight:600;}
+
+.foot{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.7;}
+.foot b{color:var(--ink-soft);}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:560px){.flow{font-size:12px;}.mod-name{font-size:16px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">法考 · 部门法骨架 · 第一步</div>
+    <h1>民法 — 目录级骨架
+      <span class="sub">七编结构 × 重要程度 / 频率 / 难度 / 主客 / 依赖</span>
+    </h1>
+    <div class="flow">
+      <span class="step k">总则</span><span class="arr">→</span>
+      <span class="step k">物权</span><span class="arr">→</span>
+      <span class="step k">合同<small>＋担保合并</small></span><span class="arr">→</span>
+      <span class="step k">侵权</span><span class="arr">→</span>
+      <span class="step">婚姻家庭</span><span class="arr">→</span>
+      <span class="step">继承</span><span class="arr">→</span>
+      <span class="step">人格权</span>
+    </div>
+    <div class="key">
+      <span><span class="kdot" style="background:var(--oxblood)"></span>高 / 重点</span>
+      <span><span class="kdot" style="background:var(--brass)"></span>中</span>
+      <span><span class="kdot" style="background:var(--t3)"></span>低</span>
+      <span><span class="kdot" style="background:var(--green)"></span>易拿分</span>
+      <span><span class="badge-both" style="padding:2px 7px;">主+客</span> 进主观题</span>
+    </div>
+  </header>
+
+  <div class="sec-title">七编结构与维度</div>
+  <p class="sec-note">维度均为相对判断：司法部不公布逐编精确分值，"分值/频率"依据历年真题与机构统计；"难度"指理解门槛；"易拿分"是性价比（分值 ÷ 投入）。本表只到目录级，具体考点留给下一步「进真题」。</p>
+
+  <!-- T1 -->
+  <div class="tierlab" style="color:var(--t1)"><span class="bar" style="background:var(--t1)"></span>第一梯队 <small>· 分值最大 · 最高频 · 主观核心 · 优先吃透</small></div>
+
+  <div class="mod" style="--ac:var(--t1)">
+    <div class="mod-top"><span class="mod-no">编 03</span><span class="mod-name">合同编</span><span class="mod-cap">债法核心 · 全编分值之最</span></div>
+    <div class="points"><b>合同总则</b>（订立·效力·履行·保全[代位权/撤销权]·转让·终止·违约责任）　|　<b>典型合同</b>（买卖·租赁·借款·保证…）　|　<b>准合同</b>（无因管理·不当得利）</div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-hi">高·最高</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-hi">中高</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-mid">中</span></span>
+      <span class="badge-both">主+客 · 主观必含</span>
+    </div>
+    <div class="dep"><b>依赖：</b>需先掌握总则（法律行为/效力）+ 债法总则思维。<span class="y26">2026 重点倾斜区</span>；合同编通则司法解释为活跃区。</div>
+  </div>
+
+  <div class="mod" style="--ac:var(--t1)">
+    <div class="mod-top"><span class="mod-no">编 02</span><span class="mod-name">物权编</span><span class="mod-cap">静态归属 + 担保</span></div>
+    <div class="points"><b>物权变动</b>　|　<b>所有权</b>（共有·相邻关系·善意取得）　|　<b>用益物权</b>　|　<b>担保物权</b>（抵押·质押·留置）</div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-hi">中高</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-mid">中</span></span>
+      <span class="badge-both">主+客 · 担保常进主观</span>
+    </div>
+    <div class="dep"><b>依赖：</b>总则。<span class="y26">担保物权是 2026 重点</span>，且与合同编"保证"合并学最高效（见底部贯穿提示）。</div>
+  </div>
+
+  <div class="mod" style="--ac:var(--t1)">
+    <div class="mod-top"><span class="mod-no">编 07</span><span class="mod-name">侵权责任编</span><span class="mod-cap">债法另一支柱</span></div>
+    <div class="points"><b>归责原则</b>　|　<b>责任主体特殊规定</b>（监护人·用人单位·网络·教育机构…）　|　<b>具体侵权</b>（产品·机动车·医疗·环境·高度危险·饲养动物·物件损害）</div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-mid">中</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-mid">中</span></span>
+      <span class="badge-both">主+客</span>
+    </div>
+    <div class="dep"><b>依赖：</b>总则（民事责任）。归责原则 + 各类特殊侵权是骨干；道交损害赔偿等解释为近年补充。</div>
+  </div>
+
+  <div class="mod" style="--ac:var(--t1)">
+    <div class="mod-top"><span class="mod-no">编 01</span><span class="mod-name">总则编</span><span class="mod-cap">全编地基 · 其余编的前提</span></div>
+    <div class="points"><b>民事主体</b>（自然人·法人·非法人组织）　|　<b>民事权利</b>　|　<b>民事法律行为</b>（效力）　|　<b>代理</b>　|　<b>诉讼时效</b>　|　民事责任</div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-hi">高</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-mid">中</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-mid">中</span></span>
+      <span class="badge-both">主+客 · 时效/效力会用到</span>
+    </div>
+    <div class="dep"><b>依赖：</b>无（最先学）。重灾区是<b>民事法律行为效力、代理、诉讼时效</b>——这三块务必啃透，它们撑起后面所有编。</div>
+  </div>
+
+  <!-- T2 -->
+  <div class="tierlab" style="color:var(--t2)"><span class="bar" style="background:var(--t2)"></span>第二梯队 <small>· 中频 · 客观为主，偶进主观</small></div>
+
+  <div class="mod" style="--ac:var(--t2)">
+    <div class="mod-top"><span class="mod-no">编 05</span><span class="mod-name">婚姻家庭编</span></div>
+    <div class="points"><b>结婚</b>　|　<b>夫妻关系</b>（共同财产 / 共同债务）　|　<b>离婚</b>（冷静期·损害赔偿）　|　<b>收养</b></div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-mid">中</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-mid">中</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-mid">中</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-mid">中</span></span>
+      <span class="badge-obj">客为主 · 偶主观</span>
+    </div>
+    <div class="dep"><b>依赖：</b>相对独立。热点是<b>夫妻共同债务、离婚财产分割</b>；<span class="y26">婚姻家庭编解释(二)</span>为近年活跃区。</div>
+  </div>
+
+  <div class="mod" style="--ac:var(--t2)">
+    <div class="mod-top"><span class="mod-no">编 06</span><span class="mod-name">继承编</span><span class="mod-cap"></span><span class="star">易拿分</span></div>
+    <div class="points"><b>法定继承</b>（继承顺序）　|　<b>遗嘱继承</b>（遗嘱形式与效力）　|　<b>遗产处理</b>（遗赠扶养协议·遗产管理人）</div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-lo">中低</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-mid">中</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-lo">低</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-easy">高</span></span>
+      <span class="badge-obj">客为主</span>
+    </div>
+    <div class="dep"><b>依赖：</b>相对独立。考点固定、记忆型，是民法里性价比最高的块之一，值得早拿稳。</div>
+  </div>
+
+  <!-- T3 -->
+  <div class="tierlab" style="color:var(--t3)"><span class="bar" style="background:var(--t3)"></span>第三梯队 <small>· 低频 / 特色 · 客观为主 · 记忆为主</small></div>
+
+  <div class="mod" style="--ac:var(--t3)">
+    <div class="mod-top"><span class="mod-no">编 04</span><span class="mod-name">人格权编</span><span class="mod-cap">民法典首创独立编</span><span class="star">易拿分</span></div>
+    <div class="points"><b>一般规定</b>　|　生命权·身体权·健康权　|　姓名权·名称权　|　<b>肖像权</b>　|　名誉权·荣誉权　|　<b>隐私权与个人信息保护</b></div>
+    <div class="attrs">
+      <span class="pill"><span class="lb">分值</span><span class="vl v-lo">低</span></span>
+      <span class="pill"><span class="lb">频率</span><span class="vl v-lo">中低</span></span>
+      <span class="pill"><span class="lb">难度</span><span class="vl v-lo">低</span></span>
+      <span class="pill"><span class="lb">易拿分</span><span class="vl v-easy">高</span></span>
+      <span class="badge-obj">客为主</span>
+    </div>
+    <div class="dep"><b>依赖：</b>相对独立。点少好拿分，<b>肖像权、隐私权与个人信息</b>是特色高频小考点，重点记这两块即可。</div>
+  </div>
+
+  <!-- crosscut -->
+  <div class="cross">
+    <h3>两条贯穿全编的提示（骨架之外、但必须知道）</h3>
+    <p><b>① 担保是横跨编的。</b>"担保物权"（抵押/质押/留置）在物权编，"保证"在合同编——同属担保制度，命题也常合并考。学习时把这两块合并成一个"担保"专题，比分开学省一半力气。</p>
+    <p><b>② 请求权基础思维贯穿主观大案例。</b>民法主观题本质是"谁能向谁、依据哪个请求权、主张什么"。搭骨架时不必展开，但要知道：合同 / 物权 / 侵权 / 不当得利这几大请求权基础，是后面做主观案例的统一分析框架。</p>
+  </div>
+
+  <div class="foot">
+    <p><b>结构依据：</b>《中华人民共和国民法典》七编体例（总则·物权·合同·人格权·婚姻家庭·继承·侵权责任，2021 年施行，结构稳定）。</p>
+    <p style="margin-top:7px;"><b>2026 说明：</b>民法典本体稳定，机构对今年民法大纲解读为变化极小、担保与合同为复习重心；活跃的是配套司法解释（如合同编通则解释、婚姻家庭编解释二）。分值 / 频率 / 难度 / 易拿分均为相对判断，年度有浮动，<b>请以司法部正式发布的《2026 年考试大纲》及现行司法解释为准</b>。</p>
+  </div>
+
+</div>
+</body>
+</html>
