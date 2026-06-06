@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考点精解 · 要约与承诺（模型示范 / 模板）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53; --slate:#566b7c;
+  --s1:#8a1c28; --s1bg:#f7e9e6;
+  --s2:#b1602a; --s2bg:#f8ede0;
+  --s3:#2f6b53; --s3bg:#e6f0e9;
+  --s4:#566b7c; --s4bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 14% 8%,rgba(124,31,43,.045),transparent 40%),radial-gradient(circle at 90% 92%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink);font-family:'Noto Sans SC',sans-serif;line-height:1.7;
+  -webkit-font-smoothing:antialiased;padding:46px 20px 88px;
+}
+.wrap{max-width:1020px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:26px 0 22px;margin-bottom:14px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:11px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(28px,5vw,44px);line-height:1.12;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.3vw,19px);color:var(--ink-soft);margin-top:9px;}
+.loc{margin-top:16px;font-size:12px;color:var(--ink-faint);font-family:'Noto Serif SC',serif;}
+.loc b{color:var(--oxblood);}
+
+/* model nav */
+.modelnav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0 30px;}
+.modelnav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--mc);border-radius:4px;padding:11px 13px;display:block;transition:transform .15s;}
+.modelnav a:hover{transform:translateY(-2px);}
+.modelnav .n{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--mc);}
+.modelnav .t{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);margin-top:2px;}
+
+/* section */
+.block{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--bc);border-radius:6px;padding:0;margin-bottom:18px;overflow:hidden;animation:rise .55s cubic-bezier(.2,.7,.2,1) both;}
+.bhead{display:flex;align-items:center;gap:13px;padding:16px 22px 14px;background:var(--bbg);border-bottom:1px solid var(--line-soft);}
+.bnum{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:16px;}
+.btitle{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.btitle small{display:block;font-family:'Noto Sans SC';font-weight:400;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;margin-top:1px;}
+.bbody{padding:18px 22px 20px;}
+
+h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14.5px;color:var(--oxblood-deep);margin:0 0 8px;}
+.block:not(:first-of-type) h4{margin-top:0;}
+p{font-size:13.5px;color:var(--ink-soft);line-height:1.68;}
+p b, li b{color:var(--ink);font-weight:600;}
+.law{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--brass);font-weight:600;}
+
+.subhd{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase;font-family:'Fraunces';margin:18px 0 9px;}
+
+/* definition chips */
+.defs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:6px;}
+.defcard{background:var(--paper-2);border-radius:5px;padding:13px 15px;}
+.defcard .h{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14px;color:var(--oxblood);margin-bottom:4px;}
+.defcard p{font-size:12.5px;}
+.chain{margin-top:12px;text-align:center;font-family:'Noto Serif SC',serif;font-size:13.5px;color:var(--ink);background:var(--s1bg);border-radius:5px;padding:11px;}
+.chain b{color:var(--oxblood);}
+
+/* contrast pairs */
+.pair{border:1px solid var(--line);border-radius:6px;margin-bottom:11px;overflow:hidden;}
+.pair-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;}
+.pair-top .side{padding:11px 15px;font-size:12.5px;color:var(--ink-soft);}
+.pair-top .side .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);display:block;margin-bottom:3px;}
+.pair-top .L{background:#fbf5f2;}
+.pair-top .R{background:#f3f6f4;}
+.pair-top .vs{display:flex;align-items:center;justify-content:center;padding:0 12px;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-faint);background:var(--card);border-left:1px solid var(--line-soft);border-right:1px solid var(--line-soft);}
+.pair-key{padding:9px 15px;font-size:12.5px;background:var(--card);border-top:1px solid var(--line-soft);color:var(--ink-soft);}
+.pair-key b{color:var(--oxblood);}
+.mnem{display:inline-block;margin-top:4px;font-size:12px;background:var(--s3bg);color:var(--s3);font-weight:600;border-radius:3px;padding:2px 8px;}
+
+/* traps */
+.traps{list-style:none;counter-reset:t;}
+.traps li{counter-increment:t;position:relative;padding:10px 0 10px 38px;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+.traps li:last-child{border-bottom:none;}
+.traps li::before{content:"坑" counter(t);position:absolute;left:0;top:9px;background:var(--oxblood);color:#fff;font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px;font-family:'Noto Sans SC';}
+
+/* flow steps */
+.steps{display:flex;flex-direction:column;gap:0;margin-bottom:8px;}
+.stp{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);}
+.stp:last-child{border-bottom:none;}
+.stp .k{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--s3);width:54px;}
+.stp .d{font-size:13px;color:var(--ink-soft);}
+.stp .d b{color:var(--ink);}
+
+/* keyword table */
+.kw{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px;}
+.kw td{border:1px solid var(--line);padding:8px 12px;vertical-align:top;}
+.kw td:first-child{background:var(--paper-2);font-family:'Noto Serif SC',serif;font-weight:600;color:var(--ink);width:46%;}
+.kw td:last-child{color:var(--ink-soft);}
+.kw .ar{color:var(--brass);font-weight:700;}
+
+/* template */
+.tpl{background:var(--s4bg);border:1px solid #cdd6dd;border-radius:6px;padding:15px 17px;margin:10px 0;font-size:13px;line-height:1.85;color:var(--ink);}
+.tpl .blank{color:var(--oxblood);font-weight:700;border-bottom:1.5px dotted var(--oxblood);padding:0 3px;}
+.tpl .ref{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:12px;}
+.scoring{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.scoring span{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:5px 11px;font-size:12px;color:var(--ink-soft);}
+.scoring b{color:var(--s3);}
+
+/* footer */
+.foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.75;}
+.foot b{color:var(--ink-soft);}
+.lawindex{font-family:'Fraunces',serif;font-size:11.5px;color:var(--brass);line-height:1.9;margin-top:6px;}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:600px){
+  .modelnav{grid-template-columns:1fr 1fr;}
+  .defs{grid-template-columns:1fr;}
+  .pair-top{grid-template-columns:1fr;}
+  .pair-top .vs{padding:5px;border:none;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">民法 · 合同编 · 考点精解 · 模型示范</div>
+    <h1>要约与承诺
+      <span class="sub">合同订立的第一个考点 — 也是你处理每个考点的可复用模板</span>
+    </h1>
+    <div class="loc">定位：民法 › 合同编 › 合同总则 › <b>合同的订立</b>（要约 → 承诺 → 合同成立）</div>
+  </header>
+
+  <nav class="modelnav">
+    <a href="#s1" style="--mc:var(--s1)"><span class="n">01</span><span class="t">是什么 / 易混</span></a>
+    <a href="#s2" style="--mc:var(--s2)"><span class="n">02</span><span class="t">怎么考、坑在哪</span></a>
+    <a href="#s3" style="--mc:var(--s3)"><span class="n">03</span><span class="t">客观怎么答</span></a>
+    <a href="#s4" style="--mc:var(--s4)"><span class="n">04</span><span class="t">主观怎么答</span></a>
+  </nav>
+
+  <!-- 01 -->
+  <section class="block" id="s1" style="--bc:var(--s1);--bbg:var(--s1bg)">
+    <div class="bhead"><span class="bnum">1</span><span class="btitle">是什么 / 易混<small>先立定义，再钉死边界——客观题陷阱几乎全在"边界"上</small></span></div>
+    <div class="bbody">
+      <h4>是什么</h4>
+      <div class="defs">
+        <div class="defcard">
+          <div class="h">要约</div>
+          <p>希望与他人订立合同的意思表示。两个要件：<b>① 内容具体确定</b>；<b>② 表明经受要约人承诺，要约人即受约束</b>。<span class="law">§472</span></p>
+        </div>
+        <div class="defcard">
+          <div class="h">承诺</div>
+          <p>受要约人<b>同意要约</b>的意思表示。原则以通知方式作出，<b>到达要约人时生效</b>。<span class="law">§479 · §484</span></p>
+        </div>
+      </div>
+      <div class="chain">要约生效 → 受要约人取得承诺资格 → <b>承诺生效＝合同成立</b>（<span class="law" style="font-style:normal">§483</span>）</div>
+
+      <div class="subhd">易混对照（五组高频陷阱）</div>
+
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">要约</span>内容具体确定 + 经承诺即受约束</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">要约邀请</span>希望他人向自己发要约（§473）</div>
+        </div>
+        <div class="pair-key"><b>区分：</b>是否满足要约两要件。法定要约邀请＝招标公告、招股说明书、债券募集办法、寄送的价目表、（一般）商业广告。<b>陷阱：</b>商业广告内容符合要约条件的＝要约；商品房销售广告中具体确定的说明、允诺，可视为要约。</div>
+      </div>
+
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">撤回</span>要约、承诺均可</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">撤销</span>仅限要约</div>
+        </div>
+        <div class="pair-key"><b>区分：</b>撤回＝在该意思表示<b>生效前或同时</b>到达（§475 / §485）；撤销＝在<b>受要约人承诺前</b>到达，且 §476 两种情形不可撤销。<b>承诺不可撤销</b>（一生效合同即成立）。</div>
+      </div>
+
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">迟到承诺 · §486</span>发出就晚 / 通常不能及时到达</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">迟到承诺 · §487</span>发出及时、通常能到，因其他原因迟到</div>
+        </div>
+        <div class="pair-key"><b>§486＝新要约</b>（要约人及时通知该承诺有效，才有效）；<b>§487＝原则有效</b>（要约人及时通知不接受，才失效）。<span class="mnem">口诀：怪受要约人→新要约；怪传递→有效</span></div>
+      </div>
+
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">实质性变更</span>→ 新要约（§488）</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">非实质性变更</span>→ 承诺有效（§489）</div>
+        </div>
+        <div class="pair-key"><b>实质性＝</b>标的、数量、质量、价款/报酬、履行期限/地点/方式、违约责任、争议解决方法。<b>非实质性＝</b>承诺有效、合同内容以承诺为准（除非要约人及时反对或要约禁止任何变更）。</div>
+      </div>
+
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">合同成立</span>事实判断：有没有合意</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">合同生效</span>法律评价：合意有无约束力</div>
+        </div>
+        <div class="pair-key"><b>区分：</b>承诺生效＝成立（§483）；依法成立<b>即生效</b>（§502），但<b>附生效条件/期限</b>（§158）、<b>需经批准</b>等情形例外——成立未必生效。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="block" id="s2" style="--bc:var(--s2);--bbg:var(--s2bg)">
+    <div class="bhead"><span class="bnum">2</span><span class="btitle">怎么考、坑在哪<small>命题角度 + 命题人最爱设的具体陷阱</small></span></div>
+    <div class="bbody">
+      <h4>命题角度</h4>
+      <p><b>客观题（高频）：</b>给场景判断某表示是要约还是要约邀请；判断合同<b>是否成立 / 何时成立 / 何地成立</b>；撤回撤销能否生效；承诺迟到或变更后的合同状态。<br><b>主观题（入口判断）：</b>合同订立很少单独成大题，但常是大案例的第一环——先认定合同是否成立、何时成立，才能往下谈效力、履行、违约。所以它是主观案例的"入口"。</p>
+
+      <div class="subhd">高频坑位</div>
+      <ul class="traps">
+        <li>把商业广告一律当要约邀请，漏掉"内容符合要约条件即构成要约"，尤其<b>商品房销售广告中的具体允诺</b>。</li>
+        <li>混淆撤回 / 撤销的时间节点；误以为<b>承诺也能撤销</b>。</li>
+        <li>迟到承诺不分 §486 / §487，一律按"新要约"或一律按"有效"。</li>
+        <li>把<b>非实质性变更</b>误判为新要约（其实承诺有效、内容以承诺为准）。</li>
+        <li>把"成立"与"生效"画等号——附生效条件的合同<b>已成立但未生效</b>；需批准的合同未批准则未生效，<b>但报批义务条款独立有效</b>。</li>
+        <li>合同书成立时点：民法典为<b>"签名、盖章或者按指印"任一即可</b>（非旧法的签字＋盖章）；一方已履行主要义务且对方接受，亦成立（§490）。</li>
+        <li>电子合同：网络发布的商品/服务信息符合要约条件的，对方<b>提交订单成功时</b>合同成立（不是付款时；另有约定除外，§491）。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="block" id="s3" style="--bc:var(--s3);--bbg:var(--s3bg)">
+    <div class="bhead"><span class="bnum">3</span><span class="btitle">客观怎么答<small>固定四步流程 + 关键词触发，把"判断"变成"反射"</small></span></div>
+    <div class="bbody">
+      <h4>四步流程</h4>
+      <div class="steps">
+        <div class="stp"><span class="k">Step 1</span><span class="d"><b>定性</b>：这是要约还是要约邀请？抓两要件（具体确定＋受约束），再核是否属法定要约邀请、广告是否符合要约条件。</span></div>
+        <div class="stp"><span class="k">Step 2</span><span class="d"><b>画时间轴</b>：撤回 / 撤销 / 迟到——把各意思表示"到达"的先后排出来，默认<b>到达主义</b>。</span></div>
+        <div class="stp"><span class="k">Step 3</span><span class="d"><b>判变更</b>：承诺改了内容？实质性→新要约；非实质性→承诺有效、以承诺为准。</span></div>
+        <div class="stp"><span class="k">Step 4</span><span class="d"><b>成立 / 生效两步走</b>：先问成立（承诺生效没），再问生效（有无附条件、需批准）。两个问题分开答。</span></div>
+      </div>
+
+      <div class="subhd">关键词触发表</div>
+      <table class="kw">
+        <tr><td>价目表 / 招标公告 / 招股说明书</td><td><span class="ar">→</span> 要约邀请</td></tr>
+        <tr><td>商品房销售广告里的具体说明、允诺</td><td><span class="ar">→</span> 可视为要约</td></tr>
+        <tr><td>在承诺到达前 / 同时把要约撤回</td><td><span class="ar">→</span> 撤回有效</td></tr>
+        <tr><td>承诺已作出，又想"撤销"</td><td><span class="ar">→</span> 不行（承诺不可撤销）</td></tr>
+        <tr><td>发得及时、通常能到，因邮路延误迟到</td><td><span class="ar">→</span> §487 原则有效</td></tr>
+        <tr><td>擅自改了价款 / 数量 / 履行方式</td><td><span class="ar">→</span> 实质性变更＝新要约</td></tr>
+        <tr><td>合同附了"……时生效"的条件</td><td><span class="ar">→</span> 已成立、未生效</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="block" id="s4" style="--bc:var(--s4);--bbg:var(--s4bg)">
+    <div class="bhead"><span class="bnum">4</span><span class="btitle">主观怎么答<small>结论 + 大前提 + 涵摄，三者缺一不可——按点给分</small></span></div>
+    <div class="bbody">
+      <h4>答题结构</h4>
+      <p>大案例里，<b>第一步永远先答"合同是否成立、何时成立"</b>，这是后续效力、履行、违约一切论证的前提。每一问都用「<b>结论先行 → 援引法条（大前提）→ 事实涵摄（小前提）</b>」展开。</p>
+
+      <div class="subhd">入口判断 · 填空模板</div>
+      <div class="tpl">
+        甲发出的<span class="blank">　行为　</span>构成<span class="blank">要约 / 要约邀请</span>，因为<span class="blank">　满足/不满足要约两要件　</span><span class="ref">（《民法典》§472 / §473）</span>。乙的回复构成<span class="blank">承诺 / 新要约</span>，理由是<span class="blank">　一致 / 作出实质性变更　</span><span class="ref">（§479 / §488）</span>。依<span class="ref">§483</span>，承诺生效时合同成立，故合同于<span class="blank">　某时点　</span>成立。<br>
+        〔如需区分生效〕合同虽已成立，但因<span class="blank">　附生效条件 / 未经批准　</span>，依<span class="ref">§502 / §158</span>，<span class="blank">尚未生效</span>。
+      </div>
+
+      <h4 style="margin-top:16px;">两个得分关键</h4>
+      <p><b>① 用法言法语、引准条号。</b>主观题机考<b>可查电子法条</b>——把"背条文"降级为"会查会引"，但务必引对条号（如要约 §472、合同成立 §483、附条件 §158）。<br>
+      <b>② 踩点意识。</b>阅卷按采分点给分：</p>
+      <div class="scoring">
+        <span><b>采分点 ①</b> 定性结论（要约/承诺/成立时点）</span>
+        <span><b>采分点 ②</b> 法条依据</span>
+        <span><b>采分点 ③</b> 事实涵摄（把案情套进规则）</span>
+      </div>
+      <p style="margin-top:10px;">三者只写结论不引法条、或只抄法条不结合案情，都会丢分。宁可结构完整地写短，也别只下一个光秃秃的结论。</p>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>怎么用这张卡：</b>四格结构（是什么/易混 → 怎么考、坑 → 客观答 → 主观答）就是你处理<b>每一个考点</b>的固定模板。下一个考点（如合同效力、保全中的代位权/撤销权）照着这四格填，吃透速度会越来越快。</p>
+    <p style="margin-top:8px;"><b>法条索引：</b><span class="lawindex">要约 §472｜要约邀请 §473｜要约生效·到达 §474｜要约撤回 §475｜要约撤销·不可撤销 §476｜要约失效 §478｜承诺 §479｜承诺方式 §480｜承诺期限 §481｜合同成立＝承诺生效 §483｜承诺生效 §484｜承诺撤回 §485｜迟到承诺·新要约 §486｜迟到承诺·原则有效 §487｜实质性变更 §488｜非实质性变更 §489｜合同书成立 §490｜电子合同成立 §491｜成立即生效 §502｜附条件 §158</span></p>
+    <p style="margin-top:8px;"><b>说明：</b>条文依据为现行《中华人民共和国民法典》（2021 年施行，结构稳定）；商品房销售广告视为要约的规则源自商品房买卖相关司法解释。请以司法部正式《2026 年考试大纲》及现行法条、司法解释为准。</p>
+  </div>
+
+</div>
+</body>
+</html>

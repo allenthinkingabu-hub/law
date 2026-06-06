@@ -10,6 +10,11 @@
       "hash": "sha256:b8f7087721ada05011ea196c7da1982b6e71d2f5bf70f05d19b50a5608a70d0d",
       "ingested_at": "2026-06-06T03:20:08Z",
       "source_page": "wiki/sources/2026-06-05-民法目录级骨架.md"
+    },
+    "raw/notes/考点精解_要约与承诺.html": {
+      "hash": "sha256:79f6097816634212f5ea599e42c1761eca961a5020059b90007725bcaffb1d76",
+      "ingested_at": "2026-06-06T05:56:57Z",
+      "source_page": "wiki/sources/2026-06-05-考点精解-要约与承诺.md"
     }
   }
 }
