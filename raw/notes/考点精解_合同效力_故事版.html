@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考点精解 · 合同效力（故事版 / 大白话）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53; --slate:#3f6f86;
+  --s1:#8a1c28; --s1bg:#f7e9e6;
+  --s2:#b1602a; --s2bg:#f8ede0;
+  --s3:#2f6b53; --s3bg:#e6f0e9;
+  --s4:#566b7c; --s4bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 14% 8%,rgba(124,31,43,.045),transparent 40%),radial-gradient(circle at 90% 92%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink);font-family:'Noto Sans SC',sans-serif;line-height:1.7;
+  -webkit-font-smoothing:antialiased;padding:46px 20px 88px;
+}
+.wrap{max-width:1020px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:26px 0 22px;margin-bottom:14px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:11px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(28px,5vw,44px);line-height:1.12;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.3vw,19px);color:var(--ink-soft);margin-top:9px;}
+.loc{margin-top:16px;font-size:12px;color:var(--ink-faint);font-family:'Noto Serif SC',serif;}
+.loc b{color:var(--oxblood);}
+
+/* running-story banner */
+.story{background:linear-gradient(180deg,#fbf3ee,#fdfaf4);border:1px solid var(--line);border-left:5px solid var(--oxblood);border-radius:6px;padding:16px 20px;margin:20px 0 6px;}
+.story .tag{display:inline-block;background:var(--oxblood);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;margin-bottom:8px;font-family:'Noto Sans SC';letter-spacing:.04em;}
+.story p{font-size:13.5px;color:var(--ink-soft);line-height:1.7;}
+.story b{color:var(--ink);}
+.story .core{margin-top:10px;background:var(--card);border:1px dashed var(--line);border-radius:5px;padding:10px 13px;font-size:13px;}
+.story .core b{color:var(--oxblood);}
+.wang{color:var(--oxblood);font-weight:700;}
+.li{color:var(--slate);font-weight:700;}
+
+/* model nav */
+.modelnav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:20px 0 30px;}
+.modelnav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--mc);border-radius:4px;padding:11px 13px;display:block;transition:transform .15s;}
+.modelnav a:hover{transform:translateY(-2px);}
+.modelnav .n{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--mc);}
+.modelnav .t{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);margin-top:2px;}
+
+/* section */
+.block{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--bc);border-radius:6px;padding:0;margin-bottom:18px;overflow:hidden;animation:rise .55s cubic-bezier(.2,.7,.2,1) both;}
+.bhead{display:flex;align-items:center;gap:13px;padding:16px 22px 14px;background:var(--bbg);border-bottom:1px solid var(--line-soft);}
+.bnum{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:16px;}
+.btitle{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.btitle small{display:block;font-family:'Noto Sans SC';font-weight:400;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;margin-top:1px;}
+.bbody{padding:18px 22px 20px;}
+
+h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14.5px;color:var(--oxblood-deep);margin:0 0 10px;}
+p{font-size:13.5px;color:var(--ink-soft);line-height:1.68;}
+p b, li b{color:var(--ink);font-weight:600;}
+.law{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--brass);font-weight:600;}
+.subhd{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase;font-family:'Fraunces';margin:20px 0 11px;}
+
+/* example (chat-style) + plain takeaway */
+.eg{background:var(--paper-2);border-radius:6px;padding:11px 14px;margin:9px 0;}
+.eg .lbl{font-size:10.5px;font-weight:700;color:var(--brass);letter-spacing:.05em;font-family:'Fraunces';margin-bottom:5px;}
+.eg .line{font-size:13px;color:var(--ink-soft);line-height:1.7;margin:2px 0;}
+.eg .line .q{color:var(--ink);}
+.plain{display:flex;gap:9px;align-items:flex-start;margin:9px 0 4px;}
+.plain .badge{flex:none;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;font-family:'Noto Sans SC';letter-spacing:.03em;margin-top:1px;}
+.plain .txt{font-size:13.5px;color:var(--ink);font-weight:600;line-height:1.6;}
+.plain .txt em{font-style:normal;color:var(--oxblood);}
+
+/* contrast pairs */
+.pair{border:1px solid var(--line);border-radius:7px;margin-bottom:14px;overflow:hidden;}
+.pair-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;}
+.pair-top .side{padding:11px 15px;font-size:12.5px;color:var(--ink-soft);}
+.pair-top .side .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);display:block;margin-bottom:3px;}
+.pair-top .L{background:#fbf5f2;}
+.pair-top .R{background:#f3f6f4;}
+.pair-top .vs{display:flex;align-items:center;justify-content:center;padding:0 12px;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-faint);background:var(--card);border-left:1px solid var(--line-soft);border-right:1px solid var(--line-soft);}
+.pair-body{padding:12px 15px;background:var(--card);border-top:1px solid var(--line-soft);}
+.pair-body .note{font-size:12px;color:var(--ink-faint);margin-top:6px;}
+.pair-body .note b{color:var(--oxblood);}
+.mnem{display:inline-block;margin-top:6px;font-size:12.5px;background:var(--s3bg);color:var(--s3);font-weight:700;border-radius:4px;padding:4px 10px;}
+
+/* traps */
+.traps{list-style:none;counter-reset:t;}
+.traps li{counter-increment:t;position:relative;padding:10px 0 10px 38px;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+.traps li:last-child{border-bottom:none;}
+.traps li::before{content:"坑" counter(t);position:absolute;left:0;top:9px;background:var(--oxblood);color:#fff;font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px;font-family:'Noto Sans SC';}
+
+/* flow steps */
+.steps{display:flex;flex-direction:column;gap:0;margin-bottom:8px;}
+.stp{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);}
+.stp:last-child{border-bottom:none;}
+.stp .k{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--s3);width:54px;}
+.stp .d{font-size:13px;color:var(--ink-soft);}
+.stp .d b{color:var(--ink);}
+
+/* keyword table */
+.kw{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px;}
+.kw td{border:1px solid var(--line);padding:8px 12px;vertical-align:top;}
+.kw td:first-child{background:var(--paper-2);font-family:'Noto Serif SC',serif;font-weight:600;color:var(--ink);width:52%;}
+.kw td:last-child{color:var(--ink-soft);}
+.kw .ar{color:var(--brass);font-weight:700;}
+
+/* template */
+.tpl{background:var(--s4bg);border:1px solid #cdd6dd;border-radius:6px;padding:15px 17px;margin:10px 0;font-size:13px;line-height:1.9;color:var(--ink);}
+.tpl .blank{color:var(--oxblood);font-weight:700;border-bottom:1.5px dotted var(--oxblood);padding:0 3px;}
+.tpl .ref{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:12px;}
+.scoring{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.scoring span{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:5px 11px;font-size:12px;color:var(--ink-soft);}
+.scoring b{color:var(--s3);}
+
+/* footer */
+.foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.75;}
+.foot b{color:var(--ink-soft);}
+.lawindex{font-family:'Fraunces',serif;font-size:11.5px;color:var(--brass);line-height:1.9;margin-top:6px;}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:600px){
+  .modelnav{grid-template-columns:1fr 1fr;}
+  .pair-top{grid-template-columns:1fr;}
+  .pair-top .vs{padding:5px;border:none;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">民法 · 合同编 · 考点精解 · 故事版</div>
+    <h1>合同效力
+      <span class="sub">这桩买卖在法律上"算不算数" — 一个故事讲到底 + 大白话</span>
+    </h1>
+    <div class="loc">定位：民法 › 合同编（与总则编·民事法律行为效力相通）› <b>合同的效力</b>（有效 / 无效 / 可撤销 / 效力待定）</div>
+  </header>
+
+  <!-- running story -->
+  <div class="story">
+    <span class="tag">贯穿全卡的故事</span>
+    <p>还是 <span class="wang">老王</span> 卖电动车给 <span class="li">小李</span> 这桩事。上一张卡看的是"谈没谈成（成立）"，这张看的是——这桩买卖在法律上<b>"算不算数、算多少数"</b>。视不同情况，它会落进四种状态。（老王 15 岁的儿子 <b>小宝</b> 待会儿也会上场。）</p>
+    <div class="core">合同效力问的不是"成没成立"，而是<b>成立之后，法律认不认、约束力多大</b>。四种状态：<b>有效</b>（正常算数）／ <b>无效</b>（根本不算数）／ <b>可撤销</b>（暂时算数、能反悔）／ <b>效力待定</b>（悬着、等人拍板）。</div>
+  </div>
+
+  <nav class="modelnav">
+    <a href="#s1" style="--mc:var(--s1)"><span class="n">01</span><span class="t">是什么 / 易混</span></a>
+    <a href="#s2" style="--mc:var(--s2)"><span class="n">02</span><span class="t">怎么考、坑在哪</span></a>
+    <a href="#s3" style="--mc:var(--s3)"><span class="n">03</span><span class="t">客观怎么答</span></a>
+    <a href="#s4" style="--mc:var(--s4)"><span class="n">04</span><span class="t">主观怎么答</span></a>
+  </nav>
+
+  <!-- 01 -->
+  <section class="block" id="s1" style="--bc:var(--s1);--bbg:var(--s1bg)">
+    <div class="bhead"><span class="bnum">1</span><span class="btitle">是什么 / 易混<small>四种状态先分清，难点全在"这个该归哪一种"的边界上</small></span></div>
+    <div class="bbody">
+      <h4>是什么（四种状态）</h4>
+      <div class="eg">
+        <div class="lbl">用故事说</div>
+        <div class="line"><span class="wang">老王</span>如实介绍车况，<span class="li">小李</span>自愿购买，价钱也公道 → 这桩买卖<b>有效</b>，该交车交车、该付钱付钱。其余三种，都是"出了点状况"才会落进去。</div>
+      </div>
+      <div class="plain"><span class="badge">大白话</span><span class="txt">合同效力＝这桩买卖<em>"算不算数"</em>。算数＝有效；根本不算＝无效；暂时算、能反悔＝可撤销；还悬着、等人点头＝效力待定。</span></div>
+
+      <div class="subhd">易混对照 · 五组高频陷阱</div>
+
+      <!-- pair 1 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">无效</span>自始就不算数，谁都能说</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">可撤销</span>暂时算数，吃亏方能反悔</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>无效：</b><span class="wang">老王</span>为躲债主，跟<span class="li">小李</span>"假装"把车卖了过户（其实根本没真卖）→ 双方演戏，合同无效。</div>
+            <div class="line"><b>可撤销：</b><span class="wang">老王</span>把泡过水的车谎称"无事故"，把<span class="li">小李</span>骗了 → 小李可以去法院把这桩买卖撤掉。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">无效＝根本不算数、谁都能说、时间再久也救不活；可撤销＝暂时算数，亏的那方<em>想撤就去法院撤、不想撤就接着算</em>。</span></div>
+          <div class="note"><b>最大的坑：</b>欺诈、胁迫是<b>可撤销</b>，不是无效！别凭直觉以为"骗人/逼人的合同当然无效"。<span class="law">§148 · §150</span></div>
+        </div>
+      </div>
+
+      <!-- pair 2 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">可撤销</span>合同已生效，吃亏方握"反悔权"</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">效力待定</span>合同还没生效、悬着，等人追认</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>可撤销：</b><span class="li">小李</span>被<span class="wang">老王</span>骗了——买卖已经成了，小李有"反悔权"可以撤。</div>
+            <div class="line"><b>效力待定：</b><span class="wang">老王</span> 15 岁的儿子<b>小宝</b>，背着老王把车卖了 → 这桩买卖悬着，要等老王（法定代理人）<b>点头（追认）</b>才有效。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">可撤销＝<em>"已经成了、能反悔"</em>；效力待定＝<em>"还没成、等人拍板"</em>。</span></div>
+          <div class="mnem">撤销看吃亏方；追认看监护人 / 被代理人</div>
+        </div>
+      </div>
+
+      <!-- pair 3 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">一个人坑你</span>欺诈 / 胁迫 → 可撤销</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">俩人合伙</span>演戏 / 串通坑外人 → 无效</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>骗<span class="li">小李</span>（一个人坑一个人）→ 小李<b>可撤销</b>。</div>
+            <div class="line"><span class="wang">老王</span>和<span class="li">小李</span>合谋做一份假买卖合同，去坑老王的债主（俩人串通坑外人）→ <b>无效</b>。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">一个人坑你 → <em>你能撤</em>；俩人合伙坑外人 / 演戏给别人看 → <em>直接无效</em>。</span></div>
+          <div class="note"><b>对应：</b>通谋虚伪表示无效 <span class="law">§146</span>；恶意串通损害他人无效 <span class="law">§154</span>。</div>
+        </div>
+      </div>
+
+      <!-- pair 4 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">无权处分</span>卖了不属于自己的东西 → 合同有效</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">无权代理</span>冒名替别人签 → 效力待定</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>无权处分：</b><span class="wang">老王</span>把跟邻居借来的、不属于自己的车卖给<span class="li">小李</span> → 这买卖合同<b>有效</b>；老王交不出车，是他<b>违约</b>的问题，不是合同无效。</div>
+            <div class="line"><b>无权代理：</b>有人冒充<span class="li">小李</span>、替小李签了买车合同 → <b>效力待定</b>，等小李本人追认。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">卖<em>别人的东西</em>＝合同照样有效（交不了是违约）；<em>冒名</em>替别人签＝悬着，等本人点头。</span></div>
+          <div class="note"><b>民法典的重要变化：</b>旧法曾把无权处分的合同当"效力待定"，现在是<b>有效</b>。<span class="law">§597（无权处分·合同有效）· §171（无权代理）</span></div>
+        </div>
+      </div>
+
+      <!-- pair 5 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">重大误解</span>看错了、把 A 当 B</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">欺诈 / 胁迫 / 显失公平</span>被骗、被逼、吃大亏</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（撤销要趁早——这是"除斥期间"）</div>
+            <div class="line"><b>重大误解：</b><span class="li">小李</span>把 A 型号看成 B 型号买错了 → 想撤，只有 <b>90 天</b>。</div>
+            <div class="line"><b>被骗 / 吃亏：</b>小李三个月后才发现被老王骗 → 还在 <b>1 年</b> 内，能撤；被逼的，1 年从"脱离胁迫那天"起算。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">想撤趁早：看错 <em>90 天</em>，被骗 / 吃亏 / 被逼 <em>1 年</em>；兜底——不管知不知道，事情发生满 <em>5 年</em> 就彻底没戏。</span></div>
+          <div class="note"><b>注意：</b>重大误解 90 日；其余 1 年（自知道或应当知道撤销事由起；胁迫自胁迫终止起）；绝对期间自行为发生起 5 年。<span class="law">§152</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="block" id="s2" style="--bc:var(--s2);--bbg:var(--s2bg)">
+    <div class="bhead"><span class="bnum">2</span><span class="btitle">怎么考、坑在哪<small>题目长什么样 + 命题人最爱埋的雷</small></span></div>
+    <div class="bbody">
+      <h4>题目长什么样</h4>
+      <div class="eg">
+        <div class="lbl">命题角度</div>
+        <div class="line"><b>客观题：</b>给你一个场景（老王小李之间出了点状况），问这买卖是<b>有效 / 无效 / 可撤销 / 效力待定</b>？谁有撤销权或追认权？多久之内能撤？</div>
+        <div class="line"><b>主观题：</b>大案子里，得<b>先定合同效力是哪种状态</b>，才能往下谈交不交货、赔不赔。常和无权代理、无权处分、善意取得<b>串着考</b>。</div>
+      </div>
+
+      <div class="subhd">高频坑位</div>
+      <ul class="traps">
+        <li>把<b>欺诈、胁迫当"无效"</b>——其实是可撤销。</li>
+        <li>把"卖了不属于自己的东西"（<b>无权处分</b>）当无效或效力待定——民法典下合同<b>有效</b>，交不出货是违约。</li>
+        <li>把"违反法律强制规定"一律当无效——只有违反<b>效力性</b>强制规定才无效，<b>管理性</b>强制规定不必然无效。</li>
+        <li>以为可撤销合同能自己<b>单方"通知撤销"</b>——不行，必须<b>请求法院或仲裁机构</b>撤销。</li>
+        <li>除斥期间记混：重大误解 <b>90 天</b>、其余 <b>1 年</b>、绝对 <b>5 年</b>。</li>
+        <li>把限制行为能力人的合同一律当无效——<b>纯获利益的、与其年龄智力相适应的有效</b>，其余效力待定；只有<b>无民事行为能力人</b>（如 8 岁）签的才一律无效。</li>
+        <li>把效力待定里"<b>善意相对人的撤销权</b>"和"<b>可撤销合同的撤销权</b>"混为一谈——两个不同的撤销权。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="block" id="s3" style="--bc:var(--s3);--bbg:var(--s3bg)">
+    <div class="bhead"><span class="bnum">3</span><span class="btitle">客观怎么答<small>按"能力 → 意思 → 内容"三道闸定状态</small></span></div>
+    <div class="bbody">
+      <h4>固定四步</h4>
+      <div class="steps">
+        <div class="stp"><span class="k">第 1 步</span><span class="d"><b>看能力</b>：当事人是完全 / 限制 / 无民事行为能力？无能力 → 无效；限制 → 多为效力待定。</span></div>
+        <div class="stp"><span class="k">第 2 步</span><span class="d"><b>看意思真不真</b>：有欺诈 / 胁迫 / 重大误解 / 显失公平？→ 可撤销。双方通谋演戏 / 恶意串通？→ 无效。</span></div>
+        <div class="stp"><span class="k">第 3 步</span><span class="d"><b>看内容合不合法</b>：违反<b>效力性</b>强制规定、违背公序良俗？→ 无效。</span></div>
+        <div class="stp"><span class="k">第 4 步</span><span class="d"><b>定状态 + 配套</b>：定了状态后，问谁有权（撤销权人 / 追认权人）、时间窗（除斥期间）、怎么行使（撤销要走法院 / 仲裁）。</span></div>
+      </div>
+
+      <div class="subhd">关键词触发表（看到左边，先想右边）</div>
+      <table class="kw">
+        <tr><td>一方"骗、隐瞒真相"</td><td><span class="ar">→</span> 可撤销（欺诈）</td></tr>
+        <tr><td>一方"逼、威胁"</td><td><span class="ar">→</span> 可撤销（胁迫）</td></tr>
+        <tr><td>"看错了、把 A 当 B"</td><td><span class="ar">→</span> 可撤销（重大误解·90 天）</td></tr>
+        <tr><td>"趁人之危、明显不公平"</td><td><span class="ar">→</span> 可撤销（显失公平）</td></tr>
+        <tr><td>双方"假装签约 / 串通坑外人"</td><td><span class="ar">→</span> 无效</td></tr>
+        <tr><td>"违反效力性强制规定 / 违背公序良俗"</td><td><span class="ar">→</span> 无效</td></tr>
+        <tr><td>无民事行为能力人（如 8 岁）签的</td><td><span class="ar">→</span> 无效</td></tr>
+        <tr><td>15、16 岁背着家长签大额合同</td><td><span class="ar">→</span> 效力待定（待追认）</td></tr>
+        <tr><td>"卖了不属于自己的东西"</td><td><span class="ar">→</span> 合同有效（可能违约）</td></tr>
+        <tr><td>"冒名替别人签"</td><td><span class="ar">→</span> 效力待定（无权代理）</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="block" id="s4" style="--bc:var(--s4);--bbg:var(--s4bg)">
+    <div class="bhead"><span class="bnum">4</span><span class="btitle">主观怎么答<small>先定效力状态，再谈履行与责任——按点给分</small></span></div>
+    <div class="bbody">
+      <h4>怎么下笔</h4>
+      <p>大案子里，<b>第一步永远先定"合同效力是哪种状态"</b>，定不下来，后面交货、赔偿全没法谈。每问按"<b>先给结论 → 搬出法条 → 套到案情里</b>"写。</p>
+
+      <div class="subhd">套用故事的填空模板</div>
+      <div class="tpl">
+        本案中，<span class="blank">　某人　</span>的<span class="blank">　某行为　</span>，构成<span class="blank">欺诈 / 胁迫 / 重大误解 / 通谋虚伪 / 无权代理…</span>，依《民法典》第<span class="blank">　X　</span>条，该合同<span class="blank">有效 / 无效 / 可撤销 / 效力待定</span>。<br>
+        〔若可撤销〕受损害方<span class="blank">　某人　</span>有权请求<span class="ref">人民法院或者仲裁机构</span>予以撤销，并应自知道撤销事由起<span class="blank">　一年（重大误解九十日）　</span>内行使<span class="ref">（§152）</span>。<br>
+        〔若效力待定〕该合同经<span class="blank">法定代理人 / 被代理人</span>追认前不发生效力，善意相对人在追认前有撤销权<span class="ref">（§145 / §171）</span>。
+      </div>
+
+      <h4 style="margin-top:16px;">两个得分关键</h4>
+      <p><b>① 先把"状态"这个结论钉死。</b>状态错了，后面全盘皆错；状态对了，再依次写法条、套案情。<br>
+      <b>② 撤销的"行使方式"是踩分点。</b>可撤销务必写"<b>请求人民法院或仲裁机构撤销</b>"，别写成"通知对方撤销"——这是常见失分点。</p>
+      <div class="scoring">
+        <span><b>给分点 ①</b> 效力状态结论（有效 / 无效 / 可撤销 / 效力待定）</span>
+        <span><b>给分点 ②</b> 法条依据</span>
+        <span><b>给分点 ③</b> 套案情 + 谁有权、向谁行使、多久内</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>怎么用这张卡：</b>四格（是什么/易混 → 怎么考、坑 → 客观答 → 主观答）就是处理<b>每一个考点</b>的固定套路。做错的真题，把对应的"坑"或易混回填到 ①格，再进错题本按遗忘曲线重做。</p>
+    <p style="margin-top:8px;"><b>法条索引：</b><span class="lawindex">民事法律行为有效要件 §143｜无民事行为能力人行为无效 §144｜限制行为能力人·效力待定 §145｜通谋虚伪表示无效 §146｜重大误解可撤销 §147｜欺诈可撤销 §148｜第三人欺诈 §149｜胁迫可撤销 §150｜显失公平可撤销 §151｜撤销权除斥期间 §152｜违反强制性规定 / 违背公序良俗无效 §153｜恶意串通损害他人无效 §154｜无权代理 §171｜合同生效 §502｜无权处分·合同有效 §597</span></p>
+    <p style="margin-top:8px;"><b>说明：</b>条文依据为现行《中华人民共和国民法典》（2021 年施行）及总则编、合同编相关司法解释；"效力性 / 管理性强制性规定"的区分依司法解释及通说。请以司法部正式《2026 年考试大纲》及现行法条、司法解释为准。</p>
+  </div>
+
+</div>
+</body>
+</html>

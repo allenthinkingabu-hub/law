@@ -15,6 +15,11 @@
       "hash": "sha256:79f6097816634212f5ea599e42c1761eca961a5020059b90007725bcaffb1d76",
       "ingested_at": "2026-06-06T05:56:57Z",
       "source_page": "wiki/sources/2026-06-05-考点精解-要约与承诺.md"
+    },
+    "raw/notes/合同_第一章 合同.md": {
+      "hash": "sha256:26b9225295f744d32c038ec108cbdfe5256318483caeaaf6b01915a57b2602d0",
+      "ingested_at": "2026-06-06T14:19:30Z",
+      "source_page": "wiki/sources/2026-06-06-合同章真题库.md"
     }
   }
 }
