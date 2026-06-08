@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考点精解 · 债法总论 / 合同编适用范围（故事版 / 大白话）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53; --slate:#3f6f86;
+  --s1:#8a1c28; --s1bg:#f7e9e6;
+  --s2:#b1602a; --s2bg:#f8ede0;
+  --s3:#2f6b53; --s3bg:#e6f0e9;
+  --s4:#566b7c; --s4bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 14% 8%,rgba(124,31,43,.045),transparent 40%),radial-gradient(circle at 90% 92%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink);font-family:'Noto Sans SC',sans-serif;line-height:1.7;
+  -webkit-font-smoothing:antialiased;padding:46px 20px 88px;
+}
+.wrap{max-width:1020px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:26px 0 22px;margin-bottom:14px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:11px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(26px,4.8vw,42px);line-height:1.12;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.3vw,19px);color:var(--ink-soft);margin-top:9px;}
+.loc{margin-top:16px;font-size:12px;color:var(--ink-faint);font-family:'Noto Serif SC',serif;}
+.loc b{color:var(--oxblood);}
+
+/* running-story banner */
+.story{background:linear-gradient(180deg,#fbf3ee,#fdfaf4);border:1px solid var(--line);border-left:5px solid var(--oxblood);border-radius:6px;padding:16px 20px;margin:20px 0 6px;}
+.story .tag{display:inline-block;background:var(--oxblood);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;margin-bottom:8px;font-family:'Noto Sans SC';letter-spacing:.04em;}
+.story p{font-size:13.5px;color:var(--ink-soft);line-height:1.7;}
+.story b{color:var(--ink);}
+.story .core{margin-top:10px;background:var(--card);border:1px dashed var(--line);border-radius:5px;padding:10px 13px;font-size:13px;}
+.story .core b{color:var(--oxblood);}
+.wang{color:var(--oxblood);font-weight:700;}
+.li{color:var(--slate);font-weight:700;}
+
+/* model nav */
+.modelnav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:20px 0 30px;}
+.modelnav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--mc);border-radius:4px;padding:11px 13px;display:block;transition:transform .15s;}
+.modelnav a:hover{transform:translateY(-2px);}
+.modelnav .n{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--mc);}
+.modelnav .t{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);margin-top:2px;}
+
+/* section */
+.block{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--bc);border-radius:6px;padding:0;margin-bottom:18px;overflow:hidden;animation:rise .55s cubic-bezier(.2,.7,.2,1) both;}
+.bhead{display:flex;align-items:center;gap:13px;padding:16px 22px 14px;background:var(--bbg);border-bottom:1px solid var(--line-soft);}
+.bnum{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:16px;}
+.btitle{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.btitle small{display:block;font-family:'Noto Sans SC';font-weight:400;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;margin-top:1px;}
+.bbody{padding:18px 22px 20px;}
+
+h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14.5px;color:var(--oxblood-deep);margin:0 0 10px;}
+p{font-size:13.5px;color:var(--ink-soft);line-height:1.68;}
+p b, li b{color:var(--ink);font-weight:600;}
+.law{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--brass);font-weight:600;}
+.subhd{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase;font-family:'Fraunces';margin:20px 0 11px;}
+
+/* example (chat-style) + plain takeaway */
+.eg{background:var(--paper-2);border-radius:6px;padding:11px 14px;margin:9px 0;}
+.eg .lbl{font-size:10.5px;font-weight:700;color:var(--brass);letter-spacing:.05em;font-family:'Fraunces';margin-bottom:5px;}
+.eg .line{font-size:13px;color:var(--ink-soft);line-height:1.7;margin:2px 0;}
+.eg .line .q{color:var(--ink);}
+.plain{display:flex;gap:9px;align-items:flex-start;margin:9px 0 4px;}
+.plain .badge{flex:none;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;font-family:'Noto Sans SC';letter-spacing:.03em;margin-top:1px;}
+.plain .txt{font-size:13.5px;color:var(--ink);font-weight:600;line-height:1.6;}
+.plain .txt em{font-style:normal;color:var(--oxblood);}
+
+/* contrast pairs */
+.pair{border:1px solid var(--line);border-radius:7px;margin-bottom:14px;overflow:hidden;}
+.pair-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;}
+.pair-top .side{padding:11px 15px;font-size:12.5px;color:var(--ink-soft);}
+.pair-top .side .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);display:block;margin-bottom:3px;}
+.pair-top .L{background:#fbf5f2;}
+.pair-top .R{background:#f3f6f4;}
+.pair-top .vs{display:flex;align-items:center;justify-content:center;padding:0 12px;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-faint);background:var(--card);border-left:1px solid var(--line-soft);border-right:1px solid var(--line-soft);}
+.pair-body{padding:12px 15px;background:var(--card);border-top:1px solid var(--line-soft);}
+.pair-body .note{font-size:12px;color:var(--ink-faint);margin-top:6px;}
+.pair-body .note b{color:var(--oxblood);}
+.mnem{display:inline-block;margin-top:6px;font-size:12.5px;background:var(--s3bg);color:var(--s3);font-weight:700;border-radius:4px;padding:4px 10px;}
+
+/* traps */
+.traps{list-style:none;counter-reset:t;}
+.traps li{counter-increment:t;position:relative;padding:10px 0 10px 38px;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+.traps li:last-child{border-bottom:none;}
+.traps li::before{content:"坑" counter(t);position:absolute;left:0;top:9px;background:var(--oxblood);color:#fff;font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px;font-family:'Noto Sans SC';}
+
+/* flow steps */
+.steps{display:flex;flex-direction:column;gap:0;margin-bottom:8px;}
+.stp{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);}
+.stp:last-child{border-bottom:none;}
+.stp .k{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--s3);width:54px;}
+.stp .d{font-size:13px;color:var(--ink-soft);}
+.stp .d b{color:var(--ink);}
+
+/* keyword table */
+.kw{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px;}
+.kw td{border:1px solid var(--line);padding:8px 12px;vertical-align:top;}
+.kw td:first-child{background:var(--paper-2);font-family:'Noto Serif SC',serif;font-weight:600;color:var(--ink);width:52%;}
+.kw td:last-child{color:var(--ink-soft);}
+.kw .ar{color:var(--brass);font-weight:700;}
+
+/* template */
+.tpl{background:var(--s4bg);border:1px solid #cdd6dd;border-radius:6px;padding:15px 17px;margin:10px 0;font-size:13px;line-height:1.9;color:var(--ink);}
+.tpl .blank{color:var(--oxblood);font-weight:700;border-bottom:1.5px dotted var(--oxblood);padding:0 3px;}
+.tpl .ref{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:12px;}
+.scoring{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.scoring span{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:5px 11px;font-size:12px;color:var(--ink-soft);}
+.scoring b{color:var(--s3);}
+
+/* footer */
+.foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.75;}
+.foot b{color:var(--ink-soft);}
+.lawindex{font-family:'Fraunces',serif;font-size:11.5px;color:var(--brass);line-height:1.9;margin-top:6px;}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:600px){
+  .modelnav{grid-template-columns:1fr 1fr;}
+  .pair-top{grid-template-columns:1fr;}
+  .pair-top .vs{padding:5px;border:none;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">民法 · 合同编 · 考点精解 · 故事版</div>
+    <h1>债法总论 / 合同编适用范围
+      <span class="sub">整个债法的"地图" — 一个故事讲到底 + 大白话（框架性·低频）</span>
+    </h1>
+    <div class="loc">定位：民法 › 合同编 › 通则 › <b>一般规定</b>（§463–468，框架章，非"合同总则"操作性考点的同级）</div>
+  </header>
+
+  <!-- running story -->
+  <div class="story">
+    <span class="tag">贯穿全卡的故事</span>
+    <p>"债"听着玄，其实就是<b>"谁该给谁点什么"</b>——欠钱、欠货、欠个赔偿，都是债。<span class="wang">老王</span>和<span class="li">小李</span>之间能生出债的方式有好几种：签了合同、撞坏了对方的车、帮对方垫了钱、多收了对方的钱。问题来了：民法典里<b>没有专门的"债法总则"那一编</b>，这些"非合同的债"该照哪套规则走？答案是——回到<b>合同编通则</b>。</p>
+    <div class="core">这一格讲两件事：合同编的<b>"门朝哪儿开"（适用范围）</b>，以及它怎么<b>管到所有的债</b>。一句话：民法典没单设债法总则，合同编通则兼任了这个职——它是整个债法的"总开关 / 地图说明"。<b>本身考得少，但它定方位。</b></div>
+  </div>
+
+  <nav class="modelnav">
+    <a href="#s1" style="--mc:var(--s1)"><span class="n">01</span><span class="t">是什么 / 易混</span></a>
+    <a href="#s2" style="--mc:var(--s2)"><span class="n">02</span><span class="t">怎么考、坑在哪</span></a>
+    <a href="#s3" style="--mc:var(--s3)"><span class="n">03</span><span class="t">客观怎么答</span></a>
+    <a href="#s4" style="--mc:var(--s4)"><span class="n">04</span><span class="t">主观怎么答</span></a>
+  </nav>
+
+  <!-- 01 -->
+  <section class="block" id="s1" style="--bc:var(--s1);--bbg:var(--s1bg)">
+    <div class="bhead"><span class="bnum">1</span><span class="btitle">是什么 / 易混<small>先认"债是什么、从哪来"，再搞清合同编通则管多宽</small></span></div>
+    <div class="bbody">
+      <h4>是什么（债 + 它的"总则"在哪）</h4>
+      <div class="eg">
+        <div class="lbl">用故事说</div>
+        <div class="line"><b>债 = </b>一个人（债权人）有权要另一个人（债务人）<b>做点什么</b>（给钱、交货、出力、赔偿…）。它怎么来的？四个主要来源：<b>合同、侵权、无因管理、不当得利</b>。</div>
+        <div class="line"><b>它的"总则"在哪：</b>民法典<b>没单设"债编 / 债法总则"</b>，所以债的共通规则（怎么履行、怎么保全、怎么转让、怎么消灭）都塞进了<b>合同编通则</b>。</div>
+      </div>
+      <div class="plain"><span class="badge">大白话</span><span class="txt">"债"就是<em>"谁该给谁点啥"</em>；民法典没单独的债法总则，共通规则统统塞进合同编通则——这一章就是它的<em>"使用说明 + 门牌"</em>。</span></div>
+
+      <div class="subhd">易混对照 · 五组要分清</div>
+
+      <!-- pair 1 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">合同之债</span>双方说好的</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">非合同之债</span>不是约定来的（另外三种）</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（债的四大来源，一个故事四个版本）</div>
+            <div class="line"><b>合同：</b><span class="wang">老王</span>卖车给<span class="li">小李</span>，小李欠车款 → 合同之债。</div>
+            <div class="line"><b>侵权：</b><span class="wang">老王</span>骑车撞坏<span class="li">小李</span>的车 → 老王欠赔偿 ＝ 侵权之债。</div>
+            <div class="line"><b>无因管理：</b><span class="li">小李</span>出差，<span class="wang">老王</span>没义务却帮他喂猫、垫了猫粮钱 → 小李欠这笔费用 ＝ 无因管理之债。</div>
+            <div class="line"><b>不当得利：</b><span class="li">小李</span>转账手滑多转<span class="wang">老王</span> 1000 → 老王欠这 1000 ＝ 不当得利之债。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">说好的＝合同之债；没说好、因别的事冒出来的（<em>撞了 / 帮了 / 多拿了</em>）＝非合同之债。</span></div>
+          <div class="note"><b>这四个是"债的发生原因"</b>，常作为案例里"债从哪来"的起点。其中无因管理（帮了、有为他人之意）和不当得利（多拿了、没合法根据）最容易混。</div>
+        </div>
+      </div>
+
+      <!-- pair 2 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">有专门规定</span>照它自己那套</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">没专门规定</span>参照合同编通则（§468）</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>撞坏车欠<span class="li">小李</span>的赔偿之债，"怎么履行、能不能抵销"——侵权责任编没细说的，就<b>回合同编通则借规则用</b>。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">非合同的债，<em>先找它自己那套</em>（侵权找侵权编、无因/不当找准合同两章）；找不到、且性质不冲突，<em>就回合同编通则借</em>。</span></div>
+          <div class="mnem">特别规定优先，通则兜底（性质排斥的除外）</div>
+        </div>
+      </div>
+
+      <!-- pair 3 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">有名合同</span>法典点过名、有专章</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">无名合同</span>法律没专门规定的新型合同</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span><span class="li">小李</span>签的"二手车买卖"是<b>有名合同</b>（买卖有专章）；若两人签个法律没专门规定的新型合作约定 → <b>无名合同</b>，适用合同编通则 + 参照<b>最相类似</b>的有名合同规则。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">法典点过名的合同，有专门章节；没点名的"新合同"，用<em>通则 + 比着最像的那种</em>有名合同来办。</span></div>
+          <div class="note"><b>对应：</b>§467。别把无名合同当"无法可依"。</div>
+        </div>
+      </div>
+
+      <!-- pair 4 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">合同相对性</span>原则上只约束签字的两人</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">法定例外</span>少数情形及于第三人</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>和<span class="li">小李</span>的买卖合同，<b>只约束</b>老王和小李；隔壁<b>老张</b>既不享有合同权利、也不担合同义务。例外：法律明文规定的情形（如代位权 / 撤销权及于第三人、买卖不破租赁等）。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">合同是<em>"俩人之间的事"</em>，原则上外人不沾；只有法律明文规定的少数情形才管到第三人。</span></div>
+          <div class="note"><b>对应：</b>§465。合同相对性也是区分"债权（对人）vs 物权（对世）"的关键。</div>
+        </div>
+      </div>
+
+      <!-- pair 5 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">财产性合同</span>合同编直接管</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">身份关系协议</span>身份法优先，通则只"参照"</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span><span class="li">小李</span>的买卖合同 → 直接用合同编。但两人若涉及<b>结婚、收养、监护</b>这类协议 → 先走婚姻家庭编 / 收养等身份法，合同编只在没规定时<b>"根据性质参照"</b>。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">买卖这种纯财产合同，合同编<em>直接管</em>；结婚收养这类"身份"协议，<em>先用身份法</em>，合同编只能"参照着用"。</span></div>
+          <div class="note"><b>对应：</b>§464 第二款。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="block" id="s2" style="--bc:var(--s2);--bbg:var(--s2bg)">
+    <div class="bhead"><span class="bnum">2</span><span class="btitle">怎么考、坑在哪<small>低频框架考点 + 偶尔点状出现的雷</small></span></div>
+    <div class="bbody">
+      <h4>题目长什么样（先说实话）</h4>
+      <div class="eg">
+        <div class="lbl">命题角度 + 诚实定位</div>
+        <div class="line"><b>定位：</b>这是<b>框架性、低频</b>考点。它的价值在"看懂债法地图"，<b>不必当重点猛背</b>——把"四大债因 + §468 这个接口 + 合同相对性"记牢就够。</div>
+        <div class="line"><b>客观题（低频、点状）：</b>给个情形问"产生的是哪种债"、"非合同之债能否参照通则"、"无名合同怎么适用"、"合同管不管第三人"。</div>
+        <div class="line"><b>主观题：</b>几乎不单独成题，但它是案例的<b>前置定性</b>——先认出"这是什么债、从哪来"，才好往下套规则。</div>
+      </div>
+
+      <div class="subhd">坑位</div>
+      <ul class="traps">
+        <li>以为民法典有独立"<b>债法总则</b>"——没有，是合同编通则兼任。</li>
+        <li>把非合同之债<b>一律</b>往合同编通则套——要先找它自己的专门规定，通则只是"兜底"且<b>性质排斥的除外</b>。</li>
+        <li>把<b>无名合同</b>当"无法可依"——适用合同编通则 + 参照最相类似的有名合同。</li>
+        <li>忽视<b>合同相对性的法定例外</b>（代位权 / 撤销权、买卖不破租赁等）。</li>
+        <li><b>身份关系协议</b>直接套合同编——应身份法优先，合同编只"根据性质参照"。</li>
+        <li>混淆债的发生原因，尤其<b>无因管理（帮了、有为他人意思）vs 不当得利（多拿了、无合法根据）</b>。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="block" id="s3" style="--bc:var(--s3);--bbg:var(--s3bg)">
+    <div class="bhead"><span class="bnum">3</span><span class="btitle">客观怎么答<small>先认"债从哪来"，再决定照哪套规则</small></span></div>
+    <div class="bbody">
+      <h4>固定四步</h4>
+      <div class="steps">
+        <div class="stp"><span class="k">第 1 步</span><span class="d"><b>认债从哪来</b>：约定的（合同）？还是撞了（侵权）/ 帮了（无因管理）/ 多拿了（不当得利）？</span></div>
+        <div class="stp"><span class="k">第 2 步</span><span class="d"><b>找它自己的规则</b>：合同→合同编；侵权→侵权责任编；无因 / 不当→准合同那两章。</span></div>
+        <div class="stp"><span class="k">第 3 步</span><span class="d"><b>没专门规则时</b>：该债的共通问题<b>参照合同编通则（§468）</b>，但性质排斥的除外。</span></div>
+        <div class="stp"><span class="k">第 4 步</span><span class="d"><b>特殊判断</b>：无名合同→通则 + 参照最相类似；身份协议→身份法优先、通则参照；管不管第三人→记住合同相对性（及法定例外）。</span></div>
+      </div>
+
+      <div class="subhd">关键词触发表（看到左边，先想右边）</div>
+      <table class="kw">
+        <tr><td>"双方约定 / 签了协议"</td><td><span class="ar">→</span> 合同之债</td></tr>
+        <tr><td>"造成损害 / 侵害他人权益"</td><td><span class="ar">→</span> 侵权之债</td></tr>
+        <tr><td>"没义务、为他人管理事务"</td><td><span class="ar">→</span> 无因管理之债</td></tr>
+        <tr><td>"没有合法根据获得利益、致他人损失"</td><td><span class="ar">→</span> 不当得利之债</td></tr>
+        <tr><td>"法律没专门规定的新型合同"</td><td><span class="ar">→</span> 无名合同（通则 + 参照最相类似）</td></tr>
+        <tr><td>"非合同之债怎么履行 / 抵销 / 转让没规定"</td><td><span class="ar">→</span> 参照合同编通则（§468）</td></tr>
+        <tr><td>"结婚 / 收养 / 监护协议"</td><td><span class="ar">→</span> 身份法优先，通则按性质参照</td></tr>
+        <tr><td>"合同管不管第三人"</td><td><span class="ar">→</span> 原则相对性，仅法定例外及于第三人</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="block" id="s4" style="--bc:var(--s4);--bbg:var(--s4bg)">
+    <div class="bhead"><span class="bnum">4</span><span class="btitle">主观怎么答<small>这块极少单独考，但它给案例"定性入口"</small></span></div>
+    <div class="bbody">
+      <h4>怎么下笔</h4>
+      <p>这一块几乎不单独成题，但它提供大案例的<b>"定性入口"</b>——先认出债的种类和来源，后面才好套规则。每步"<b>先给结论 → 搬出法条 → 套到案情里</b>"。</p>
+
+      <div class="subhd">套用故事的填空模板</div>
+      <div class="tpl">
+        本案中，<span class="blank">某人</span>与<span class="blank">某人</span>之间的关系，系因<span class="blank">合同 / 侵权 / 无因管理 / 不当得利</span>产生的债，应适用<span class="blank">相应编 / 条</span>。<br>
+        〔非合同之债、共通问题且无专门规定时〕依《民法典》第 <span class="ref">468</span> 条，参照适用合同编通则的相关规定。<br>
+        〔无名合同〕该合同属法律未明文规定的合同，依第 <span class="ref">467</span> 条，适用合同编通则并参照最相类似合同的规定。
+      </div>
+
+      <h4 style="margin-top:16px;">两个得分关键</h4>
+      <p><b>① 先把"哪种债、从哪来"这个定性写准。</b>定性错，后面适用的法律全错。<br>
+      <b>② 适用顺序写清楚。</b>"专门规定优先 → 没有则参照合同编通则（§468）"，别一上来就套通则。</p>
+      <div class="scoring">
+        <span><b>给分点 ①</b> 债的定性（哪种债、从哪来）</span>
+        <span><b>给分点 ②</b> 适用的法律（专门规定优先；§468 / 467 的参照）</span>
+        <span><b>给分点 ③</b> 套案情</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>怎么用这张卡：</b>四格（是什么/易混 → 怎么考、坑 → 客观答 → 主观答）是处理<b>每一个考点</b>的固定套路。这张是"地图型"框架卡——它的作用是把其余债法考点（履行、保全、移转、消灭、各类典型合同、无因管理、不当得利）<b>挂在一张图上</b>，理解定位即可，不必当重点考点猛攻。</p>
+    <p style="margin-top:8px;"><b>法条索引：</b><span class="lawindex">合同编调整范围 §463｜合同定义·身份关系协议参照 §464｜依法成立受保护·合同相对性 §465｜合同条款解释 §466｜无名合同适用通则 + 参照最相类似 §467｜非合同之债参照通则 §468</span></p>
+    <p style="margin-top:8px;"><b>说明：</b>条文依据为现行《中华人民共和国民法典》合同编第一分编"通则·一般规定"（2021 年施行）；"合同编通则兼任债法总则功能"为体系通说。请以司法部正式《2026 年考试大纲》及现行法条、司法解释为准。</p>
+  </div>
+
+</div>
+</body>
+</html>
