@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考点精解 · 合同的履行（故事版 / 大白话）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53; --slate:#3f6f86;
+  --s1:#8a1c28; --s1bg:#f7e9e6;
+  --s2:#b1602a; --s2bg:#f8ede0;
+  --s3:#2f6b53; --s3bg:#e6f0e9;
+  --s4:#566b7c; --s4bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 14% 8%,rgba(124,31,43,.045),transparent 40%),radial-gradient(circle at 90% 92%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink);font-family:'Noto Sans SC',sans-serif;line-height:1.7;
+  -webkit-font-smoothing:antialiased;padding:46px 20px 88px;
+}
+.wrap{max-width:1020px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:26px 0 22px;margin-bottom:14px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:11px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(28px,5vw,44px);line-height:1.12;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.3vw,19px);color:var(--ink-soft);margin-top:9px;}
+.loc{margin-top:16px;font-size:12px;color:var(--ink-faint);font-family:'Noto Serif SC',serif;}
+.loc b{color:var(--oxblood);}
+
+/* running-story banner */
+.story{background:linear-gradient(180deg,#fbf3ee,#fdfaf4);border:1px solid var(--line);border-left:5px solid var(--oxblood);border-radius:6px;padding:16px 20px;margin:20px 0 6px;}
+.story .tag{display:inline-block;background:var(--oxblood);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;margin-bottom:8px;font-family:'Noto Sans SC';letter-spacing:.04em;}
+.story p{font-size:13.5px;color:var(--ink-soft);line-height:1.7;}
+.story b{color:var(--ink);}
+.story .core{margin-top:10px;background:var(--card);border:1px dashed var(--line);border-radius:5px;padding:10px 13px;font-size:13px;}
+.story .core b{color:var(--oxblood);}
+.wang{color:var(--oxblood);font-weight:700;}
+.li{color:var(--slate);font-weight:700;}
+
+/* model nav */
+.modelnav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:20px 0 30px;}
+.modelnav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--mc);border-radius:4px;padding:11px 13px;display:block;transition:transform .15s;}
+.modelnav a:hover{transform:translateY(-2px);}
+.modelnav .n{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--mc);}
+.modelnav .t{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);margin-top:2px;}
+
+/* section */
+.block{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--bc);border-radius:6px;padding:0;margin-bottom:18px;overflow:hidden;animation:rise .55s cubic-bezier(.2,.7,.2,1) both;}
+.bhead{display:flex;align-items:center;gap:13px;padding:16px 22px 14px;background:var(--bbg);border-bottom:1px solid var(--line-soft);}
+.bnum{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:16px;}
+.btitle{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.btitle small{display:block;font-family:'Noto Sans SC';font-weight:400;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;margin-top:1px;}
+.bbody{padding:18px 22px 20px;}
+
+h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14.5px;color:var(--oxblood-deep);margin:0 0 10px;}
+p{font-size:13.5px;color:var(--ink-soft);line-height:1.68;}
+p b, li b{color:var(--ink);font-weight:600;}
+.law{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--brass);font-weight:600;}
+.subhd{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase;font-family:'Fraunces';margin:20px 0 11px;}
+
+/* example (chat-style) + plain takeaway */
+.eg{background:var(--paper-2);border-radius:6px;padding:11px 14px;margin:9px 0;}
+.eg .lbl{font-size:10.5px;font-weight:700;color:var(--brass);letter-spacing:.05em;font-family:'Fraunces';margin-bottom:5px;}
+.eg .line{font-size:13px;color:var(--ink-soft);line-height:1.7;margin:2px 0;}
+.eg .line .q{color:var(--ink);}
+.plain{display:flex;gap:9px;align-items:flex-start;margin:9px 0 4px;}
+.plain .badge{flex:none;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;font-family:'Noto Sans SC';letter-spacing:.03em;margin-top:1px;}
+.plain .txt{font-size:13.5px;color:var(--ink);font-weight:600;line-height:1.6;}
+.plain .txt em{font-style:normal;color:var(--oxblood);}
+
+/* contrast pairs */
+.pair{border:1px solid var(--line);border-radius:7px;margin-bottom:14px;overflow:hidden;}
+.pair-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;}
+.pair-top .side{padding:11px 15px;font-size:12.5px;color:var(--ink-soft);}
+.pair-top .side .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);display:block;margin-bottom:3px;}
+.pair-top .L{background:#fbf5f2;}
+.pair-top .R{background:#f3f6f4;}
+.pair-top .vs{display:flex;align-items:center;justify-content:center;padding:0 12px;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-faint);background:var(--card);border-left:1px solid var(--line-soft);border-right:1px solid var(--line-soft);}
+.pair-body{padding:12px 15px;background:var(--card);border-top:1px solid var(--line-soft);}
+.pair-body .note{font-size:12px;color:var(--ink-faint);margin-top:6px;}
+.pair-body .note b{color:var(--oxblood);}
+.mnem{display:inline-block;margin-top:6px;font-size:12.5px;background:var(--s3bg);color:var(--s3);font-weight:700;border-radius:4px;padding:4px 10px;}
+
+/* traps */
+.traps{list-style:none;counter-reset:t;}
+.traps li{counter-increment:t;position:relative;padding:10px 0 10px 38px;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+.traps li:last-child{border-bottom:none;}
+.traps li::before{content:"坑" counter(t);position:absolute;left:0;top:9px;background:var(--oxblood);color:#fff;font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px;font-family:'Noto Sans SC';}
+
+/* flow steps */
+.steps{display:flex;flex-direction:column;gap:0;margin-bottom:8px;}
+.stp{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);}
+.stp:last-child{border-bottom:none;}
+.stp .k{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--s3);width:54px;}
+.stp .d{font-size:13px;color:var(--ink-soft);}
+.stp .d b{color:var(--ink);}
+
+/* keyword table */
+.kw{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px;}
+.kw td{border:1px solid var(--line);padding:8px 12px;vertical-align:top;}
+.kw td:first-child{background:var(--paper-2);font-family:'Noto Serif SC',serif;font-weight:600;color:var(--ink);width:52%;}
+.kw td:last-child{color:var(--ink-soft);}
+.kw .ar{color:var(--brass);font-weight:700;}
+
+/* template */
+.tpl{background:var(--s4bg);border:1px solid #cdd6dd;border-radius:6px;padding:15px 17px;margin:10px 0;font-size:13px;line-height:1.9;color:var(--ink);}
+.tpl .blank{color:var(--oxblood);font-weight:700;border-bottom:1.5px dotted var(--oxblood);padding:0 3px;}
+.tpl .ref{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:12px;}
+.scoring{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.scoring span{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:5px 11px;font-size:12px;color:var(--ink-soft);}
+.scoring b{color:var(--s3);}
+
+/* footer */
+.foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.75;}
+.foot b{color:var(--ink-soft);}
+.lawindex{font-family:'Fraunces',serif;font-size:11.5px;color:var(--brass);line-height:1.9;margin-top:6px;}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:600px){
+  .modelnav{grid-template-columns:1fr 1fr;}
+  .pair-top{grid-template-columns:1fr;}
+  .pair-top .vs{padding:5px;border:none;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">民法 · 合同编 · 考点精解 · 故事版</div>
+    <h1>合同的履行
+      <span class="sub">把答应的事做到位 — 一个故事讲到底 + 大白话（高频·重点）</span>
+    </h1>
+    <div class="loc">定位：民法 › 合同编 › 通则 › <b>合同的履行</b>（核心：三大抗辩权 · 情势变更 · 第三人履行 · 约定不明填补）</div>
+  </header>
+
+  <!-- running story -->
+  <div class="story">
+    <span class="tag">贯穿全卡的故事</span>
+    <p>履行，说白了就是<b>"把答应的事按约定做到位"</b>——<span class="wang">老王</span>该交的货按时按质交，<span class="li">小李</span>该付的钱如数付。听起来简单，可一旦冒出"谁先谁后、对方靠不靠谱、中途情况大变、能不能让别人来做"这些状况，就有一串规则和"拒绝 / 中止"的武器要用。这张卡就讲这些。</p>
+    <div class="core">两层意思：<b>全面履行</b>（按约定做全、做好，还要尽通知 / 协助 / 保密等附随义务）+ 出状况时的三件武器——<b>抗辩权</b>（对方没做好我可拒绝 / 中止）、<b>情势变更</b>（情况剧变可请求变更或解除）、<b>第三人履行</b>的几种结构。</div>
+  </div>
+
+  <nav class="modelnav">
+    <a href="#s1" style="--mc:var(--s1)"><span class="n">01</span><span class="t">是什么 / 易混</span></a>
+    <a href="#s2" style="--mc:var(--s2)"><span class="n">02</span><span class="t">怎么考、坑在哪</span></a>
+    <a href="#s3" style="--mc:var(--s3)"><span class="n">03</span><span class="t">客观怎么答</span></a>
+    <a href="#s4" style="--mc:var(--s4)"><span class="n">04</span><span class="t">主观怎么答</span></a>
+  </nav>
+
+  <!-- 01 -->
+  <section class="block" id="s1" style="--bc:var(--s1);--bbg:var(--s1bg)">
+    <div class="bhead"><span class="bnum">1</span><span class="btitle">是什么 / 易混<small>履行的底子 + 五组最容易绕晕的对比（三大抗辩权是重头）</small></span></div>
+    <div class="bbody">
+      <h4>是什么（履行的底子）</h4>
+      <div class="eg">
+        <div class="lbl">用故事说</div>
+        <div class="line"><b>全面履行：</b><span class="wang">老王</span>按约定把货做全、做好、按时按质按地点交，还要顺带尽到<b>通知 / 协助 / 保密</b>这些附随义务（诚信原则）。<span class="law">§509</span></div>
+        <div class="line"><b>约定不明怎么办：</b>先<b>补充协议</b>；补不成按合同条款 / 交易习惯；还不行套<b>法定填补规则</b>——付钱地点在<b>"收钱方"</b>那边、价格按订立时履行地市价、期限不明可随时履行但要给对方准备时间。<span class="law">§510 · §511</span></div>
+      </div>
+      <div class="plain"><span class="badge">大白话</span><span class="txt">履行就是<em>"把答应的事按约定做全做好"</em>；哪儿没说清，先商量补，补不成有一套默认规则兜底。</span></div>
+
+      <div class="subhd">易混对照 · 五组高频陷阱</div>
+
+      <!-- pair 1 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">同时履行抗辩权</span>双方债务"没先后"</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">先履行抗辩权</span>双方债务"有先后"</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>同时：</b>约定"一手交钱一手交货"（没说谁先）→ <span class="wang">老王</span>在<span class="li">小李</span>付钱前可拒绝交货，小李在老王交货前可拒绝付钱。<span class="law">§525</span></div>
+            <div class="line"><b>先履行：</b>约定"老王先发货、小李收货后 7 天付款"（有先后）→ 老王没发货就来要钱，<span class="li">小李（后履行方）</span>可拒绝。<span class="law">§526</span></div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">没说谁先谁后 → <em>同时履行抗辩</em>（你不动我也不动）；说好了谁先 → <em>先履行抗辩</em>（该先的没做，后做的就能拒绝）。</span></div>
+        </div>
+      </div>
+
+      <!-- pair 2 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">先履行抗辩权</span>我是"后履行方"，前面没做好我拒绝</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">不安抗辩权</span>我是"先履行方"，看对方要垮我先停</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（方向相反，最容易混）</div>
+            <div class="line"><b>先履行抗辩：</b><span class="wang">老王</span>该先发货却没发 → <span class="li">小李（后）</span>拒绝付款。</div>
+            <div class="line"><b>不安抗辩：</b><span class="wang">老王</span>该先发货，但发货前拿到<b>确切证据</b>——小李公司经营严重恶化 / 转移财产逃债 → 老王（先）可先<b>中止</b>发货、要求小李提供担保；小李合理期限内不恢复也不担保，老王可<b>解除</b>合同。<span class="law">§527 · §528</span></div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">后履行方拒绝＝<em>先履行抗辩</em>（"轮到我了、但你前面没做好"）；先履行方喊停＝<em>不安抗辩</em>（"我本该先做，但看你要垮"）。一个拒绝、一个喊停，方向相反。</span></div>
+          <div class="mnem">后方拒绝＝先履行抗辩；先方喊停＝不安抗辩</div>
+          <div class="note"><b>注意：</b>不安抗辩要"<b>确切证据</b>"，没证据就中止＝自己违约；中止后对方不恢复、不担保 → 可解除。</div>
+        </div>
+      </div>
+
+      <!-- pair 3 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">情势变更</span>无法预见、非商业风险的剧变，继续履行明显不公</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">商业风险</span>正常市场涨跌、可预见的盈亏</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>、<span class="li">小李</span>签好钢材买卖后：钢价正常涨了 20% → <b>商业风险</b>，老王照常供。若因突发情形使基础条件<b>无法预见</b>地剧变、继续履行<b>明显不公平</b> → <b>情势变更</b>：老王可先与小李<b>重新协商</b>，谈不拢再请求法院 / 仲裁<b>变更或解除</b>。<span class="law">§533</span></div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">能预见的、正常涨跌 → <em>自己扛（商业风险）</em>；没法预见、剧变到明显不公平 → <em>先协商，不成再请法院变更 / 解除（情势变更）</em>。</span></div>
+          <div class="note"><b>民法典的变化：</b>情势变更不再排除"不可抗力"，所以不可抗力导致的基础条件剧变也可能算情势变更（二者可能竞合）；且务必<b>先重新协商</b>，不能自己直接解除。</div>
+        </div>
+      </div>
+
+      <!-- pair 4 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">向第三人履行 · 第三人不能告</span>只能债权人去告（§522 ①）</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">向第三人履行 · 第三人能告</span>真正利他合同（§522 ②）</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（老王=债务人，小李=债权人，约定货送给丙）</div>
+            <div class="line"><b>第三人不能告：</b>一般情况货没送好 → 老王对<b>小李</b>担违约责任，<b>丙不能</b>自己告（§522 ①）。</div>
+            <div class="line"><b>第三人能告：</b>若法律 / 约定让<b>丙可直接请求</b>老王交付、丙也没及时拒绝 → 货没送好，<b>丙可以</b>直接请求老王担违约责任（§522 ②）。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">看第三人有没有"自己告债务人"的权利：一般<em>没有</em>（只能债权人告）；只有约定 / 法律给了直接请求权的，第三人才能<em>自己告</em>。</span></div>
+        </div>
+      </div>
+
+      <!-- pair 5 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">由第三人履行（§523）</span>约定让别人来做，出事债务人担责</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">第三人代为清偿（§524）</span>有利害关系的人主动替还，债权转给他</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>由第三人履行：</b><span class="wang">老王（债务人）</span>和<span class="li">小李</span>约定"由丙来交货" → 丙没交好，小李找<b>老王</b>负责。</div>
+            <div class="line"><b>代为清偿：</b><span class="wang">老王</span>欠<span class="li">小李</span>钱不还，丙（对此有<b>合法利益</b>，如丙是担保人）<b>主动</b>替老王还了 → 还完后，小李对老王的债权<b>转给丙</b>，丙回头找老王追偿。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">"约定让别人来做" → <em>出事还是债务人担责</em>；"有利害关系的人主动替你还" → <em>还完债权就转给他</em>，他回头找你要。</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="block" id="s2" style="--bc:var(--s2);--bbg:var(--s2bg)">
+    <div class="bhead"><span class="bnum">2</span><span class="btitle">怎么考、坑在哪<small>题目长什么样 + 命题人最爱埋的雷</small></span></div>
+    <div class="bbody">
+      <h4>题目长什么样</h4>
+      <div class="eg">
+        <div class="lbl">命题角度</div>
+        <div class="line"><b>客观题（高频）：</b>给个履行场景，判断该用<b>哪种抗辩权</b>、能不能拒绝 / 中止；是<b>情势变更还是商业风险</b>；第三人结构里<b>谁能告谁、谁担责</b>；约定不明时<b>履行地点 / 价款</b>怎么定。</div>
+        <div class="line"><b>主观题：</b>案例里先定"该不该履行、能不能拒绝或中止、出事谁担责"——<b>抗辩权和情势变更</b>是高频落点。</div>
+      </div>
+
+      <div class="subhd">高频坑位</div>
+      <ul class="traps">
+        <li>三大抗辩权<b>用错</b>——没顺序用同时履行抗辩；有顺序、后履行方拒绝用先履行抗辩；先履行方因对方要垮而喊停用不安抗辩。</li>
+        <li>不安抗辩<b>没"确切证据"就中止</b>——自己反而违约。</li>
+        <li>把正常市场涨跌当情势变更——那是<b>商业风险</b>；情势变更要"无法预见 + 明显不公平"。</li>
+        <li>情势变更<b>直接自己解除</b>——不行，要先重新协商，不成再请求法院 / 仲裁变更或解除。</li>
+        <li>向第三人履行时，以为第三人<b>都能</b>告债务人——只有真正利他合同（有直接请求权）的第三人才能告，否则只能债权人告。</li>
+        <li>由第三人履行（§523，约定、责任在债务人）和第三人代为清偿（§524，主动、清偿后债权转移）<b>搞混</b>。</li>
+        <li>约定不明的履行地点<b>搞反</b>——给付货币在<b>"接受货币一方"</b>所在地（收钱方），不是付钱方。</li>
+        <li>提前 / 部分履行——债权人<b>原则上可拒绝</b>，但不损害其利益的除外；增加的费用由债务人负担。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="block" id="s3" style="--bc:var(--s3);--bbg:var(--s3bg)">
+    <div class="bhead"><span class="bnum">3</span><span class="btitle">客观怎么答<small>抗辩权三连判 → 看变化 → 理第三人 → 约定不明走填补</small></span></div>
+    <div class="bbody">
+      <h4>固定四步</h4>
+      <div class="steps">
+        <div class="stp"><span class="k">第 1 步</span><span class="d"><b>抗辩权三连判</b>：双方债务有没有先后顺序？无 → 同时履行抗辩；有 → 再分："该先的没做好"（后履行方 → 先履行抗辩）还是"先履行方怕对方垮、有确切证据"（先履行方 → 不安抗辩）。</span></div>
+        <div class="stp"><span class="k">第 2 步</span><span class="d"><b>看变化的性质</b>：可预见 / 正常波动 → 商业风险（照常履行）；无法预见 + 明显不公 → 情势变更（先协商 → 请求法院 / 仲裁变更或解除）。</span></div>
+        <div class="stp"><span class="k">第 3 步</span><span class="d"><b>理第三人结构</b>：是"向第三人履行"（看第三人有无直接请求权）、"由第三人履行"（责任在债务人）、还是"第三人代为清偿"（主动 + 合法利益，清偿后债权转移）。</span></div>
+        <div class="stp"><span class="k">第 4 步</span><span class="d"><b>约定不明走填补</b>：§510 补充协议 → §511 法定规则（货币在收钱方、价按订立时履行地市价、期限不明可随时履行但给准备时间）。</span></div>
+      </div>
+
+      <div class="subhd">关键词触发表（看到左边，先想右边）</div>
+      <table class="kw">
+        <tr><td>"没说先后、本应同时"</td><td><span class="ar">→</span> 同时履行抗辩权</td></tr>
+        <tr><td>"约定了先后，该先的没做（好）"</td><td><span class="ar">→</span> 先履行抗辩权（后履行方）</td></tr>
+        <tr><td>"我该先做，但有确切证据对方要黄（经营恶化 / 转移财产 / 丧失信誉）"</td><td><span class="ar">→</span> 不安抗辩权（可中止；不恢复不担保可解除）</td></tr>
+        <tr><td>"没确切证据就中止"</td><td><span class="ar">→</span> 自己违约</td></tr>
+        <tr><td>"正常市场涨跌 / 可预见"</td><td><span class="ar">→</span> 商业风险（照常履行）</td></tr>
+        <tr><td>"无法预见 + 继续履行明显不公平"</td><td><span class="ar">→</span> 情势变更（先协商 → 请法院变更 / 解除）</td></tr>
+        <tr><td>"约定向第三人交付、第三人有直接请求权"</td><td><span class="ar">→</span> 第三人可自己告</td></tr>
+        <tr><td>"约定由第三人来履行"</td><td><span class="ar">→</span> 出事债务人担责（§523）</td></tr>
+        <tr><td>"有合法利益的第三人主动替还"</td><td><span class="ar">→</span> 还后债权转给他（§524）</td></tr>
+        <tr><td>"给付货币、地点不明"</td><td><span class="ar">→</span> 接受货币一方（收钱方）所在地</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="block" id="s4" style="--bc:var(--s4);--bbg:var(--s4bg)">
+    <div class="bhead"><span class="bnum">4</span><span class="btitle">主观怎么答<small>先定"能不能拒绝 / 中止、谁担责"——按点给分</small></span></div>
+    <div class="bbody">
+      <h4>怎么下笔</h4>
+      <p>案例里先定"<b>该不该履行、能不能拒绝或中止、出事谁担责</b>"。抗辩权和情势变更是最常见的落点。每步"<b>先给结论 → 搬出法条 → 套到案情里</b>"。</p>
+
+      <div class="subhd">套用故事的填空模板</div>
+      <div class="tpl">
+        本案中，<span class="blank">甲乙</span>互负债务，<span class="blank">无 / 有</span>先后履行顺序。<br>
+        〔抗辩权〕因<span class="blank">对方未履行 / 有确切证据对方丧失履行能力</span>，依《民法典》第 <span class="ref">525 / 526 / 527</span> 条，<span class="blank">某方</span>享有<span class="blank">同时 / 先 / 不安</span>履行抗辩权，有权<span class="blank">拒绝 / 中止</span>履行〔不安的：中止后对方未恢复且未担保的，依 <span class="ref">§528</span> 可解除〕。<br>
+        〔情势变更〕合同成立后基础条件发生<span class="blank">无法预见、非商业风险</span>的重大变化，继续履行明显不公平，依 <span class="ref">§533</span>，<span class="blank">受不利方</span>可请求重新协商，协商不成请求人民法院或仲裁机构<span class="blank">变更或解除</span>。
+      </div>
+
+      <h4 style="margin-top:16px;">两个得分关键</h4>
+      <p><b>① 把"哪种抗辩权 / 是否情势变更 / 第三人结构"这个定性写准。</b>定性错，后果全错。<br>
+      <b>② 写清后果和程序。</b>抗辩权要写明是"拒绝"还是"中止"（不安可发展到解除）；情势变更必须写"<b>先协商，不成再请求法院 / 仲裁</b>变更或解除"，别漏了协商这步。</p>
+      <div class="scoring">
+        <span><b>给分点 ①</b> 定性（哪种抗辩权 / 情势变更 / 第三人结构）</span>
+        <span><b>给分点 ②</b> 法条依据</span>
+        <span><b>给分点 ③</b> 套案情 + 后果与程序</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>怎么用这张卡：</b>四格（是什么/易混 → 怎么考、坑 → 客观答 → 主观答）是处理<b>每一个考点</b>的固定套路。做错的真题，把对应的"坑"或易混回填到 ①格，再进错题本按遗忘曲线重做。本章是高频重点，三大抗辩权的区分务必练到条件反射。</p>
+    <p style="margin-top:8px;"><b>法条索引：</b><span class="lawindex">全面履行 + 附随义务 §509｜约定不明·补充 §510｜约定不明·法定填补 §511｜向第三人履行 §522｜由第三人履行 §523｜第三人代为清偿·债权法定转移 §524｜同时履行抗辩权 §525｜先履行抗辩权 §526｜不安抗辩权 §527｜不安抗辩→解除 §528｜提前履行 §530｜部分履行 §531｜情势变更 §533</span></p>
+    <p style="margin-top:8px;"><b>说明：</b>条文依据为现行《中华人民共和国民法典》合同编"合同的履行"（2021 年施行）；"情势变更不再排除不可抗力"等依 §533 及合同编通则相关司法解释。请以司法部正式《2026 年考试大纲》及现行法条、司法解释为准。</p>
+  </div>
+
+</div>
+</body>
+</html>
