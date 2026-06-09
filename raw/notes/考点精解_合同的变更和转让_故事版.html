@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考点精解 · 合同的变更和转让（故事版 / 大白话）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap');
+
+:root{
+  --paper:#f6f2e9; --paper-2:#efe8d9; --card:#fdfbf5;
+  --ink:#221d18; --ink-soft:#5a5249; --ink-faint:#8a8175;
+  --line:#ddd3bf; --line-soft:#e8e0cf;
+  --oxblood:#7c1f2b; --oxblood-deep:#561520; --brass:#9c7322; --green:#2f6b53; --slate:#3f6f86;
+  --s1:#8a1c28; --s1bg:#f7e9e6;
+  --s2:#b1602a; --s2bg:#f8ede0;
+  --s3:#2f6b53; --s3bg:#e6f0e9;
+  --s4:#566b7c; --s4bg:#e9eef1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:radial-gradient(circle at 14% 8%,rgba(124,31,43,.045),transparent 40%),radial-gradient(circle at 90% 92%,rgba(47,107,83,.04),transparent 44%);
+  color:var(--ink);font-family:'Noto Sans SC',sans-serif;line-height:1.7;
+  -webkit-font-smoothing:antialiased;padding:46px 20px 88px;
+}
+.wrap{max-width:1020px;margin:0 auto;}
+
+/* header */
+.masthead{border-top:4px solid var(--oxblood);border-bottom:1px solid var(--line);padding:26px 0 22px;margin-bottom:14px;animation:rise .7s cubic-bezier(.2,.7,.2,1) both;}
+.eyebrow{font-family:'Fraunces',serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--oxblood);font-weight:600;margin-bottom:11px;}
+h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(26px,4.8vw,42px);line-height:1.12;letter-spacing:-.01em;}
+h1 .sub{display:block;font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:clamp(14px,2.3vw,19px);color:var(--ink-soft);margin-top:9px;}
+.loc{margin-top:16px;font-size:12px;color:var(--ink-faint);font-family:'Noto Serif SC',serif;}
+.loc b{color:var(--oxblood);}
+
+/* running-story banner */
+.story{background:linear-gradient(180deg,#fbf3ee,#fdfaf4);border:1px solid var(--line);border-left:5px solid var(--oxblood);border-radius:6px;padding:16px 20px;margin:20px 0 6px;}
+.story .tag{display:inline-block;background:var(--oxblood);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;margin-bottom:8px;font-family:'Noto Sans SC';letter-spacing:.04em;}
+.story p{font-size:13.5px;color:var(--ink-soft);line-height:1.7;}
+.story b{color:var(--ink);}
+.story .core{margin-top:10px;background:var(--card);border:1px dashed var(--line);border-radius:5px;padding:10px 13px;font-size:13px;}
+.story .core b{color:var(--oxblood);}
+.wang{color:var(--oxblood);font-weight:700;}
+.li{color:var(--slate);font-weight:700;}
+
+/* model nav */
+.modelnav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:20px 0 30px;}
+.modelnav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--mc);border-radius:4px;padding:11px 13px;display:block;transition:transform .15s;}
+.modelnav a:hover{transform:translateY(-2px);}
+.modelnav .n{font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--mc);}
+.modelnav .t{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);margin-top:2px;}
+
+/* section */
+.block{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--bc);border-radius:6px;padding:0;margin-bottom:18px;overflow:hidden;animation:rise .55s cubic-bezier(.2,.7,.2,1) both;}
+.bhead{display:flex;align-items:center;gap:13px;padding:16px 22px 14px;background:var(--bbg);border-bottom:1px solid var(--line-soft);}
+.bnum{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:16px;}
+.btitle{font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;color:var(--ink);}
+.btitle small{display:block;font-family:'Noto Sans SC';font-weight:400;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;margin-top:1px;}
+.bbody{padding:18px 22px 20px;}
+
+h4{font-family:'Noto Serif SC',serif;font-weight:700;font-size:14.5px;color:var(--oxblood-deep);margin:0 0 10px;}
+p{font-size:13.5px;color:var(--ink-soft);line-height:1.68;}
+p b, li b{color:var(--ink);font-weight:600;}
+.law{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--brass);font-weight:600;}
+.subhd{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase;font-family:'Fraunces';margin:20px 0 11px;}
+
+/* example (chat-style) + plain takeaway */
+.eg{background:var(--paper-2);border-radius:6px;padding:11px 14px;margin:9px 0;}
+.eg .lbl{font-size:10.5px;font-weight:700;color:var(--brass);letter-spacing:.05em;font-family:'Fraunces';margin-bottom:5px;}
+.eg .line{font-size:13px;color:var(--ink-soft);line-height:1.7;margin:2px 0;}
+.eg .line .q{color:var(--ink);}
+.plain{display:flex;gap:9px;align-items:flex-start;margin:9px 0 4px;}
+.plain .badge{flex:none;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:3px;padding:3px 9px;font-family:'Noto Sans SC';letter-spacing:.03em;margin-top:1px;}
+.plain .txt{font-size:13.5px;color:var(--ink);font-weight:600;line-height:1.6;}
+.plain .txt em{font-style:normal;color:var(--oxblood);}
+
+/* contrast pairs */
+.pair{border:1px solid var(--line);border-radius:7px;margin-bottom:14px;overflow:hidden;}
+.pair-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;}
+.pair-top .side{padding:11px 15px;font-size:12.5px;color:var(--ink-soft);}
+.pair-top .side .lab{font-family:'Noto Serif SC',serif;font-weight:700;font-size:13.5px;color:var(--ink);display:block;margin-bottom:3px;}
+.pair-top .L{background:#fbf5f2;}
+.pair-top .R{background:#f3f6f4;}
+.pair-top .vs{display:flex;align-items:center;justify-content:center;padding:0 12px;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-faint);background:var(--card);border-left:1px solid var(--line-soft);border-right:1px solid var(--line-soft);}
+.pair-body{padding:12px 15px;background:var(--card);border-top:1px solid var(--line-soft);}
+.pair-body .note{font-size:12px;color:var(--ink-faint);margin-top:6px;}
+.pair-body .note b{color:var(--oxblood);}
+.mnem{display:inline-block;margin-top:6px;font-size:12.5px;background:var(--s3bg);color:var(--s3);font-weight:700;border-radius:4px;padding:4px 10px;}
+
+/* traps */
+.traps{list-style:none;counter-reset:t;}
+.traps li{counter-increment:t;position:relative;padding:10px 0 10px 38px;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+.traps li:last-child{border-bottom:none;}
+.traps li::before{content:"坑" counter(t);position:absolute;left:0;top:9px;background:var(--oxblood);color:#fff;font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px;font-family:'Noto Sans SC';}
+
+/* flow steps */
+.steps{display:flex;flex-direction:column;gap:0;margin-bottom:8px;}
+.stp{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);}
+.stp:last-child{border-bottom:none;}
+.stp .k{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:13px;color:var(--s3);width:54px;}
+.stp .d{font-size:13px;color:var(--ink-soft);}
+.stp .d b{color:var(--ink);}
+
+/* keyword table */
+.kw{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px;}
+.kw td{border:1px solid var(--line);padding:8px 12px;vertical-align:top;}
+.kw td:first-child{background:var(--paper-2);font-family:'Noto Serif SC',serif;font-weight:600;color:var(--ink);width:52%;}
+.kw td:last-child{color:var(--ink-soft);}
+.kw .ar{color:var(--brass);font-weight:700;}
+
+/* template */
+.tpl{background:var(--s4bg);border:1px solid #cdd6dd;border-radius:6px;padding:15px 17px;margin:10px 0;font-size:13px;line-height:1.9;color:var(--ink);}
+.tpl .blank{color:var(--oxblood);font-weight:700;border-bottom:1.5px dotted var(--oxblood);padding:0 3px;}
+.tpl .ref{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:12px;}
+.scoring{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.scoring span{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:5px 11px;font-size:12px;color:var(--ink-soft);}
+.scoring b{color:var(--s3);}
+
+/* footer */
+.foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.75;}
+.foot b{color:var(--ink-soft);}
+.lawindex{font-family:'Fraunces',serif;font-size:11.5px;color:var(--brass);line-height:1.9;margin-top:6px;}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+@media(max-width:600px){
+  .modelnav{grid-template-columns:1fr 1fr;}
+  .pair-top{grid-template-columns:1fr;}
+  .pair-top .vs{padding:5px;border:none;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">民法 · 合同编 · 考点精解 · 故事版</div>
+    <h1>合同的变更和转让
+      <span class="sub">债能不能转给别人 — 一个故事讲到底 + 大白话（高频）</span>
+    </h1>
+    <div class="loc">定位：民法 › 合同编 › 通则 › <b>合同的变更和转让</b>（核心：债权转让 · 债务转移 · 合同概括转让）</div>
+  </header>
+
+  <!-- running story -->
+  <div class="story">
+    <span class="tag">贯穿全卡的故事</span>
+    <p>还是 <span class="wang">老王</span> 借钱给 <span class="li">小李</span> 的事（老王是债权人、小李是债务人）。这回的主题是：<b>债能不能转给别人？</b>——老王能不能把"小李欠我的钱"这个权利转给 <b>老张</b>？小李能不能让 <b>老张</b> 来替自己还这笔债？答案都是"能"，但规则不一样，关键差别就一个词。</p>
+    <div class="core">转让分两大类：把"<b>收钱的权利</b>"转给别人 ＝ <b>债权转让</b>（只需<b>通知</b>债务人）；把"<b>还钱的义务</b>"转给别人 ＝ <b>债务转移</b>（必须<b>债权人同意</b>）。再加上"整个合同地位打包转" ＝ 概括转让（带着义务，所以也要对方同意）。</div>
+  </div>
+
+  <nav class="modelnav">
+    <a href="#s1" style="--mc:var(--s1)"><span class="n">01</span><span class="t">是什么 / 易混</span></a>
+    <a href="#s2" style="--mc:var(--s2)"><span class="n">02</span><span class="t">怎么考、坑在哪</span></a>
+    <a href="#s3" style="--mc:var(--s3)"><span class="n">03</span><span class="t">客观怎么答</span></a>
+    <a href="#s4" style="--mc:var(--s4)"><span class="n">04</span><span class="t">主观怎么答</span></a>
+  </nav>
+
+  <!-- 01 -->
+  <section class="block" id="s1" style="--bc:var(--s1);--bbg:var(--s1bg)">
+    <div class="bhead"><span class="bnum">1</span><span class="btitle">是什么 / 易混<small>一个词定生死："通知 vs 同意"——这是全章命门</small></span></div>
+    <div class="bbody">
+      <h4>是什么</h4>
+      <div class="eg">
+        <div class="lbl">用故事说</div>
+        <div class="line"><b>债权转让：</b><span class="wang">老王</span>把"小李欠我 10 万"这个债权转给 <b>老张</b> → 以后小李向老张还。老王只要<b>通知</b>小李就行，不用小李点头。<span class="law">§545 · §546</span></div>
+        <div class="line"><b>债务转移：</b><span class="li">小李</span>把"欠老王 10 万"这个债务转给 <b>老张</b> → 以后老张替小李还。这必须经<b>老王同意</b>。<span class="law">§551</span></div>
+        <div class="line"><b>（合同变更：</b>双方协商一致可改合同内容；变更内容约定不明的，推定为未变更。<span class="law">§543 · §544</span>）</div>
+      </div>
+      <div class="plain"><span class="badge">大白话</span><span class="txt">转"<em>收钱的权利</em>"＝债权转让（通知一声即可）；转"<em>还钱的义务</em>"＝债务转移（必须债主点头）。</span></div>
+
+      <div class="subhd">易混对照 · 五组高频陷阱</div>
+
+      <!-- pair 1 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">债权转让</span>只需"通知"债务人</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">债务转移</span>必须经"债权人同意"</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（全章最经典的对比）</div>
+            <div class="line"><b>债权转让：</b><span class="wang">老王</span>把对小李的债权转给 <b>老张</b> → <b>通知</b>小李即可，不用小李同意；<b>未通知</b>则对小李不生效。</div>
+            <div class="line"><b>债务转移：</b><span class="li">小李</span>要把对老王的债务转给 <b>老张</b> 还 → 必须经<b>老王同意</b>；未同意则对老王不生效。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">债权转让"<em>通知就行</em>"，债务转移"<em>必须同意</em>"。</span></div>
+          <div class="mnem">收钱的权利 → 通知；还钱的义务 → 同意</div>
+          <div class="note"><b>为什么不一样：</b>债权转给谁，对小李"还给谁都一样、负担没变"，通知即可；债务转给谁，直接关系老王能不能收回（新债务人有没有钱），所以必须债主同意。</div>
+        </div>
+      </div>
+
+      <!-- pair 2 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">金钱债权·约定禁让</span>不得对抗"任何第三人"</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">非金钱债权·约定禁让</span>不得对抗"善意第三人"</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（§545，容易以为"约定禁让=绝对不能转"）</div>
+            <div class="line"><span class="wang">老王</span>小李约定"这笔借款债权不得转让"，老王仍把它转给 <b>老张</b>：借款是<b>金钱债权</b> → 老张照样取得，约定<b>管不住</b>外人；若是<b>非金钱债权</b> → 只有老张<b>恶意</b>（知道有禁让约定）才受约定限制。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">就算合同写了"不许转"，<em>钱债照样能转</em>（管不住外人）；<em>非钱债</em>只有"明知不许还接手"的人才受限制。</span></div>
+        </div>
+      </div>
+
+      <!-- pair 3 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">从权利跟着走</span>担保等随主债权转给受让人</div>
+          <div class="vs">+</div>
+          <div class="side R"><span class="lab">防御武器也跟着</span>债务人的抗辩 / 抵销可对受让人主张</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说（债权转让后的连带效果）</div>
+            <div class="line">老王对小李的债权有<b>抵押担保</b> → 转给 <b>老张</b> 后，抵押权一并归老张，且<b>不因未办登记 / 未转移占有而受影响</b>（§547）。同时，小李原来能对老王主张的<b>抗辩</b>（如货有瑕疵）、符合条件的<b>抵销</b>，现在能对老张主张（§548 · §549）。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">债权转给老张，担保等"<em>好处</em>"跟着走；但小李原来能对老王用的"<em>挡箭牌</em>"（抗辩、抵销）照样能对老张用——债务人不能因为债权转手就吃亏。</span></div>
+        </div>
+      </div>
+
+      <!-- pair 4 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">债务转移（免责承担）</span>原债务人"脱离"，新债务人替代</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">债务加入（并存承担）</span>原债务人"不脱离"，第三人加入连带</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><b>债务转移：</b><span class="li">小李</span>把债转给 <b>老张</b>，小李<b>脱身</b>，以后老王只找老张 → 须<b>老王同意</b>（§551）。</div>
+            <div class="line"><b>债务加入：</b><b>老张</b>主动跟老王说"小李的债我也一起还"，老王<b>没明确拒绝</b> → 老张和小李一起对老王负<b>连带债务</b>（小李没脱身，§552）。</div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">债务转移＝<em>换人</em>（原债务人走人，要债主同意）；债务加入＝<em>添人</em>（原债务人还在，多一个连带还钱的）。</span></div>
+          <div class="note"><b>门槛为何不同：</b>债务加入对债权人<b>有利</b>（多个责任人），所以宽松（主动加入 / 表示 + 债权人未明确拒绝即可）；债务转移可能让债权落空，所以严格（<b>必须债权人同意</b>）。</div>
+        </div>
+      </div>
+
+      <!-- pair 5 -->
+      <div class="pair">
+        <div class="pair-top">
+          <div class="side L"><span class="lab">单纯转让</span>只转权利 或 只转义务</div>
+          <div class="vs">vs</div>
+          <div class="side R"><span class="lab">合同概括转让</span>权利义务整个打包转</div>
+        </div>
+        <div class="pair-body">
+          <div class="eg">
+            <div class="lbl">用故事说</div>
+            <div class="line"><span class="wang">老王</span>把自己在某长期供货合同里的<b>整个地位</b>（既有收款权利、也有供货义务）一并转给 <b>老张</b> → 因为带着义务，须经<b>对方（小李）同意</b>；适用债权转让 + 债务转移的规则。<span class="law">§555 · §556</span></div>
+          </div>
+          <div class="plain"><span class="badge">大白话</span><span class="txt">只转权利＝债权转让（通知）；只转义务＝债务转移（同意）；<em>权利义务整个打包转</em>＝概括转让（带着义务，所以也得对方同意）。</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="block" id="s2" style="--bc:var(--s2);--bbg:var(--s2bg)">
+    <div class="bhead"><span class="bnum">2</span><span class="btitle">怎么考、坑在哪<small>题目长什么样 + 命题人最爱埋的雷</small></span></div>
+    <div class="bbody">
+      <h4>题目长什么样</h4>
+      <div class="eg">
+        <div class="lbl">命题角度</div>
+        <div class="line"><b>客观题（高频）：</b>判断是债权转让还是债务转移（<b>要通知还是要同意</b>）；约定禁让能不能转、对抗谁；从权利 / 抗辩 / 抵销转不转；债务转移 vs 债务加入；概括转让要件。</div>
+        <div class="line"><b>主观题：</b>案例里先认"转的是<b>权利还是义务</b>、程序对不对（通知 / 同意齐没齐）"，才能定转让有没有效、谁该向谁履行。</div>
+      </div>
+
+      <div class="subhd">高频坑位</div>
+      <ul class="traps">
+        <li>债权转让也要债务人"<b>同意</b>"——错，只需通知；债务转移才需债权人同意。</li>
+        <li>债权转让<b>没通知</b>债务人就认为对债务人生效——未通知对债务人不生效（但让与人和受让人之间有效）。</li>
+        <li>约定禁止转让＝<b>绝对不能转</b>——金钱债权约定禁让不得对抗任何第三人（照样转）；非金钱债权不得对抗善意第三人。</li>
+        <li>以为债权一转，债务人的<b>抗辩 / 抵销就没了</b>——抗辩、符合条件的抵销可向受让人主张。</li>
+        <li>把<b>债务加入当债务转移</b>——加入是原债务人不脱离、连带；转移是原债务人脱离、替代。</li>
+        <li>债务转移后，<b>新债务人</b>拿原债务人对债权人的债权去<b>抵销</b>——不行（§553，可主张原债务人的抗辩，但不得抵销）。</li>
+        <li>概括转让（含义务）忘了要"<b>对方同意</b>"——光通知不够。</li>
+        <li>从权利（担保）随债权转移，以为要<b>重新办登记 / 占有</b>才转——不因未办登记 / 未转移占有而受影响（§547）。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="block" id="s3" style="--bc:var(--s3);--bbg:var(--s3bg)">
+    <div class="bhead"><span class="bnum">3</span><span class="btitle">客观怎么答<small>先认转的是啥 → 查程序 → 看附随效果</small></span></div>
+    <div class="bbody">
+      <h4>固定四步</h4>
+      <div class="steps">
+        <div class="stp"><span class="k">第 1 步</span><span class="d"><b>认转的是啥</b>：转"收钱的权利"→ 债权转让；转"还钱的义务"→ 债务转移；权利义务整个打包 → 概括转让。</span></div>
+        <div class="stp"><span class="k">第 2 步</span><span class="d"><b>查程序</b>：债权转让 → 通知债务人（未通知对债务人不生效）；债务转移 / 概括转让 → 债权人（对方）同意（未同意不生效）；债务加入 → 第三人主动 + 债权人未明确拒绝即可。</span></div>
+        <div class="stp"><span class="k">第 3 步</span><span class="d"><b>看附随（债权转让）</b>：从权利、抗辩、抵销跟着走；约定禁让 → 金钱债权不对抗任何人、非金钱债权不对抗善意第三人。</span></div>
+        <div class="stp"><span class="k">第 4 步</span><span class="d"><b>看抗辩抵销（债务方）</b>：新债务人可主张原债务人的抗辩；但<b>不得</b>用原债务人的债权抵销。</span></div>
+      </div>
+
+      <div class="subhd">关键词触发表（看到左边，先想右边）</div>
+      <table class="kw">
+        <tr><td>"把债权 / 应收款转给别人"</td><td><span class="ar">→</span> 债权转让（通知债务人即可）</td></tr>
+        <tr><td>"没通知债务人"</td><td><span class="ar">→</span> 对债务人不生效</td></tr>
+        <tr><td>"把债务 / 欠款转给别人来还"</td><td><span class="ar">→</span> 债务转移（须债权人同意）</td></tr>
+        <tr><td>"债权人没同意"</td><td><span class="ar">→</span> 债务转移对债权人不生效</td></tr>
+        <tr><td>"第三人主动说也一起还、债权人没拒绝"</td><td><span class="ar">→</span> 债务加入（连带债务）</td></tr>
+        <tr><td>"约定不得转让的金钱债权，仍转了"</td><td><span class="ar">→</span> 受让人取得（约定不对抗第三人）</td></tr>
+        <tr><td>"债权附带的担保"</td><td><span class="ar">→</span> 随债权一并转移（不因未登记 / 未占有受影响）</td></tr>
+        <tr><td>"债务人原来能对原债权人用的抗辩"</td><td><span class="ar">→</span> 可向受让人主张</td></tr>
+        <tr><td>"权利义务一并打包转"</td><td><span class="ar">→</span> 合同概括转让（须对方同意）</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="block" id="s4" style="--bc:var(--s4);--bbg:var(--s4bg)">
+    <div class="bhead"><span class="bnum">4</span><span class="btitle">主观怎么答<small>先定"转权利还是义务、程序齐不齐"——按点给分</small></span></div>
+    <div class="bbody">
+      <h4>怎么下笔</h4>
+      <p>案例里先认"<b>转的是权利还是义务、程序齐不齐</b>（通知 / 同意）"，再定效力和谁向谁履行。每步"<b>先给结论 → 搬出法条 → 套到案情里</b>"。</p>
+
+      <div class="subhd">套用故事的填空模板</div>
+      <div class="tpl">
+        本案中，<span class="blank">老王 / 小李</span>将<span class="blank">债权 / 债务</span>转让给 <span class="blank">老张</span>。<br>
+        〔债权转让〕依《民法典》第 <span class="ref">546</span> 条，债权转让经<b>通知债务人</b>后对债务人生效；本案<span class="blank">已 / 未</span>通知，故对小李<span class="blank">生效 / 不生效</span>，从权利及抗辩、抵销一并随转<span class="ref">（§547–549）</span>。<br>
+        〔债务转移〕依第 <span class="ref">551</span> 条，债务转移须经<b>债权人同意</b>；老王<span class="blank">已 / 未</span>同意，故<span class="blank">有效 / 不生效</span>。<br>
+        〔概括转让〕权利义务一并转让须经对方同意<span class="ref">（§555）</span>，并适用债权转让、债务转移的规则。
+      </div>
+
+      <h4 style="margin-top:16px;">两个得分关键</h4>
+      <p><b>① 把"转权利 / 转义务 + 通知 / 同意"这个定性与程序写准。</b>程序要件（通知 or 同意）是这章最核心的采分点，错了直接定性错。<br>
+      <b>② 别漏附随效果。</b>债权转让要带出"从权利随转、抗辩 / 抵销可对受让人主张"；债务转移要点出"新债务人可主张原债务人抗辩、但不得抵销"。</p>
+      <div class="scoring">
+        <span><b>给分点 ①</b> 定性（债权转让 / 债务转移 / 债务加入 / 概括转让）</span>
+        <span><b>给分点 ②</b> 程序要件（通知 or 同意）+ 法条</span>
+        <span><b>给分点 ③</b> 套案情 + 附随效果（从权利 / 抗辩 / 抵销）</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>怎么用这张卡：</b>四格（是什么/易混 → 怎么考、坑 → 客观答 → 主观答）是处理<b>每一个考点</b>的固定套路。做错的真题，把对应的"坑"或易混回填到 ①格，再进错题本按遗忘曲线重做。本章命门就一句："债权转让通知、债务转移同意"，先把它焊死。</p>
+    <p style="margin-top:8px;"><b>法条索引：</b><span class="lawindex">合同变更 §543｜变更不明推定未变更 §544｜债权转让 + 禁让对抗 §545｜债权转让·通知主义 §546｜从权利随同移转 §547｜抗辩可对抗受让人 §548｜抵销可对抗受让人 §549｜债务转移须债权人同意 §551｜债务加入·并存承担 §552｜债务转移后抗辩 / 不得抵销 §553｜从债务随同转移 §554｜合同概括转让须对方同意 §555｜概括转让适用转让规则 §556</span></p>
+    <p style="margin-top:8px;"><b>说明：</b>条文依据为现行《中华人民共和国民法典》合同编"合同的变更和转让"（2021 年施行）。请以司法部正式《2026 年考试大纲》及现行法条、司法解释为准。</p>
+  </div>
+
+</div>
+</body>
+</html>
