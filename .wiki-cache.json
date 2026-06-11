@@ -55,6 +55,11 @@
       "hash": "sha256:5211f933b9283c36c4f1d5a27e8540036bd90d634f1cfe5bf5298278daa51820",
       "ingested_at": "2026-06-11T01:51:59Z",
       "source_page": "wiki/sources/2026-06-10-竞合精神损害多层侵权.md"
+    },
+    "raw/notes/合同编_买卖合同真题.md": {
+      "hash": "sha256:22a7187b5db48ef6cc761360890a6bed9f65be8b8c2e77c0c937921debd8ae65",
+      "ingested_at": "2026-06-11T06:20:11Z",
+      "source_page": "wiki/sources/2026-06-10-典型合同买卖合同真题.md"
     }
   }
 }
