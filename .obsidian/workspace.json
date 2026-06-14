@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51471bcf750b790f",
+            "id": "78ecf20089d64129",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/缔约过失责任-答题模型.md",
+                "file": "wiki/答题模型/民法-合同-债务承担模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "缔约过失责任-答题模型"
+              "title": "民法-合同-债务承担模型"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 432.5
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/exam-questions/缔约过失责任-答题模型.md",
+                "file": "wiki/synthesis/准合同考点-深度报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 缔约过失责任-答题模型"
+              "title": "Backlinks for 准合同考点-深度报告"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/exam-questions/缔约过失责任-答题模型.md",
+                "file": "wiki/synthesis/准合同考点-深度报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 缔约过失责任-答题模型"
+              "title": "Outgoing links from 准合同考点-深度报告"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/exam-questions/缔约过失责任-答题模型.md",
+                "file": "wiki/synthesis/准合同考点-深度报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 缔约过失责任-答题模型"
+              "title": "Outline of 准合同考点-深度报告"
             }
           }
         ]
@@ -169,34 +168,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51471bcf750b790f",
+  "active": "78ecf20089d64129",
   "lastOpenFiles": [
-    "wiki/exam-questions/合同通则-单选-38.md",
-    "wiki/exam-questions/缔约过失责任-答题模型.md",
-    "wiki/exam-questions/合同通则-多选-19.md",
-    "wiki/exam-questions/合同通则-单选-32.md",
-    "wiki/exam-questions/合同通则-单选-12.md",
-    "wiki/exam-questions/合同通则-单选-11.md",
-    "wiki/exam-questions/合同可撤销-答题模型.md",
-    "wiki/exam-questions/解除-答题模型.md",
-    "wiki/exam-questions/分期付款买卖-答题模型.md",
-    "wiki/overview.md",
-    "wiki/synthesis/合同总则考点-深度报告.md",
-    "wiki/exam-questions/违约金-答题模型.md",
-    "wiki/entities/缔约过失责任.md",
-    "wiki/exam-questions/合同生命周期-总览.md",
-    "wiki/synthesis/合同成立的最低必要条件-深度报告.md",
-    "wiki/entities/要约.md",
-    "wiki/exam-questions/定金-答题模型.md",
-    "wiki/exam-questions/典型合同-多选-24.md",
-    "wiki/exam-questions/合同通则-多选-16.md",
-    "wiki/exam-questions/典型合同-多选-20.md",
     "wiki/synthesis/典型合同考点-深度报告.md",
-    "wiki/exam-questions/典型合同-单选-22.md",
-    "wiki/exam-questions/典型合同-单选-03.md",
-    "wiki/exam-questions/典型合同-单选-01.md",
-    "wiki/exam-questions/典型合同-多选-23.md",
-    "wiki/exam-questions/典型合同-多选-22.md",
+    "wiki/synthesis/合同总则-深度报告.md",
+    "wiki/synthesis/合同总则考点-深度报告.md",
+    "wiki/synthesis/准合同-深度报告.md",
+    "wiki/entities/委托合同.md",
+    "raw/notes/合同编 典型合同（委托合同、物业服务合同）真题.md",
+    "raw/notes/合同编_租赁合同融资租赁合同真题-建筑合同.md",
+    "wiki/synthesis/典型合同-深度报告.md",
+    "wiki/synthesis/准合同考点-深度报告.md",
+    "wiki/答题模型/民法-合同-债务承担模型.md",
+    "raw/notes/39岁考生89天精准保过型备考方案.md",
+    "raw/notes/法考备考策略.md",
+    "raw/notes/2026-06-10-合同总则高频真题补遗.md",
+    "raw/notes/13 合同的订立与效力.md",
+    "raw/notes/Untitled.md",
+    "wiki/exam-questions/典型合同-单选-37.md",
+    "wiki/答题模型/民法-合同-保证模型.md",
+    "wiki/答题模型/民法-合同-保证与债务加入辨析模型.md",
+    "wiki/答题模型/民法-合同-履行抗辩权模型.md",
+    "wiki/exam-questions/典型合同-多选-35.md",
+    "wiki/entities/法定代位.md",
+    "wiki/exam-questions/典型合同-单选-30.md",
+    "wiki/答题模型/民法-合同-分期付款买卖模型.md",
+    "wiki/exam-questions/典型合同-单选-31.md",
+    "wiki/exam-questions/典型合同-多选-32.md",
+    "wiki/entities/债务承担.md",
+    "wiki/答题模型",
     "raw/notes/考点精解_合同的变更和转让_故事版.html",
     "raw/notes/考点精解_合同的履行_故事版.html",
     "raw/notes/考点精解_债法总论_合同编适用范围_故事版.html",
