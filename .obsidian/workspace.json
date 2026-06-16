@@ -13,29 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/民法-合同-债权转让模型.md",
+                "file": "wiki/synthesis/物权编考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "民法-合同-债权转让模型"
+              "title": "物权编考点-深度报告"
             }
           },
           {
-            "id": "f55a8593eea4c1b9",
+            "id": "90eda2be716fe871",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/区分原则.md",
+                "file": "wiki/exam-questions/物权编-多选-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "区分原则"
+              "title": "物权编-多选-01"
+            }
+          },
+          {
+            "id": "db505c4730a8b920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-物权-非基于法律行为变动模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-物权-非基于法律行为变动模型"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,34 +197,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59713ed0c5e741e1",
+  "active": "db505c4730a8b920",
   "lastOpenFiles": [
-    "wiki/entities/合伙合同.md",
-    "wiki/答题模型/民法-合同-合伙模型.md",
-    "raw/notes/2026众合客观真题 民法（物权编） 3.md",
     "wiki/entities/区分原则.md",
-    "wiki/synthesis/物权编-深度报告.md",
-    "raw/notes/2026众合客观真题 民法（物权编-2）.md",
-    "raw/notes/2026众合客观真题民法（物权编）.md",
+    "wiki/答题模型/民法-物权-非基于法律行为变动模型.md",
+    "wiki/答题模型/民法-物权-物权请求权模型.md",
     "wiki/synthesis/物权编考点-深度报告.md",
-    "wiki/synthesis/合同总则考点-深度报告.md",
+    "wiki/exam-questions/物权编-多选-01.md",
     "wiki/答题模型/民法-合同-不当得利模型.md",
+    "wiki/exam-questions/典型合同-单选-27.md",
+    "wiki/答题模型/民法-物权-动产交付模型.md",
+    "wiki/答题模型/民法-合同-一物多卖模型.md",
+    "raw/notes/《民法典》物权编第三章物权保护的五种法定救济手段.md",
+    "wiki/答题模型/民法-侵权-侵权责任模型.md",
+    "wiki/exam-questions/物权编-单选-41.md",
+    "wiki/entities/善意取得.md",
+    "wiki/entities/非基于法律行为的物权变动.md",
+    "wiki/exam-questions/C1-单选-77 · 报批义务条款独立有效.md",
+    "wiki/exam-questions/C1-单选-76 · 合同僵局与违约方司法终止.md",
+    "wiki/exam-questions/C1-多选-44 · 连带之债份额追偿与涉他效力.md",
+    "wiki/exam-questions/物权编-多选-35.md",
+    "wiki/exam-questions/物权编-多选-34.md",
+    "wiki/exam-questions/物权编-多选-33.md",
+    "wiki/exam-questions/物权编-单选-40.md",
+    "wiki/exam-questions/物权编-单选-39.md",
+    "wiki/exam-questions/物权编-单选-38.md",
+    "wiki/exam-questions/物权编-单选-37.md",
+    "wiki/exam-questions/物权编-多选-32.md",
     "wiki/synthesis/准合同考点-深度报告.md",
-    "wiki/exam-questions/合同通则-多选-25.md",
-    "wiki/答题模型/民法-合同-债权转让模型.md",
-    "wiki/entities/民事责任体系.md",
-    "wiki/答题模型/民法-合同-无因管理模型.md",
-    "wiki/答题模型/民法-合同-债务承担模型.md",
-    "wiki/exam-questions/合同通则-单选-57.md",
-    "wiki/synthesis/准合同-深度报告.md",
-    "wiki/synthesis/典型合同考点-深度报告.md",
-    "wiki/exam-questions/准合同-单选-02.md",
-    "wiki/exam-questions/准合同-单选-03.md",
-    "wiki/entities/无因管理.md",
-    "wiki/答题模型/民法-合同-保理模型.md",
-    "wiki/entities/抗辩.md",
-    "wiki/答题模型/民法-合同-抗辩识别模型.md",
-    "wiki/exam-questions/典型合同-单选-38.md",
     "raw/mind/司法开始.xmind",
     "raw/mind",
     "wiki/答题模型",
