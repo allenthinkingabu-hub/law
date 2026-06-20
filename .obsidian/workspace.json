@@ -22,17 +22,73 @@
             }
           },
           {
-            "id": "68524d7bb1663f1c",
+            "id": "8819016a76281771",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/C1-单选-80.md",
+                "file": "wiki/答题模型/民法-物权-最高额抵押权模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C1-单选-80"
+              "title": "民法-物权-最高额抵押权模型"
+            }
+          },
+          {
+            "id": "3a2aab87bde5d340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-物权-担保物权模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-物权-担保物权模型"
+            }
+          },
+          {
+            "id": "7dc780cfc1f9dc5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/物权编-单选-27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "物权编-单选-27"
+            }
+          },
+          {
+            "id": "f89352dd28cd9bac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-物权-流押流质模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-物权-流押流质模型"
+            }
+          },
+          {
+            "id": "7ddd88dfdc1341e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/混合担保.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "混合担保"
             }
           }
         ],
@@ -89,12 +145,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 370.5
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -176,6 +231,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -184,34 +240,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1a325448b6c248e",
+  "active": "8819016a76281771",
   "lastOpenFiles": [
-    "wiki/exam-questions/C1-单选-79.md",
-    "wiki/答题模型/民法-物权-善意取得模型.md",
+    "wiki/entities/债权分类.md",
     "wiki/synthesis/物权编考点 深度报告.md",
-    "wiki/synthesis/物权编-深度报告.md",
-    "wiki/synthesis/总则编考点-深度报告.md",
-    "wiki/synthesis/侵权责任编考点-深度报告.md",
+    "wiki/答题模型/民法-物权-最高额抵押权模型.md",
+    "wiki/答题模型/民法-物权-担保物权模型.md",
+    "wiki/答题模型/民法-物权-物权请求权模型.md",
+    "wiki/答题模型/民法-物权-担保物权竞存清偿顺序模型.md",
+    "wiki/exam-questions/物权编-单选-27.md",
+    "wiki/答题模型/民法-物权-流押流质模型.md",
+    "wiki/答题模型/民法-物权-共同担保人追偿权模型.md",
+    "wiki/entities/混合担保.md",
+    "wiki/entities/流押与流质.md",
+    "wiki/答题模型/民法-合同-合同无效模型.md",
+    "wiki/答题模型/民法-合同-合同可撤销模型.md",
+    "wiki/答题模型/民法-合同-解除模型.md",
+    "wiki/exam-questions/物权编-单选-18.md",
     "wiki/答题模型/民法-物权-居住权模型.md",
     "wiki/答题模型/民法-物权-地役权模型.md",
-    "wiki/答题模型/民法-合同-分期付款买卖模型.md",
-    "wiki/entities/地役权.md",
-    "wiki/entities/流押与流质.md",
-    "wiki/答题模型/民法-物权-流押流质模型.md",
-    "wiki/entities/居住权.md",
-    "raw/notes/prompt_考点模型生产.md",
-    "wiki/exam-questions/物权编-多选-35.md",
-    "wiki/exam-questions/物权编-单选-40.md",
-    "wiki/答题模型/民法-物权-物权请求权模型.md",
-    "wiki/comparisons/占有返还-vs-物权返还.md",
-    "wiki/comparisons/物权救济-vs-债权救济.md",
-    "raw/notes/法考终极背诵：物权救济 VS 债权救济（侵权赔偿）对比表.md",
-    "wiki/entities/物权请求权.md",
-    "wiki/comparisons/连带责任-vs-按份责任.md",
-    "raw/notes/民法典连带责任与物权请求权解析 (1).md",
-    "raw/notes/考点考频分析_prompt.md",
-    "wiki/exam-questions/物权编-单选-59.md",
-    "wiki/exam-questions/物权编-单选-58.md",
+    "wiki/exam-questions/物权编-单选-19.md",
+    "wiki/exam-questions/物权编-单选-62.md",
+    "wiki/exam-questions/物权编-单选-61.md",
+    "wiki/exam-questions/物权编-单选-60.md",
+    "raw/notes/prompt_法律分析.md",
+    "raw/notes/prompt_考点考频分析_prompt.md",
+    "wiki/答题模型/民法-物权-异议预告登记模型.md",
+    "wiki/exam-questions/C1-单选-62 · 代理人收回扣与恶意串通.md",
+    "wiki/exam-questions/C1-单选-61 · 无资质施工与强制性规定.md",
     "raw/plaintext",
     "raw/mind/司法开始.xmind",
     "raw/mind",
