@@ -13,124 +13,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/物权编考点 深度报告.md",
+                "file": "wiki/synthesis/侵权责任编考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "物权编考点 深度报告"
+              "title": "侵权责任编考点-深度报告"
             }
           },
           {
-            "id": "d2d2c59eb4d86eb3",
+            "id": "2b76e7beca64153a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/物权编-单选-26.md",
+                "file": "wiki/答题模型/民法-侵权-自助行为模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "物权编-单选-26"
+              "title": "民法-侵权-自助行为模型"
             }
           },
           {
-            "id": "2c8d423ebe78c919",
+            "id": "a4d1394f701305ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/民法-合同-保证模型.md",
+                "file": "wiki/答题模型/民法-侵权-正当防卫与紧急避险及救助模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "民法-合同-保证模型"
+              "title": "民法-侵权-正当防卫与紧急避险及救助模型"
             }
           },
           {
-            "id": "3817fe14767775d3",
+            "id": "9684ec23c1f7bc36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/民法-物权-共同担保人追偿权模型.md",
+                "file": "wiki/答题模型/民法-侵权-监护人责任模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "民法-物权-共同担保人追偿权模型"
+              "title": "民法-侵权-监护人责任模型"
             }
           },
           {
-            "id": "f76f2f8038283940",
+            "id": "0114ad40fce2d1fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/典型合同-单选-35.md",
+                "file": "wiki/答题模型/民法-侵权-无意思联络分别侵权模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "典型合同-单选-35"
-            }
-          },
-          {
-            "id": "e96624a2bc9962c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/民法-合同-保证方式与期间模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民法-合同-保证方式与期间模型"
-            }
-          },
-          {
-            "id": "9871f1abc281ebd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/民法-合同-保证与债务加入辨析模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民法-合同-保证与债务加入辨析模型"
-            }
-          },
-          {
-            "id": "f93c77caa269d45f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/民法-合同-保证方式与期间模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民法-合同-保证方式与期间模型"
-            }
-          },
-          {
-            "id": "391ad23fe0f4e00e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/典型合同考点-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "典型合同考点-深度报告"
+              "title": "民法-侵权-无意思联络分别侵权模型"
             }
           }
         ]
@@ -283,32 +227,32 @@
   },
   "active": "d35024acc66376d2",
   "lastOpenFiles": [
-    "wiki/exam-questions/典型合同-单选-35.md",
-    "wiki/答题模型/民法-物权-共同担保人追偿权模型.md",
-    "wiki/exam-questions/物权编-单选-26.md",
-    "wiki/synthesis/物权编考点 深度报告.md",
-    "wiki/答题模型/民法-合同-保证方式与期间模型.md",
-    "wiki/答题模型/民法-合同-保证模型.md",
-    "wiki/答题模型/民法-合同-保证与债务加入辨析模型.md",
-    "wiki/entities/混合担保.md",
-    "wiki/答题模型/民法-合同-债务承担模型.md",
-    "wiki/synthesis/典型合同考点-深度报告.md",
-    "wiki/答题模型/民法-物权-留置权模型.md",
-    "wiki/exam-questions/物权编-多选-28.md",
-    "wiki/exam-questions/物权编-多选-27.md",
-    "wiki/exam-questions/物权编-单选-32.md",
-    "wiki/entities/融资租赁合同.md",
-    "wiki/答题模型/民法-合同-所有权交付风险三角关系模型.md",
-    "wiki/exam-questions/典型合同-单选-42.md",
-    "wiki/答题模型/民法-合同-合同无效模型.md",
-    "wiki/答题模型/民法-合同-成立与生效模型.md",
-    "wiki/答题模型/民法-物权-担保物权模型.md",
-    "wiki/答题模型/民法-物权-非典型担保与功能主义登记模型.md",
-    "wiki/exam-questions/典型合同-多选-21.md",
-    "wiki/答题模型/民法-合同-违约责任模型.md",
-    "wiki/答题模型/民法-合同-解除模型.md",
-    "wiki/答题模型/民法-合同-分期付款买卖模型.md",
-    "wiki/exam-questions/典型合同-多选-10.md",
+    "raw/notes/prompt_知识图谱.md",
+    "wiki/答题模型/民法-侵权-自助行为模型.md",
+    "wiki/synthesis/侵权责任编考点-深度报告.md",
+    "wiki/答题模型/民法-侵权-正当防卫与紧急避险及救助模型.md",
+    "wiki/答题模型/民法-侵权-网络侵权责任模型.md",
+    "wiki/答题模型/民法-侵权-安全保障与教育机构第三人侵权模型.md",
+    "wiki/答题模型/民法-侵权-用工劳务与承揽人侵权模型.md",
+    "wiki/答题模型/民法-侵权-监护人责任模型.md",
+    "wiki/exam-questions/侵权责任-多选-26 · 监护人责任-委托监护中责任上限与主客体诉讼定位综合案.md",
+    "wiki/exam-questions/侵权责任-多选-25 · 监护人责任-继父母免责边界与抚养关系认定综合案.md",
+    "wiki/exam-questions/侵权责任-多选-24 · 监护人责任-诉讼地位与成年后追加被告释明规则综合案.md",
+    "wiki/exam-questions/侵权责任-多选-23 · 监护人责任-全部责任性质与执行保留限制综合案.md",
+    "wiki/exam-questions/侵权责任-单选-40 · 监护人责任-委托监护中受托人无过错的免责判定案.md",
+    "wiki/exam-questions/侵权责任-单选-39 · 监护人责任-委托监护中受托人有过错的责任承担案.md",
+    "wiki/exam-questions/侵权责任-单选-38 · 监护人责任-离异夫妻内部份额确定与超额追偿案.md",
+    "wiki/exam-questions/侵权责任-单选-37 · 监护人责任-合并起诉与遗漏被监护人的共同被告列明案.md",
+    "wiki/exam-questions/侵权责任-单选-36 · 监护人责任-监护人尽责减轻责任而非免责案.md",
+    "wiki/exam-questions/侵权责任-单选-35 · 监护人责任-离异夫妻共同责任与追偿及继父母免责案.md",
+    "wiki/exam-questions/侵权责任-单选-34 · 监护人责任-诉讼地位共同被告与成年后原监护人责任案.md",
+    "wiki/exam-questions/侵权责任-单选-33 · 监护人责任-全部责任与财产支付顺序案.md",
+    "wiki/答题模型/民法-侵权-无意思联络分别侵权模型.md",
+    "wiki/exam-questions/侵权责任-单选-32 · 自助行为-过度暴力拘留超限度担责案.md",
+    "wiki/exam-questions/侵权责任-单选-31 · 自助行为-扣留电脑未立即报官案.md",
+    "wiki/exam-questions/侵权责任-单选-30 · 自助行为-出租车司机锁车门送警案.md",
+    "wiki/答题模型/民法-侵权-共同危险行为模型.md",
+    "wiki/答题模型/民法-侵权-侵权责任模型.md",
     "raw/plaintext",
     "raw/mind/司法开始.xmind",
     "raw/mind",
