@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "b1c40b6e8e14bed5",
+            "id": "e2df66cf6f128bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-侵权-安全保障与教育机构第三人侵权模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-侵权-安全保障与教育机构第三人侵权模型"
+            }
+          },
+          {
+            "id": "7406c658a3bcda6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,21 +50,7 @@
             }
           },
           {
-            "id": "98a6f7b5c55a3918",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/民法-侵权-监护人责任模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民法-侵权-监护人责任模型"
-            }
-          },
-          {
-            "id": "dd624fd512d072f4",
+            "id": "267db9b6f7859972",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,21 +64,7 @@
             }
           },
           {
-            "id": "328190e54d42998a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/民法-侵权-正当防卫与紧急避险及救助模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民法-侵权-正当防卫与紧急避险及救助模型"
-            }
-          },
-          {
-            "id": "0b3bd9d2f63c6d0b",
+            "id": "00ca98cb90a7f485",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,9 +76,23 @@
               "icon": "lucide-file",
               "title": "民法-侵权-共同侵权与教唆帮助模型"
             }
+          },
+          {
+            "id": "b376b092c9c93478",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-侵权-监护人责任模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-侵权-监护人责任模型"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,34 +240,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd624fd512d072f4",
+  "active": "8242076721d7acec",
   "lastOpenFiles": [
+    "wiki/topics/刑法体系结构.md",
     "wiki/synthesis/侵权责任编考点-深度报告.md",
     "wiki/答题模型/民法-侵权-网络侵权责任模型.md",
     "wiki/答题模型/民法-侵权-用工劳务与承揽人侵权模型.md",
+    "wiki/答题模型/民法-侵权-共同侵权与教唆帮助模型.md",
     "wiki/答题模型/民法-侵权-监护人责任模型.md",
+    "wiki/exam-questions/侵权责任-单选-15 · 网络服务-拍照违约与通知删除规则.md",
+    "wiki/exam-questions/侵权责任-单选-46 · 教育机构责任-校外第三人侵权之诉讼共同被告与先行赔付案.md",
+    "wiki/答题模型/民法-侵权-安全保障与教育机构第三人侵权模型.md",
+    "wiki/答题模型/民法-侵权-侵权责任模型.md",
+    "wiki/exam-questions/侵权责任-单选-10 · 安保义务-洗浴中心地滑精神损害赔偿.md",
+    "wiki/答题模型/民法-侵权-饲养动物损害责任模型.md",
+    "wiki/synthesis/侵权责任编-深度报告.md",
+    "wiki/exam-questions/侵权责任-多选-11 · 定作人责任-承揽关系与施工损害.md",
+    "wiki/exam-questions/侵权责任-多选-29 · 帮工关系-因第三人致提供劳务者损害之补充补偿与向第三人追偿案.md",
+    "wiki/exam-questions/侵权责任-多选-08 · 劳务派遣-骨质疏松体质加重损害.md",
+    "wiki/exam-questions/侵权责任-单选-42 · 用人单位责任-工作人员执行任务中犯罪的刑民交叉与追缴退赔扣减案.md",
+    "wiki/答题模型/民法-侵权-自甘风险模型.md",
     "wiki/答题模型/民法-侵权-正当防卫与紧急避险及救助模型.md",
     "wiki/exam-questions/侵权责任-多选-18 · 未成年人盗驾-多方责任认定.md",
-    "wiki/答题模型/民法-侵权-共同侵权与教唆帮助模型.md",
     "wiki/exam-questions/侵权责任-多选-24 · 监护人责任-诉讼地位与成年后追加被告释明规则综合案.md",
     "wiki/exam-questions/侵权责任-单选-34 · 监护人责任-诉讼地位共同被告与成年后原监护人责任案.md",
     "wiki/exam-questions/侵权责任-多选-32 · 教育机构责任-学校未尽教育管理职责与第三人连带之诉讼程序综合案.md",
     "wiki/exam-questions/侵权责任-多选-31 · 网络服务-网络服务提供者知道或应当知道之红旗原则与连带责任认定案.md",
     "wiki/exam-questions/侵权责任-多选-30 · 定作人责任-定作指示选任过错之归责与定作人追偿权行使规则案.md",
-    "wiki/exam-questions/侵权责任-多选-29 · 帮工关系-因第三人致提供劳务者损害之补充补偿与向第三人追偿案.md",
     "wiki/exam-questions/侵权责任-多选-28 · 用人单位责任-个体工商户与执行任务人员致害责任主体综合判定案.md",
-    "wiki/exam-questions/侵权责任-多选-27 · 共同侵权与教唆帮助-教唆侵权之责任分担比例与监护人超额追偿案.md",
-    "wiki/exam-questions/侵权责任-单选-46 · 教育机构责任-校外第三人侵权之诉讼共同被告与先行赔付案.md",
-    "wiki/exam-questions/侵权责任-单选-45 · 网络服务-避风港原则之转通知删除与合理期间抗辩案.md",
-    "wiki/exam-questions/侵权责任-单选-44 · 定作人责任-承揽人独立致损与定作人选任过错责任判定案.md",
-    "wiki/exam-questions/侵权责任-单选-43 · 帮工责任-无偿帮工致人损害之被帮工人替代责任与追偿限度案.md",
-    "wiki/exam-questions/侵权责任-单选-42 · 用人单位责任-工作人员执行任务中犯罪的刑民交叉与追缴退赔扣减案.md",
-    "wiki/exam-questions/侵权责任-单选-41 · 共同侵权与教唆帮助-教唆无民事行为能力人侵权之主观认知免责抗辩排除案.md",
-    "raw/notes/prompt_考点考题生成.md",
-    "wiki/答题模型/民法-侵权-自助行为模型.md",
-    "wiki/exam-questions/侵权责任-单选-30 · 自助行为-出租车司机锁车门送警案.md",
-    "raw/notes/prompt_知识图谱.md",
-    "wiki/答题模型/民法-侵权-安全保障与教育机构第三人侵权模型.md",
     "raw/plaintext",
     "raw/mind/司法开始.xmind",
     "raw/mind",
