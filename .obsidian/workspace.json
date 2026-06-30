@@ -22,35 +22,7 @@
             }
           },
           {
-            "id": "db97a26a8388f39c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑法分论-人身与财产犯罪考点-深度报告"
-            }
-          },
-          {
-            "id": "6cc62cbdd10567cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑法-分论-人身犯罪-单选-02 · 被害人拒绝救治与因果关系阻断判定案 V2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑法-分论-人身犯罪-单选-02 · 被害人拒绝救治与因果关系阻断判定案 V2"
-            }
-          },
-          {
-            "id": "c86aa755cb74af26",
+            "id": "bee320b9a7649530",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,34 +36,105 @@
             }
           },
           {
-            "id": "35d51233f715e773",
+            "id": "83df73c90ad6b98a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑法-分论-人身犯罪-单选-01 · 故意杀人与医疗一般过失介入因果案 V2.md",
+                "file": "wiki/答题模型/刑法-分论-性自主权犯罪模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-分论-人身犯罪-单选-01 · 故意杀人与医疗一般过失介入因果案 V2"
+              "title": "刑法-分论-性自主权犯罪模型"
             }
           },
           {
-            "id": "414ed7415aad7837",
+            "id": "35ac714041c1c486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑法-总论-危害行为与因果关系模型.md",
+                "file": "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-总论-危害行为与因果关系模型"
+              "title": "刑法分论-人身与财产犯罪考点-深度报告"
+            }
+          },
+          {
+            "id": "b5b7addfb31b2986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑法-分论-侵犯人身权利犯罪模型"
+            }
+          },
+          {
+            "id": "534a3913ec55173d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/刑法-分论-人身犯罪-单选-62 · 照护职责性侵罪之事实照护关系同居男友主体认定案 V2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑法-分论-人身犯罪-单选-62 · 照护职责性侵罪之事实照护关系同居男友主体认定案 V2"
+            }
+          },
+          {
+            "id": "4f02978063a6afc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑法-总论-因果关系-介入因素模型"
+            }
+          },
+          {
+            "id": "f78fa812e00e041e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/刑法-总论-罪数形态模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑法-总论-罪数形态模型"
+            }
+          },
+          {
+            "id": "f2633fda62a266cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/刑法-总论-犯罪论总纲-导航模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑法-总论-犯罪论总纲-导航模型"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -239,34 +282,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "948e82427625e2a5",
+  "active": "b5b7addfb31b2986",
   "lastOpenFiles": [
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-02 · 被害人拒绝救治与因果关系阻断判定案 V2.md",
     "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
-    "raw/notes/prompt_考点模型生成.md",
-    "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
-    "wiki/答题模型/刑法-总论-刑法解释与罪刑法定模型.md",
-    "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
-    "wiki/答题模型/刑法-总论-因果关系中的介入因素模型.md",
-    "wiki/答题模型/刑法-总论-危害行为与因果关系模型.md",
-    "wiki/synthesis/刑法总论-犯罪论考点-深度报告.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-01 · 故意杀人与医疗一般过失介入因果案 V2.md",
+    "wiki/synthesis/侵权责任编考点-深度报告.md",
+    "wiki/synthesis/债务承担-深度报告.md",
+    "wiki/答题模型/刑法-分论-性自主权犯罪模型.md",
     "wiki/答题模型/刑法-总论-罪数形态模型.md",
-    "wiki/答题模型/刑法-分论-侵犯财产罪模型.md",
-    "wiki/答题模型/刑法-总论-刑罚裁量模型.md",
+    "wiki/synthesis/刑法总论-犯罪论考点-深度报告.md",
+    "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-62 · 照护职责性侵罪之事实照护关系同居男友主体认定案 V2.md",
     "wiki/答题模型/刑法-总论-犯罪论总纲-导航模型.md",
-    "wiki/答题模型/刑法-总论-违法阻却事由模型.md",
-    "wiki/exam-questions/刑法-总论-犯罪论-单选-14 · 偶然防卫的学说对决.md",
-    "wiki/exam-questions/刑法-总论-犯罪论-单选-18 · 紧急避险之报复动机不否定避险真题2015.md",
-    "wiki/exam-questions/刑法-总论-犯罪论-单选-17 · 正当防卫之不法侵害正在进行真题2007.md",
-    "wiki/exam-questions/刑法-总论-犯罪论-单选-37 · 不作为犯-特定危险创设与介入救助作为义务 V2.md",
-    "wiki/exam-questions/刑法-总论-犯罪论-单选-39 · 实行行为-法益侵害之紧迫危险与着手判定 V2.md",
-    "wiki/exam-questions/刑法-总论-犯罪论-单选-02 · 自愿接受行为与作为可能性.md",
-    "wiki/答题模型/刑法-总论-主观要件与认识错误模型.md",
-    "wiki/答题模型/刑法-总论-刑罚体系与种类模型.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-57 · 组织残疾人儿童乞讨罪与故意伤害并罚案 V2.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-56 · 暴力干涉婚姻自由罪致人死亡转公诉案 V2.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-55 · 非法侵入住宅罪之不作为形式与继续犯认定 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-60 · 强奸罪之致使被害人死亡结果加重犯与故意杀人界分案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-59 · 强奸罪之奸淫不满十周岁幼女刑修十一特别加重案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-61 · 照护职责性侵罪之非特殊职责主体与已满14不满16自愿出罪案 V2.md",
+    "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-19 · 网络隔空猥亵儿童之无接触猥亵定罪案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-60 · 强奸罪之违背意志与半途撤回同意认定案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-59 · 强奸罪之婚内强奸与妇女作为共犯判定案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-58 · 强奸罪之刑修十一幼女特殊加重与伤害结果案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-66 · 隔空猥亵对已满14妇女无接触胁迫裸聊定强制猥亵案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-65 · 猥亵儿童罪刑修十一加重情节公共场所当众猥亵多人案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-64 · 强制猥亵罪对象含男性与侮辱罪仅限妇女之对象辨析案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-63 · 照护职责性侵罪之利用优势地位孤立无援迫使转定强奸案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-58 · 强奸罪之公共场所当众强奸加重情节认定案 V2.md",
+    "wiki/exam-questions/刑法-分论-人身犯罪-单选-02 · 被害人拒绝救治与因果关系阻断判定案 V2.md",
+    "raw/notes/prompt_考点模型生成.md",
+    "wiki/答题模型/刑法-总论-刑法解释与罪刑法定模型.md",
+    "wiki/答题模型/刑法-总论-因果关系中的介入因素模型.md",
     "raw/plaintext",
     "raw/mind/司法开始.xmind",
     "raw/mind",
