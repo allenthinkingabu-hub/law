@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3bfe924a99c214f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/侵权责任编考点-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "侵权责任编考点-深度报告"
-            }
-          },
-          {
-            "id": "0fa52c6dc6422a4a",
+            "id": "ec64afcbf04dee1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,45 +22,31 @@
             }
           },
           {
-            "id": "a8de8aa68aa19af7",
+            "id": "89d1a58480cee67b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑法-总论-危害行为与因果关系模型.md",
+                "file": "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-总论-危害行为与因果关系模型"
+              "title": "刑法分论-人身与财产犯罪考点-深度报告"
             }
           },
           {
-            "id": "6788e67f7ddf01b7",
+            "id": "fe2794cfd2f1eacb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
+                "file": "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-总论-因果关系-介入因素模型"
-            }
-          },
-          {
-            "id": "3433da7d535efed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑法-总论-犯罪主体与责任能力模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑法-总论-犯罪主体与责任能力模型"
+              "title": "刑法分论-人身与财产犯罪考点-深度报告"
             }
           }
         ]
@@ -225,34 +197,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bfe924a99c214f6",
+  "active": "ec64afcbf04dee1d",
   "lastOpenFiles": [
-    "wiki/synthesis/贪污贿赂罪考点-深度报告.md",
     "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-06 · 盗窃罪之死者占有与紧接取财判定案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-05 · 盗窃罪之遗忘物与他人空间占有判定案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-04 · 盗窃罪之封缄物占有与侵占罪界分案 V2.md",
     "wiki/答题模型/刑法-分论-侵犯财产罪模型.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-03 · 抢劫罪之致使被害人死亡与故意杀人界分案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-02 · 抢劫罪之冒充军警抢劫认定案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-01 · 抢劫罪之入户抢劫认定案 V2.md",
-    "wiki/答题模型/刑法-总论-犯罪主体与责任能力模型.md",
-    "wiki/答题模型/刑法-总论-危害行为与因果关系模型.md",
-    "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-43 · 拒不支付劳动报酬罪之前置程序与处罚宽免案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-42 · 侵占与盗窃界分之代为保管物判定案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-41 · 侵占罪之绝对亲告与公诉限制案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-40 · 转化型抢劫之前提罪名限制案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-39 · 转化型抢劫之主体责任年龄判定案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-38 · 聚众哄抢与抢劫罪界分案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-37 · 聚众哄抢罪之主体范围判定案 V2.md",
     "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
-    "wiki/答题模型/刑法-分论-性自主权犯罪模型.md",
-    "wiki/答题模型/刑法-分论-人身自由犯罪模型.md",
-    "wiki/答题模型/刑法-总论-罪数模型-New.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-27 · 偷盗婴幼儿并向其家属勒索定绑架罪案 V2.md",
-    "wiki/答题模型/刑法-总论-罪数形态模型.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-22 · 非法拘禁索取非法债务扣押人质定性案 V2.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-25 · 绑架罪既遂后杀害人质不实行并罚案 V2.md",
-    "wiki/答题模型/刑法-总论-刑罚裁量模型.md",
-    "wiki/synthesis/侵权责任编考点-深度报告.md",
-    "wiki/synthesis/债务承担-深度报告.md",
-    "wiki/synthesis/刑法总论-犯罪论考点-深度报告.md",
-    "wiki/exam-questions/刑法-分论-人身犯罪-单选-62 · 照护职责性侵罪之事实照护关系同居男友主体认定案 V2.md",
-    "wiki/答题模型/刑法-总论-犯罪论总纲-导航模型.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-36 · 故意毁坏财物罪之砸毁共享单车案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-33 · 职务侵占罪之挪用资金与职务侵占归还意图辨析案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-35 · 破坏生产经营罪之因泄愤报复破坏服务器案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-34 · 故意毁坏与盗窃界分之放跑鱼塘鱼案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-32 · 职务侵占罪之2026年最新立案数额并轨认定案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-31 · 职务侵占罪之职务便利与工作便利界分案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-30 · 敲诈与抢夺之双罪界分案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-29 · 诈骗与敲诈之虚假绑架案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-28 · 敲诈与抢劫之当场虚无恶害相威胁索财案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-27 · 敲诈勒索罪之揭露隐私要挟索回赌债案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-26 · 敲诈勒索罪之曝光他人违法行为索取财物案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-25 · 敲诈勒索罪之消费者维权过度与敲诈界限案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-24 · 三角诈骗与诉讼诈骗竞合案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-23 · 三角诈骗之调换行李牌取走案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-22 · 三角诈骗与盗窃间接正犯之帮搬自行车案 V2.md",
+    "wiki/exam-questions/刑法-分论-财产犯罪-单选-21 · 诈骗罪之借手机打电话趁机溜走案 V2.md",
     "raw/plaintext",
     "raw/mind/司法开始.xmind",
     "raw/mind",
