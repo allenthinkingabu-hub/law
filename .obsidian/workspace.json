@@ -8,105 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec64afcbf04dee1d",
+            "id": "569fea0f4202d712",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑法-分论-侵犯财产罪模型.md",
+                "file": "wiki/synthesis/刑诉-强制措施制度-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-分论-侵犯财产罪模型"
+              "title": "刑诉-强制措施制度-深度报告"
             }
           },
           {
-            "id": "30ac4a305db59a5c",
+            "id": "6c07055fbea9d263",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
+                "file": "wiki/exam-questions/刑诉-强制-多选-02 · 取保候审决定机关与执行机关之权限划分及复议救济案 V2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法分论-人身与财产犯罪考点-深度报告"
+              "title": "刑诉-强制-多选-02 · 取保候审决定机关与执行机关之权限划分及复议救济案 V2"
             }
           },
           {
-            "id": "45c53d2a3e3b0fcd",
+            "id": "4ad195a7190ecfb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑法-分论-财产犯罪-单选-28 · 敲诈与抢劫之当场虚无恶害相威胁索财案 V2.md",
+                "file": "wiki/答题模型/刑法-总论-刑罚执行与消灭模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-分论-财产犯罪-单选-28 · 敲诈与抢劫之当场虚无恶害相威胁索财案 V2"
+              "title": "刑法-总论-刑罚执行与消灭模型"
             }
           },
           {
-            "id": "5af75aca257cf55b",
+            "id": "331f5ef63e970ab0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑法-分论-财产犯罪-单选-27 · 敲诈勒索罪之揭露隐私要挟索回赌债案 V2.md",
+                "file": "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-分论-财产犯罪-单选-27 · 敲诈勒索罪之揭露隐私要挟索回赌债案 V2"
+              "title": "刑法-总论-因果关系-介入因素模型"
             }
           },
           {
-            "id": "86742e5ffcc07a9a",
+            "id": "2e813f6ba4bc3182",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑法-分论-财产犯罪-单选-26 · 敲诈勒索罪之曝光他人违法行为索取财物案 V2.md",
+                "file": "wiki/答题模型/刑法-总论-刑罚裁量模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-分论-财产犯罪-单选-26 · 敲诈勒索罪之曝光他人违法行为索取财物案 V2"
+              "title": "刑法-总论-刑罚裁量模型"
             }
           },
           {
-            "id": "27e3869b8694f7c0",
+            "id": "9f9066ed71aeed1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑法-分论-财产犯罪-单选-25 · 敲诈勒索罪之消费者维权过度与敲诈界限案 V2.md",
+                "file": "wiki/exam-questions/刑诉-强制-多选-02 · 取保候审决定机关与执行机关之权限划分及复议救济案 V2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑法-分论-财产犯罪-单选-25 · 敲诈勒索罪之消费者维权过度与敲诈界限案 V2"
-            }
-          },
-          {
-            "id": "f8d03a695bdc21ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/合同总则考点-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "合同总则考点-深度报告"
+              "title": "刑诉-强制-多选-02 · 取保候审决定机关与执行机关之权限划分及复议救济案 V2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 655.5
+    "width": 480.5
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -254,42 +240,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30ac4a305db59a5c",
+  "active": "8242076721d7acec",
   "lastOpenFiles": [
-    "raw/notes/promp_考点题目覆盖检查.md",
-    "raw/notes/promp",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-28 · 敲诈与抢劫之当场虚无恶害相威胁索财案 V2.md",
-    "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-27 · 敲诈勒索罪之揭露隐私要挟索回赌债案 V2.md",
     "wiki/答题模型/刑法-分论-侵犯财产罪模型.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-26 · 敲诈勒索罪之曝光他人违法行为索取财物案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-25 · 敲诈勒索罪之消费者维权过度与敲诈界限案 V2.md",
+    "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
+    "wiki/答题模型/刑法-分论-人身自由犯罪模型.md",
+    "wiki/答题模型/刑诉-强制-拘传与取保及监居模型.md",
+    "wiki/exam-questions/刑诉-强制-多选-02 · 取保候审决定机关与执行机关之权限划分及复议救济案 V2.md",
+    "wiki/synthesis/刑诉-强制措施制度-深度报告.md",
+    "wiki/答题模型/刑法-总论-刑罚裁量模型.md",
+    "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
+    "wiki/exam-questions/刑诉-强制-单选-02 · 取保候审的保证方式与保证金起点.md",
+    "raw/notes/刑事诉讼法考试全流程解析-2026.md",
+    "wiki/exam-questions/刑诉-强制-单选-04 · 传唤与拘传之适用对象与跨区域执行地点限制案 V2.md",
+    "raw/notes/考点题目生成器_Prompt.md",
+    "wiki/exam-questions/刑诉-强制-单选-01 · 拘传的时限与二次拘传间隔.md",
+    "wiki/答题模型/刑法-总论-时空效力与管辖模型.md",
+    "wiki/sources/2026-07-02-考点自主生成题目.md",
+    "wiki/exam-questions/刑诉-强制-单选-03 · 指定居所监视居住的适用条件与折抵.md",
+    "wiki/exam-questions/刑诉-强制-多选-01 · 取保候审人法定义务与保证人监督责任.md",
     "wiki/synthesis/合同总则考点-深度报告.md",
-    "wiki/synthesis/合同总则-深度报告.md",
-    "wiki/synthesis/总则编考点-深度报告.md",
-    "raw/notes/13 合同的订立与效力.md",
-    "wiki/答题模型/民法-合同-合同可撤销模型.md",
-    "wiki/entities/要约邀请.md",
-    "wiki/entities/要约.md",
-    "wiki/exam-questions/合同通则-单选-31.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-32 · 职务侵占罪之2026年最新立案数额并轨认定案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-31 · 职务侵占罪之职务便利与工作便利界分案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-60 · 职务侵占罪与贪污罪界分之“村委会成员双重身份与业务性质”案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-55 · 挪用资金罪与挪用公款、挪用特定款物罪界分案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-57 · 挪用资金罪之逃避监管以个人名义借贷其他单位认定案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-56 · 挪用资金罪之“归个人使用”与单位间挪用界限案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-58 · 挪用资金罪与挪用公款、挪用特定款物罪之私营公益组织款项挪用界分案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-59 · 挪用资金罪与挪用公款罪共同犯罪之职务便利归属定性案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-33 · 职务侵占罪之挪用资金与职务侵占归还意图辨析案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-42 · 侵占与盗窃界分之代为保管物判定案 V2.md",
-    "wiki/exam-questions/刑法-分论-财产犯罪-单选-41 · 侵占罪之绝对亲告与公诉限制案 V2.md",
-    "raw/plaintext",
-    "raw/mind/司法开始.xmind",
-    "raw/mind",
-    "wiki/答题模型",
-    "raw/notes/考点精解_合同的变更和转让_故事版.html",
+    "raw/notes/2026年刑事诉讼法考试全流程拆解.md",
+    "raw/notes/2026-06-24-刑罚完整层级知识图谱.md",
+    "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
+    "raw/notes/prompt_01_考点内容是否确实.md",
+    "raw/notes/题目分析_prompt.md",
+    "raw/notes/问题生器_prompt.md",
+    "raw/notes/考点精解_要约与承诺_故事版.html",
+    "raw/notes/考点精解_要约与承诺.html",
     "raw/notes/考点精解_合同的履行_故事版.html",
+    "raw/notes/考点精解_合同的变更和转让_故事版.html",
+    "raw/notes/考点精解_合同效力_故事版.html",
     "raw/notes/考点精解_债法总论_合同编适用范围_故事版.html",
+    "raw/notes/考点卡生成器_Prompt.md",
+    "raw/notes/竞合_精神损害赔偿.md",
+    "raw/notes/民法目录级骨架.html",
+    "raw/notes/2026法考知识体系分类.html",
+    "raw/notes",
+    "raw/prompt_01_考点报告_考点内容是否确实.md/考点精解_要约与承诺_故事版.html",
     "Untitled.canvas"
   ]
 }
