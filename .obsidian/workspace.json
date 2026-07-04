@@ -41,6 +41,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑诉-审判程序-深度报告"
+            }
+          },
+          {
+            "id": "f7eb72f8ad12fdfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
                 "mode": "source",
                 "source": false
@@ -48,9 +62,51 @@
               "icon": "lucide-file",
               "title": "刑诉-刑事证据制度-深度报告"
             }
+          },
+          {
+            "id": "9d7cd850b502fad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑诉-审判程序-深度报告"
+            }
+          },
+          {
+            "id": "242fcfd191421fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑诉-审判程序-深度报告"
+            }
+          },
+          {
+            "id": "df9a73068f965663",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/notes/刑事诉讼法考试全流程解析-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑事诉讼法考试全流程解析-2026"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -198,34 +254,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d49197fb36bc56ca",
+  "active": "df9a73068f965663",
   "lastOpenFiles": [
-    "raw/notes/刑事诉讼法考试全流程解析-2026.md",
-    "wiki/synthesis/刑诉-强制措施制度-深度报告.md",
+    "raw/notes/2026刑诉真金题 第十一章 立案1.md",
+    "raw/notes/2026刑诉真金题 第十二章 侦查与监察机关的调查000.md",
+    "raw/notes/2026刑诉真金题 第十二章 侦查与监察机关的调查0001.md",
+    "raw/notes/2026刑诉真金题 第十一章 立案.md",
+    "wiki/synthesis/刑诉-审判程序-深度报告.md",
     "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
-    "wiki/答题模型/刑诉-强制-变更解除与救济程序模型.md",
-    "wiki/exam-questions/刑诉-强制-多选-02 · 取保候审决定机关与执行机关之权限划分及复议救济案 V2.md",
-    "wiki/exam-questions/刑诉-强制-单选-07 · 被取保人逃跑定性及涉罪并罚与没收保证金复议期限案 V2.md",
-    "wiki/exam-questions/刑诉-强制-多选-08 · 强制措施法定与比例及必要性原则辨析案.md",
-    "wiki/exam-questions/刑诉-强制-多选-24 · 释放被逮捕人与间谍案指监变更中之必要性与变更性及比例原则适用案.md",
-    "wiki/exam-questions/刑诉-强制-多选-23 · 刑事诉讼法基本原则与程序法定及比例原则适用案.md",
-    "wiki/exam-questions/刑诉-强制-单选-21 · 诈骗案一审宣判缓刑免刑无罪后羁押与非羁押强制措施变更解除案.md",
-    "wiki/exam-questions/刑诉-强制-多选-22 · 法院阶段应当变更解除强制措施之缓刑与超期审限案.md",
-    "wiki/entities/程序法定原则.md",
-    "wiki/entities/必要性原则.md",
-    "wiki/entities/比例原则.md",
-    "wiki/exam-questions/刑诉-强制-多选-07 · 强制措施变更性原则与期间届满释放或变更案.md",
-    "wiki/entities/变更性原则.md",
-    "raw/notes/监察委员会、公安局、检察院、法院职能分工详解.md",
-    "wiki/exam-questions/刑诉-强制-单选-19 · 组织淫秽表演案之逮捕与羁押必要性审查管辖阶段时限案.md",
-    "wiki/exam-questions/刑诉-强制-多选-15 · 审判阶段取保变逮捕与先行拘留权及必要性审查主体案.md",
-    "raw/notes/刑事强制措施变更责任主体解析.md",
-    "wiki/entities/羁押期限体系.md",
-    "wiki/exam-questions/刑诉-强制-单选-20 · 猥亵儿童案之不公开审查与法院阶段羁押必要性依职权审查案.md",
-    "raw/notes/诉讼流程编号体系.md",
-    "wiki/exam-questions/刑诉-强制-单选-17 · 监视居住电子监控与口头拘传及羁押必要性建议主体案.md",
-    "刑诉-强制-变更解除与救济程序模型.md",
-    "raw/notes/监察委员会、公安局、检察院、法院职能分工详解 (1).md",
+    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据3.md",
+    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据2.md",
+    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据1.md",
+    "wiki/sources/2026-07-04-刑事证据真题入库六期.md",
+    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据4.md",
+    "wiki/exam-questions/刑诉-证据-多选-37 · 夫妻杀人告知案中直接与传闻证据双重属性及配偶拒证免责.md",
+    "wiki/exam-questions/刑诉-证据-多选-36 · 夫妻盗窃告知案中作证义务与发问顺序及庭前笔录效力.md",
+    "wiki/exam-questions/刑诉-证据-多选-35 · 伤害案中被害人亲属证人出庭免受强制例外与诉讼身份冲突.md",
+    "wiki/exam-questions/刑诉-证据-多选-34 · 茶叶盒贩毒案中指纹物证与无罪辩解之证据分类.md",
+    "wiki/exam-questions/刑诉-证据-多选-33 · 酒吧抢劫案中监控视听与聊天电子数据及证言定性.md",
+    "wiki/sources/2026-07-04-刑事证据真题入库五期.md",
+    "wiki/exam-questions/刑诉-证据-多选-32 · 顾某诈骗案中重复性供述法庭排除与阶段转化规则.md",
+    "wiki/exam-questions/刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则.md",
+    "wiki/exam-questions/刑诉-证据-单选-16 · 传来与传闻证据学理认定与例外例外规则.md",
+    "wiki/exam-questions/刑诉-证据-单选-15 · 证据证明力调整规则与证据能力规则判定.md",
+    "wiki/exam-questions/刑诉-证据-多选-31 · 盗窃黑胶唱片案中实物与言词及直接间接证据定性.md",
+    "wiki/exam-questions/刑诉-证据-多选-30 · 强奸案中意见证据排除与事实判断例外.md",
+    "wiki/exam-questions/刑诉-证据-多选-29 · 黑社会组织案证人保护措施与出庭说明规则.md",
+    "wiki/exam-questions/刑诉-证据-单选-14 · 专门知识人发问权限与鉴定人强制出庭限制.md",
+    "wiki/exam-questions/刑诉-证据-单选-13 · 证人与鉴定人出庭规则及庭前笔录效力.md",
     "index.md.tmp.85187.4e934f5e2940",
     "wiki/exam-questions/刑诉-强制-单选-29",
     "wiki/答题模型/刑诉-强制-刑事拘留与逮捕审查模型.md.tmp.53862.aa35710d2917",
