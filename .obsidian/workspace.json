@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cac55f629475019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/刑诉-强制措施制度-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-强制措施制度-深度报告"
-            }
-          },
-          {
-            "id": "c3a462a5741d54a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/notes/刑事诉讼法考试全流程解析-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑事诉讼法考试全流程解析-2026"
-            }
-          },
-          {
-            "id": "d49197fb36bc56ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-审判程序-深度报告"
-            }
-          },
-          {
-            "id": "f7eb72f8ad12fdfb",
+            "id": "af9c23e8176515f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,49 +22,91 @@
             }
           },
           {
-            "id": "9d7cd850b502fad4",
+            "id": "247486940cdd5490",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
+                "file": "wiki/答题模型/民法-合同-成立与生效模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判程序-深度报告"
+              "title": "民法-合同-成立与生效模型"
             }
           },
           {
-            "id": "242fcfd191421fbc",
+            "id": "eea57faeadd4960e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
+                "file": "wiki/答题模型/民法-合同-效力待定模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判程序-深度报告"
+              "title": "民法-合同-效力待定模型"
             }
           },
           {
-            "id": "df9a73068f965663",
+            "id": "94e79a80ad2258dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/notes/刑事诉讼法考试全流程解析-2026.md",
+                "file": "wiki/答题模型/民法-合同-解除模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑事诉讼法考试全流程解析-2026"
+              "title": "民法-合同-解除模型"
+            }
+          },
+          {
+            "id": "dfb9fc21c6b778a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-合同-缔约过失责任模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-合同-缔约过失责任模型"
+            }
+          },
+          {
+            "id": "1b58e88d1f1685e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-合同-违约责任模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-合同-违约责任模型"
+            }
+          },
+          {
+            "id": "fdb089a32b81ca1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/民法-合同-预约合同模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民法-合同-预约合同模型"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,34 +254,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df9a73068f965663",
+  "active": "eea57faeadd4960e",
   "lastOpenFiles": [
-    "raw/notes/2026刑诉真金题 第十一章 立案1.md",
-    "raw/notes/2026刑诉真金题 第十二章 侦查与监察机关的调查000.md",
-    "raw/notes/2026刑诉真金题 第十二章 侦查与监察机关的调查0001.md",
-    "raw/notes/2026刑诉真金题 第十一章 立案.md",
-    "wiki/synthesis/刑诉-审判程序-深度报告.md",
+    "wiki/答题模型/民法-合同-成立与生效模型.md",
     "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
-    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据3.md",
-    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据2.md",
-    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据1.md",
-    "wiki/sources/2026-07-04-刑事证据真题入库六期.md",
-    "raw/notes/2026左宁刑诉真金题 第七章 刑事证据4.md",
-    "wiki/exam-questions/刑诉-证据-多选-37 · 夫妻杀人告知案中直接与传闻证据双重属性及配偶拒证免责.md",
-    "wiki/exam-questions/刑诉-证据-多选-36 · 夫妻盗窃告知案中作证义务与发问顺序及庭前笔录效力.md",
-    "wiki/exam-questions/刑诉-证据-多选-35 · 伤害案中被害人亲属证人出庭免受强制例外与诉讼身份冲突.md",
-    "wiki/exam-questions/刑诉-证据-多选-34 · 茶叶盒贩毒案中指纹物证与无罪辩解之证据分类.md",
-    "wiki/exam-questions/刑诉-证据-多选-33 · 酒吧抢劫案中监控视听与聊天电子数据及证言定性.md",
-    "wiki/sources/2026-07-04-刑事证据真题入库五期.md",
-    "wiki/exam-questions/刑诉-证据-多选-32 · 顾某诈骗案中重复性供述法庭排除与阶段转化规则.md",
-    "wiki/exam-questions/刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则.md",
-    "wiki/exam-questions/刑诉-证据-单选-16 · 传来与传闻证据学理认定与例外例外规则.md",
-    "wiki/exam-questions/刑诉-证据-单选-15 · 证据证明力调整规则与证据能力规则判定.md",
-    "wiki/exam-questions/刑诉-证据-多选-31 · 盗窃黑胶唱片案中实物与言词及直接间接证据定性.md",
-    "wiki/exam-questions/刑诉-证据-多选-30 · 强奸案中意见证据排除与事实判断例外.md",
-    "wiki/exam-questions/刑诉-证据-多选-29 · 黑社会组织案证人保护措施与出庭说明规则.md",
-    "wiki/exam-questions/刑诉-证据-单选-14 · 专门知识人发问权限与鉴定人强制出庭限制.md",
-    "wiki/exam-questions/刑诉-证据-单选-13 · 证人与鉴定人出庭规则及庭前笔录效力.md",
+    "wiki/答题模型/民法-合同-解除模型.md",
+    "wiki/答题模型/民法-合同-违约责任模型.md",
+    "wiki/答题模型/民法-合同-缔约过失责任模型.md",
+    "raw/mind/~$司法考试.drawio.dtmp",
+    "wiki/答题模型/民法-合同-一物多卖模型.md",
+    "wiki/sources/2026-07-04-成立但未生效三类规则详解.md",
+    "raw/notes/2026-07-04-成立但未生效三类规则详解.md",
+    "wiki/entities/合同效力分级.md",
+    "wiki/sources/2026-07-05-刑事证据真题入库十期.md",
+    "raw/mind/司法考试.drawio",
+    "wiki/exam-questions/刑诉-证据-多选-50 · 洗钱案中自白与无罪辩解及传来猜测证据定性.md",
+    "wiki/exam-questions/刑诉-证据-多选-49 · 监察与公安管辖案之补充调查及录音录像查阅与有利辩解排除限制.md",
+    "wiki/exam-questions/刑诉-证据-多选-48 · 侦查阶段排非申请与线索释明要件及举证责任倒置.md",
+    "wiki/exam-questions/刑诉-证据-多选-47 · 审查逮捕中非法证据核查与纠正及重复供述排除.md",
+    "wiki/exam-questions/刑诉-证据-多选-13 · 主观明知待证事实下的间接证据识别.md",
+    "wiki/exam-questions/刑诉-证据-多选-12 · 证人资格与补强证据规则综合.md",
+    "wiki/exam-questions/刑诉-证据-多选-11 · 原始与直接证据的双重合格判定.md",
+    "wiki/exam-questions/刑诉-证据-多选-10 · 关联性与意见证据规则综合.md",
+    "wiki/synthesis/合同总则考点-深度报告.md",
+    "wiki/答题模型/民法-合同-预约合同模型.md",
+    "wiki/sources/2026-07-05-刑事证据真题入库九期.md",
+    "wiki/exam-questions/刑诉-证据-多选-46 · 生效裁判事实免证与虚假陈述证据性质及伪证被诬陷人身份判定.md",
+    "wiki/exam-questions/刑诉-证据-多选-45 · 证明对象之主观明知与量刑事实及免证事项界限.md",
+    "wiki/exam-questions/刑诉-证据-多选-44 · 刑事诉讼证明责任主体之自诉反诉与民事原告界限.md",
+    "wiki/exam-questions/刑诉-证据-单选-22 · 电子数据篡改排除与行政证言限制及物证清单瑕疵.md",
+    "wiki/exam-questions/刑诉-证据-多选-43 · U盘扣押笔录与拆封录像要求及未封存排除后果.md",
     "index.md.tmp.85187.4e934f5e2940",
     "wiki/exam-questions/刑诉-强制-单选-29",
     "wiki/答题模型/刑诉-强制-刑事拘留与逮捕审查模型.md.tmp.53862.aa35710d2917",
@@ -290,8 +292,6 @@
     "raw/notes/考点精解_要约与承诺.html",
     "raw/notes/考点精解_合同的履行_故事版.html",
     "raw/notes/考点精解_合同的变更和转让_故事版.html",
-    "raw/notes/考点精解_合同效力_故事版.html",
-    "raw/notes/考点精解_债法总论_合同编适用范围_故事版.html",
     "Untitled.canvas"
   ]
 }
