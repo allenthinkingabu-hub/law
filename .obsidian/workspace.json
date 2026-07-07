@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "5b79b74aaa646640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑诉-证据-非法证据排除实体标准"
+            }
+          },
+          {
             "id": "0fca9464618bc318",
             "type": "leaf",
             "state": {
@@ -213,8 +227,9 @@
   },
   "active": "884388fb743c4a7d",
   "lastOpenFiles": [
-    "wiki/答题模型/刑诉-证据-补强证据与意见证据规则模型.md",
+    "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
     "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
+    "wiki/答题模型/刑诉-证据-补强证据与意见证据规则模型.md",
     "wiki/exam-questions/刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则.md",
     "wiki/exam-questions/刑诉-证据-多选-10 · 关联性与意见证据规则综合.md",
     "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
@@ -222,7 +237,6 @@
     "wiki/exam-questions/刑诉-证据-多选-27 · 猥亵儿童案中身份竞合与言词证据印证规则.md",
     "wiki/答题模型/刑诉-证据-非法证据排除程序流转.md",
     "wiki/答题模型/刑诉-证据-重复性供述排除模型.md",
-    "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
     "wiki/exam-questions/刑诉-证据-多选-58 · 不得强迫自证其罪与如实回答义务的并存（§52仿真题）.md",
     "wiki/sources/2026-07-06-刑诉不得强迫自证其罪条文核实.md",
     "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
