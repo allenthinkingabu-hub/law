@@ -22,62 +22,49 @@
             }
           },
           {
-            "id": "5b79b74aaa646640",
+            "id": "fd9819ad536dd2bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
+                "file": "wiki/答题模型/刑诉-证据-言词证据审查模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-非法证据排除实体标准"
+              "title": "刑诉-证据-言词证据审查模型"
             }
           },
           {
-            "id": "0fca9464618bc318",
+            "id": "0d0aa60f609fbe23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑诉-证据-补强证据与意见证据规则模型.md",
+                "file": "wiki/答题模型/刑诉-证据-法定种类识别模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-补强证据与意见证据规则模型"
+              "title": "刑诉-证据-法定种类识别模型"
             }
           },
           {
-            "id": "79d5f046eabc70d3",
+            "id": "6542ede72152d37e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则.md",
+                "file": "wiki/答题模型/刑诉-证据-实物证据审查与法定排除模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则"
-            }
-          },
-          {
-            "id": "ab37f4cef4f13a50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑诉-证据-多选-10 · 关联性与意见证据规则综合.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-多选-10 · 关联性与意见证据规则综合"
+              "title": "刑诉-证据-实物证据审查与法定排除模型"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,34 +212,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "884388fb743c4a7d",
+  "active": "0d0aa60f609fbe23",
   "lastOpenFiles": [
-    "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
+    "wiki/答题模型/刑诉-证据-实物证据审查与法定排除模型.md",
+    "wiki/答题模型/刑诉-证据-言词证据审查模型.md",
     "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
-    "wiki/答题模型/刑诉-证据-补强证据与意见证据规则模型.md",
-    "wiki/exam-questions/刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则.md",
-    "wiki/exam-questions/刑诉-证据-多选-10 · 关联性与意见证据规则综合.md",
-    "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-21 · 意见证据推定主观明知的排除例外.md",
-    "wiki/exam-questions/刑诉-证据-多选-27 · 猥亵儿童案中身份竞合与言词证据印证规则.md",
-    "wiki/答题模型/刑诉-证据-非法证据排除程序流转.md",
-    "wiki/答题模型/刑诉-证据-重复性供述排除模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-58 · 不得强迫自证其罪与如实回答义务的并存（§52仿真题）.md",
-    "wiki/sources/2026-07-06-刑诉不得强迫自证其罪条文核实.md",
-    "wiki/答题模型/刑法-总论-因果关系-介入因素模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-02 · 证据关联性的判断标准.md",
-    "wiki/exam-questions/刑诉-证据-单选-11 · 证据关联性属性判定与证明力判定.md",
-    "wiki/exam-questions/刑诉-证据-单选-04 · 质证程序体现证据合法性原则.md",
-    "wiki/答题模型/刑诉-证据-学理分类判定模型.md",
     "wiki/答题模型/刑诉-证据-法定种类识别模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-23 · 恐吓信与传言口供的传来证据链判定.md",
-    "wiki/exam-questions/刑诉-证据-多选-31 · 盗窃黑胶唱片案中实物与言词及直接间接证据定性.md",
-    "wiki/sources/2026-07-06-刑诉母题入库证据二期.md",
-    "wiki/exam-questions/刑诉-证据-多选-57 · 甲醉驾案交警笔录证据能力与刑讯逼供附带民事及自侦管辖辨析.md",
-    "wiki/exam-questions/刑诉-证据-多选-56 · 甲乙丙丁四案中证明责任承担主体的错误归属辨析.md",
-    "wiki/exam-questions/刑诉-证据-单选-23 · 赵某石某案辨认笔录形式瑕疵之补正与合理解释边界.md",
-    "wiki/sources/2026-07-06-刑诉母题入库强制措施二期.md",
-    "wiki/exam-questions/刑诉-证据-多选-55 · 李某案辩护律师侦查阶段申请排除非法证据的正确路径辨析.md",
+    "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
+    "wiki/exam-questions/刑诉-证据-单选-22 · 电子数据篡改排除与行政证言限制及物证清单瑕疵.md",
+    "wiki/exam-questions/刑诉-证据-多选-36 · 夫妻盗窃告知案中作证义务与发问顺序及庭前笔录效力.md",
+    "wiki/exam-questions/刑诉-证据-多选-07 · 侦查清单与视听资料的定性陷阱.md",
+    "raw/notes/公检法监四机关分工、交互、全案件流转流程文档（法考完整版·带真实案例）.md",
+    "raw/notes/刑事证据分类核心判断标准解析.md",
+    "raw/notes/刑事责任年龄 vs 证人资格 完整整理.md",
+    "raw/notes/法考刑法第18条三类精神病人刑事责任能力划分详解.md",
+    "刑诉-证据-多选-05.md",
+    "刑诉-证据-多选-04.md",
+    "wiki/exam-questions/刑诉-证据-多选-49 · 监察与公安管辖案之补充调查及录音录像查阅与有利辩解排除限制.md",
+    "wiki/exam-questions/刑诉-证据-多选-09 · 同案被告人陈述的定性归类.md",
+    "刑诉-证据-物证书证审查模型.md",
+    "wiki/exam-questions/刑诉-证据-多选-08 · 供述与辩解的识别边界.md",
+    "wiki/答题模型/刑诉-证据-证明责任与证明标准.md",
+    "wiki/答题模型/刑诉-证据-证人鉴定人出庭制度模型.md",
+    "wiki/答题模型/刑诉-证据-鉴定意见审查模型.md",
+    "wiki/exam-questions/刑诉-证据-多选-51 · 工程安全事故案检验报告与检验人回避出庭义务辨析.md",
+    "wiki/exam-questions/刑诉-证据-单选-13 · 证人与鉴定人出庭规则及庭前笔录效力.md",
+    "wiki/exam-questions/刑诉-证据-多选-25 · 危险驾驶案中实物与言词证据可采性审查.md",
+    "wiki/答题模型/刑诉-证据-学理分类判定模型.md",
+    "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
     "wiki/synthesis/刑诉-强制措施制度-深度报告.md.tmp.44796.158ba0f7f04a",
     "raw/notes/006刑诉母题（2026）.pdf",
     "wiki/synthesis/刑法分论-经济与网络犯罪考点-深度报告.md.tmp.44796.797e813be6cd",
