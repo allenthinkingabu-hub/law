@@ -22,76 +22,21 @@
             }
           },
           {
-            "id": "4e9c49dca3c42b62",
+            "id": "d8bbaf94c25d7ee4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
+                "file": "wiki/答题模型/刑诉-审判-简易速裁与程序转换模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-证据裁判原则与证明基本法理模型"
-            }
-          },
-          {
-            "id": "a1c248b3da638519",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-证据裁判原则与证明基本法理模型"
-            }
-          },
-          {
-            "id": "85ca847d1239dbe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-证据-证人鉴定人出庭制度模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-证人鉴定人出庭制度模型"
-            }
-          },
-          {
-            "id": "aad8a7010aae9579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-证据-证明责任与证明标准.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-证明责任与证明标准"
-            }
-          },
-          {
-            "id": "2ed377d3e0f8eea9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-侦查-技术侦查措施模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-侦查-技术侦查措施模型"
+              "title": "刑诉-审判-简易速裁与程序转换模型"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,34 +184,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9fdd5e1b3a941f0",
+  "active": "d8bbaf94c25d7ee4",
   "lastOpenFiles": [
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 175.md",
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 186.md",
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 189.md",
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 85.md",
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 二审程序 1-23.md",
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 二审程序（续篇新题24-39）.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 二审.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 审判监督程序.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 死刑复核.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 一审-172.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 一审-159.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 一审-148.md",
-    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 刑事审判概述.md",
-    "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
-    "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
-    "wiki/答题模型/刑诉-侦查-技术侦查措施模型.md",
-    "wiki/synthesis/刑诉-侦查与监察制度-深度报告.md",
-    "wiki/答题模型/刑诉-证据-证明责任与证明标准.md",
-    "wiki/答题模型/刑诉-证据-证人鉴定人出庭制度模型.md",
-    "wiki/exam-questions/刑诉-证据-单选-24 · 技术侦查材料的证据资格与庭外核实（仿真题）.md",
-    "wiki/exam-questions/刑诉-证据-单选-20 · 公诉与自诉案件证明责任分配与辩方责任豁免.md",
-    "wiki/exam-questions/刑诉-证据-单选-18 · 刑事公诉与自诉中说服责任与举证责任分配.md",
-    "wiki/exam-questions/刑诉-证据-多选-56 · 甲乙丙丁四案中证明责任承担主体的错误归属辨析.md",
-    "wiki/exam-questions/刑诉-证据-多选-44 · 刑事诉讼证明责任主体之自诉反诉与民事原告界限.md",
-    "wiki/exam-questions/刑诉-证据-多选-38 · 刑事诉讼中证明责任承担主体的界定范围.md",
-    "wiki/exam-questions/刑诉-证据-多选-24 · 鉴定意见形式瑕疵与证据材料调查规则.md",
+    "raw/notes/200 刑事管辖之级别管辖详解.md",
+    "raw/notes/刑事管辖之级别管辖详解.md",
+    "wiki/答题模型/刑诉-审判-审判组织与人民陪审员模型.md",
+    "wiki/sources/2026-07-08-刑诉母题入库审判程序自诉与中断期.md",
+    "wiki/sources/2026-07-08-刑诉母题入库二审程序一期.md",
+    "wiki/sources/2026-07-08-刑诉母题入库二审程序二期.md",
+    "wiki/synthesis/刑诉-审判程序-深度报告.md",
+    "wiki/exam-questions/刑诉-审判-多选-99 · 二审应当开庭审理的情形死刑死缓抗诉.md",
+    "wiki/exam-questions/刑诉-审判-多选-98 · 鲁某关某贩毒死刑案仅关某上诉的二审开庭.md",
+    "wiki/exam-questions/刑诉-审判-单选-70 · 中止审理适用情形的甄别.md",
+    "wiki/exam-questions/刑诉-审判-单选-73 · 自诉伤害案发现被告人另涉抢劫的移送处理.md",
+    "wiki/exam-questions/刑诉-审判-多选-97 · 甲乙盗窃药材部分证据不足乙上诉的二审处理.md",
+    "wiki/exam-questions/刑诉-审判-多选-112 · 甲贩毒盗窃突发死亡案在案财物返还与毒品照片证据.md",
+    "wiki/exam-questions/刑诉-审判-多选-96 · 二审自诉案件调解和解撤诉与一审裁判撤销.md",
+    "wiki/exam-questions/刑诉-审判-多选-70 · 谢某哄抬口罩价格案感染新冠的诉讼处理.md",
+    "wiki/exam-questions/刑诉-审判-多选-79 · 自诉案件撤诉继续审理准许撤回与二审反诉受理.md",
+    "wiki/exam-questions/刑诉-审判-多选-95 · 被告人程序选择权的边界辨析.md",
+    "wiki/exam-questions/刑诉-审判-多选-111 · 王某贪污监察委留置案取保衔接补充调查与无罪解除查封.md",
+    "wiki/exam-questions/刑诉-审判-多选-75 · 重婚案幼儿作证公诉为主自诉为辅扣押与住处讯问.md",
+    "wiki/exam-questions/刑诉-审判-多选-94 · 孙某伤害案发回重审后审判人员进入审委会的回避.md",
+    "wiki/exam-questions/刑诉-审判-多选-69 · 审理程序中断休庭延期中止终止四分法.md",
+    "wiki/exam-questions/刑诉-审判-单选-69 · 盗窃案证据不足兼未满十六周岁的无罪判决形式.md",
+    "wiki/答题模型/刑诉-审判-简易速裁与程序转换模型.md",
+    "wiki/exam-questions/刑诉-审判-多选-93 · 甲乙共同杀人甲死刑立即执行上诉的二审程序.md",
+    "wiki/exam-questions/刑诉-审判-多选-110 · 第二审应当撤销原判发回重审的法定程序违法情形.md",
+    "wiki/exam-questions/刑诉-审判-单选-72 · 自诉案件审限一二审和解反诉受理与二审调解处理.md",
+    "wiki/exam-questions/刑诉-审判-单选-92 · 二审改判是否违反上诉不加刑原则的四情形辨析.md.tmp.67287.0fba4243d70c",
     "index.md.tmp.63153.244b2b079971",
     "wiki/synthesis/刑诉-强制措施制度-深度报告.md.tmp.44796.158ba0f7f04a",
     "raw/notes/006刑诉母题（2026）.pdf",
@@ -276,7 +222,6 @@
     "wiki/synthesis/刑法分论-经济与网络犯罪考点-深度报告.md.tmp.44796.f9a60887877c",
     "wiki/synthesis/刑法分论-经济与网络犯罪考点-深度报告.md.tmp.44796.31de34420f38",
     "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md.tmp.44796.d22676c3a120",
-    "wiki/synthesis/刑法分论-人身与财产犯罪考点-深度报告.md.tmp.44796.1040a2d4c5aa",
     "Untitled.canvas"
   ]
 }
