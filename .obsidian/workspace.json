@@ -8,63 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "884388fb743c4a7d",
+            "id": "a9fdd5e1b3a941f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
+                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-刑事证据制度-深度报告"
+              "title": "刑诉-审判程序-深度报告"
             }
           },
           {
-            "id": "d80a864f4d3eafde",
+            "id": "4e9c49dca3c42b62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/刑诉-证据-行政证据转化模型.md",
+                "file": "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-行政证据转化模型"
+              "title": "刑诉-证据-证据裁判原则与证明基本法理模型"
             }
           },
           {
-            "id": "07dd75833956d20e",
+            "id": "a1c248b3da638519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-证据-多选-29 · 黑社会组织案证人保护措施与出庭说明规则.md",
+                "file": "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-多选-29 · 黑社会组织案证人保护措施与出庭说明规则"
+              "title": "刑诉-证据-证据裁判原则与证明基本法理模型"
             }
           },
           {
-            "id": "a61aea32acab8a96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑诉-证据-多选-36 · 夫妻盗窃告知案中作证义务与发问顺序及庭前笔录效力.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-多选-36 · 夫妻盗窃告知案中作证义务与发问顺序及庭前笔录效力"
-            }
-          },
-          {
-            "id": "b0a53fe5c2c459c6",
+            "id": "85ca847d1239dbe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,77 +64,34 @@
             }
           },
           {
-            "id": "9ec086a246a308c3",
+            "id": "aad8a7010aae9579",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-证据-多选-27 · 猥亵儿童案中身份竞合与言词证据印证规则.md",
+                "file": "wiki/答题模型/刑诉-证据-证明责任与证明标准.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-多选-27 · 猥亵儿童案中身份竞合与言词证据印证规则"
+              "title": "刑诉-证据-证明责任与证明标准"
             }
           },
           {
-            "id": "d4c39e96c23e7343",
+            "id": "2ed377d3e0f8eea9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-证据-多选-22 · 未成年人证言能力与印证规则.md",
+                "file": "wiki/答题模型/刑诉-侦查-技术侦查措施模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-证据-多选-22 · 未成年人证言能力与印证规则"
-            }
-          },
-          {
-            "id": "944230647616b6dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑诉-证据-多选-19 · 证人询问地点与鉴定人主体资格排他性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-多选-19 · 证人询问地点与鉴定人主体资格排他性"
-            }
-          },
-          {
-            "id": "c4ee77aefed19b79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-证据-补强证据与意见证据规则模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-补强证据与意见证据规则模型"
-            }
-          },
-          {
-            "id": "8f0b76dcce3ee14e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-证据-学理分类判定模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-证据-学理分类判定模型"
+              "title": "刑诉-侦查-技术侦查措施模型"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,35 +239,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d80a864f4d3eafde",
+  "active": "a9fdd5e1b3a941f0",
   "lastOpenFiles": [
-    "raw/notes/刑事诉讼证据两大完整轨道：言词证据轨道与实物证据轨道.md",
+    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 175.md",
+    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 186.md",
+    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 189.md",
+    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 85.md",
+    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 二审程序 1-23.md",
+    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 二审程序（续篇新题24-39）.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 二审.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 审判监督程序.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 死刑复核.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 一审-172.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 一审-159.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 一审-148.md",
+    "raw/notes/200-刑诉-审判-2026左宁刑诉真金题 专题四 刑事审判概述.md",
     "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
-    "刑诉-证据-行政证据转化模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-29 · 黑社会组织案证人保护措施与出庭说明规则.md",
-    "wiki/exam-questions/刑诉-证据-多选-36 · 夫妻盗窃告知案中作证义务与发问顺序及庭前笔录效力.md",
+    "wiki/答题模型/刑诉-证据-证据裁判原则与证明基本法理模型.md",
+    "wiki/答题模型/刑诉-侦查-技术侦查措施模型.md",
+    "wiki/synthesis/刑诉-侦查与监察制度-深度报告.md",
+    "wiki/答题模型/刑诉-证据-证明责任与证明标准.md",
     "wiki/答题模型/刑诉-证据-证人鉴定人出庭制度模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-27 · 猥亵儿童案中身份竞合与言词证据印证规则.md",
-    "wiki/答题模型/刑诉-证据-学理分类判定模型.md",
-    "wiki/exam-questions/刑诉-证据-单选-17 · 补强证据资格要件与独立来源审查规则.md",
-    "wiki/exam-questions/刑诉-证据-多选-22 · 未成年人证言能力与印证规则.md",
-    "wiki/exam-questions/刑诉-证据-多选-19 · 证人询问地点与鉴定人主体资格排他性.md",
-    "wiki/exam-questions/刑诉-证据-多选-12 · 证人资格与补强证据规则综合.md",
-    "wiki/答题模型/刑诉-证据-补强证据与意见证据规则模型.md",
-    "index.md.tmp.63153.244b2b079971",
-    "wiki/exam-questions/刑诉-证据-单选-14 · 专门知识人发问权限与鉴定人强制出庭限制.md",
-    "wiki/答题模型/刑诉-证据-鉴定意见审查模型.md",
-    "wiki/答题模型/刑诉-证据-法定种类识别模型.md",
-    "wiki/exam-questions/刑诉-证据-多选-51 · 工程安全事故案检验报告与检验人回避出庭义务辨析.md",
+    "wiki/exam-questions/刑诉-证据-单选-24 · 技术侦查材料的证据资格与庭外核实（仿真题）.md",
+    "wiki/exam-questions/刑诉-证据-单选-20 · 公诉与自诉案件证明责任分配与辩方责任豁免.md",
+    "wiki/exam-questions/刑诉-证据-单选-18 · 刑事公诉与自诉中说服责任与举证责任分配.md",
+    "wiki/exam-questions/刑诉-证据-多选-56 · 甲乙丙丁四案中证明责任承担主体的错误归属辨析.md",
+    "wiki/exam-questions/刑诉-证据-多选-44 · 刑事诉讼证明责任主体之自诉反诉与民事原告界限.md",
+    "wiki/exam-questions/刑诉-证据-多选-38 · 刑事诉讼中证明责任承担主体的界定范围.md",
     "wiki/exam-questions/刑诉-证据-多选-24 · 鉴定意见形式瑕疵与证据材料调查规则.md",
-    "wiki/exam-questions/刑诉-证据-单选-13 · 证人与鉴定人出庭规则及庭前笔录效力.md",
-    "wiki/exam-questions/刑诉-证据-单选-05 · 鉴定意见与有专门知识的人.md",
-    "wiki/exam-questions/刑诉-证据-多选-16 · 被告人近亲属出庭作证义务与证据学理定性.md",
-    "wiki/exam-questions/刑诉-证据-多选-15 · 代理人与证人身份冲突及强制出庭范围判定.md",
-    "raw/notes/刑事诉讼中近亲属与普通证人出庭义务对比解析.md",
-    "raw/notes/申请证人出庭的法律实务指南.md",
-    "raw/notes/刑诉八大类证据｜可补正程序瑕疵 VS 绝对排除情形（法条全支撑，法考专用汇总）.md",
-    "wiki/exam-questions/刑诉-证据-单选-08 · 搜查勘验见证人缺失的合规补正与录像例外.md",
+    "index.md.tmp.63153.244b2b079971",
     "wiki/synthesis/刑诉-强制措施制度-深度报告.md.tmp.44796.158ba0f7f04a",
     "raw/notes/006刑诉母题（2026）.pdf",
     "wiki/synthesis/刑法分论-经济与网络犯罪考点-深度报告.md.tmp.44796.797e813be6cd",
