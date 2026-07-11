@@ -22,73 +22,17 @@
             }
           },
           {
-            "id": "7346b1ecde393690",
+            "id": "e717e789b59cac23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-审判-单选-68 · 可能判死刑案件的管辖程序合议庭组成与强制辩护.md",
+                "file": "wiki/exam-questions/刑诉-审判-单选-10 · 评议后三种判决与两类无罪的既判力（仿真题）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判-单选-68 · 可能判死刑案件的管辖程序合议庭组成与强制辩护"
-            }
-          },
-          {
-            "id": "c760c0c9aab3a55b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑诉-审判-单选-47 · 环境污染刑事附带民事公益诉讼庭审规则辨析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-审判-单选-47 · 环境污染刑事附带民事公益诉讼庭审规则辨析"
-            }
-          },
-          {
-            "id": "4e671d9e76853e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑诉-审判-多选-10 · 合议庭独任审判委员会的组成与评议规则（仿真题）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-审判-多选-10 · 合议庭独任审判委员会的组成与评议规则（仿真题）"
-            }
-          },
-          {
-            "id": "0bbc16eabb16e227",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/刑诉-审判-单选-121 · 二审发回重审后合议庭组成与管辖辨析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-审判-单选-121 · 二审发回重审后合议庭组成与管辖辨析"
-            }
-          },
-          {
-            "id": "a920c69f90f24179",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/notes/200 刑诉-程序-刑事管辖权-刑事管辖之级别管辖详解.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "200 刑诉-程序-刑事管辖权-刑事管辖之级别管辖详解"
+              "title": "刑诉-审判-单选-10 · 评议后三种判决与两类无罪的既判力（仿真题）"
             }
           }
         ],
@@ -240,34 +184,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7346b1ecde393690",
+  "active": "e717e789b59cac23",
   "lastOpenFiles": [
-    "raw/notes/200-刑诉-程序-辩护人及法律援助.md",
-    "raw/notes/2026法考刑事诉讼法：拒绝辩护规则详解（含法援案件与死刑复核特例）.md",
+    "raw/notes/200-刑诉-程序-庭审-证人,鉴定人,侦查人员出庭.md",
+    "raw/notes/刑事诉讼法证人与侦查人员出庭规则核心考点解析.md",
     "wiki/synthesis/刑诉-审判程序-深度报告.md",
-    "wiki/exam-questions/刑法-分论-经济网络真题-单选-12 · 甲偷换乙U盾获取信用卡信息资料网上转账定信用卡诈骗罪案.md",
-    "wiki/exam-questions/刑法-分论-经济网络真题-多选-05 · 甲销售无批文但有疗效药品与病死猪肉禁用农药苹果劣药假药认识错误综合案.md",
-    "wiki/exam-questions/刑诉-审判-单选-47 · 环境污染刑事附带民事公益诉讼庭审规则辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-10 · 合议庭独任审判委员会的组成与评议规则（仿真题）.md",
-    "raw/notes/200-刑诉-程序-审委会.md",
-    "raw/notes/2026年刑事诉讼法审委会制度详解.md",
-    "raw/notes/200-刑诉-程序-合议庭人员规则.md",
-    "raw/notes/2026法考刑诉两大核心专项考点（独立分篇·法条全合规）.md",
-    "wiki/exam-questions/刑诉-审判-单选-121 · 二审发回重审后合议庭组成与管辖辨析.md",
-    "raw/notes/200 刑诉-程序-刑事管辖权-刑事管辖之级别管辖详解.md",
-    "raw/notes/200-刑诉-审判-2026杨雄刑诉真金题 一审程序 85.md",
-    "wiki/exam-questions/刑诉-审判-多选-26 · 甲乙丙丁简易程序合议庭组成争议答案辨析.md",
-    "wiki/exam-questions/刑诉-审判-单选-25 · 乙丙丁速裁与简易程序综合辨析.md",
-    "raw/notes/200-刑诉-程序-并案审理.md",
-    "wiki/exam-questions/刑诉-审判-单选-08 · 简易与速裁绝对排除项对比与未成年可用性（仿真题）.md",
-    "wiki/exam-questions/刑诉-审判-单选-26 · 李某危险驾驶案速裁审限与值班律师规则.md",
-    "wiki/exam-questions/刑诉-审判-多选-09 · 简易速裁向普通程序的转换与审限重算（仿真题）.md",
-    "wiki/exam-questions/刑诉-审判-多选-82 · 贪污改定性挪用资金案简易程序转普通与独任审判.md",
-    "wiki/exam-questions/刑诉-审判-多选-27 · 简易程序变更为普通程序的处理规则争议答案辨析.md",
-    "raw/notes/200-刑诉-程序-自诉.md",
-    "raw/notes/200-刑诉-程序-简易、速裁、普通程序转化.md",
-    "wiki/答题模型/刑诉-审判-简易速裁与程序转换模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-29 · 甲乙丙丁速裁程序转换情形辨析.md",
+    "wiki/exam-questions/刑诉-审判-单选-10 · 评议后三种判决与两类无罪的既判力（仿真题）.md",
+    "raw/notes/200-刑诉-程序-庭审-非法证据庭审调查-非法证据庭审调查规则考点解析.md",
+    "raw/notes/非法证据庭审调查规则考点解析.md",
+    "wiki/exam-questions/刑诉-审判-多选-113 · 以审判为中心证据出示在法庭规则辨析.md",
+    "raw/notes/200-刑诉-程序-庭审-质证-争议证据单独质证规则（2026法考专属考点）.md",
+    "raw/notes/争议证据单独质证规则（2026法考专属考点）.md",
+    "raw/notes/200-刑诉-程序-庭审-证据出示-庭审证据当庭出示规则（直接言词原则+证据裁判原则子考点） (1).md",
+    "raw/notes/200-刑诉-程序-庭审证据出示-庭审证据当庭出示规则（直接言词原则+证据裁判原则子考点） (1).md",
+    "raw/notes/庭审证据当庭出示规则（直接言词原则+证据裁判原则子考点） (1).md",
+    "raw/notes/200-刑诉-程序-一审程序完整标准流程.md",
+    "wiki/exam-questions/刑诉-审判-多选-45 · 高某受贿雇凶伤人案庭前会议规则辨析.md",
+    "wiki/exam-questions/刑诉-审判-单选-46 · 庭前会议主持主体与功能辨析.md",
+    "wiki/exam-questions/刑诉-审判-单选-113 · 孙某庭前会议非法证据排除规则辨析.md",
+    "raw/notes/200-刑诉-程序-庭前会议.md",
+    "raw/notes/2026法考文档：庭前会议全考点解析（现行法条、层级图谱、考情、做题方法）.md",
+    "raw/notes/200-刑诉-程序-排非申请.md",
+    "raw/notes/2026法考｜非法证据排除申请完整考点文档.md",
+    "wiki/exam-questions/刑诉-审判-单选-09 · 公开审判与不公开审理的两档区分（仿真题）.md",
+    "wiki/exam-questions/刑诉-审判-多选-124 · 重大贪污案合议庭组成与审委会及辩护人缺席处理辨析.md",
+    "raw/notes/200-刑诉--程序-庭前会议.md",
+    "wiki/exam-questions/刑诉-审判-多选-56 · 监察管辖与七人合议庭及无罪证据调取规则.md",
+    "raw/notes/200-刑诉-程序-律师权力-会见通讯&阅卷&申请调用隐匿无罪或轻罪&自行调查取证和申请检法调取新证.md",
+    "raw/notes/200-刑诉-程序-律师权利-会见通讯&阅卷&申请调用隐匿无罪或轻罪&自行调查取证和申请检法调取新证.md",
     "raw/mind/~$司法考试.drawio.dtmp",
     "wiki/答题模型/刑诉-审判-一审普通程序庭审模型.md.tmp.73437.1c0e6837f44b",
     "wiki/答题模型/刑诉-审判-自诉程序模型.md.tmp.73437.10f570a39fba",
