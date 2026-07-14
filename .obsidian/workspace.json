@@ -13,43 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-审判-多选-40 · F进出口公司走私案诉讼代表人确定与非法证据排除.md",
+                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判-多选-40 · F进出口公司走私案诉讼代表人确定与非法证据排除"
+              "title": "刑诉-审判程序-深度报告"
             }
           },
           {
-            "id": "cbd56ab036e75de7",
+            "id": "5931c585daf33346",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-审判-多选-36 · 大山公司走私案诉讼代表人与辩护人职能辨析.md",
+                "file": "wiki/exam-questions/刑诉-审判-多选-122 · P2P非法集资案通缉与共同犯罪起诉规则辨析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判-多选-36 · 大山公司走私案诉讼代表人与辩护人职能辨析"
+              "title": "刑诉-审判-多选-122 · P2P非法集资案通缉与共同犯罪起诉规则辨析"
             }
           },
           {
-            "id": "a73f1445cd753ed6",
+            "id": "1a4969d53b60f788",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-审判-多选-33 · 甲公司分立案诉讼代表人资格与回避规则辨析.md",
+                "file": "wiki/exam-questions/刑诉-审判-多选-122 · P2P非法集资案通缉与共同犯罪起诉规则辨析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判-多选-33 · 甲公司分立案诉讼代表人资格与回避规则辨析"
+              "title": "刑诉-审判-多选-122 · P2P非法集资案通缉与共同犯罪起诉规则辨析"
+            }
+          },
+          {
+            "id": "a66b58eebe29e2a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/刑诉-审判-单选-29 · 张某A公司集资诈骗案单位犯罪认定与量刑建议调整.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑诉-审判-单选-29 · 张某A公司集资诈骗案单位犯罪认定与量刑建议调整"
+            }
+          },
+          {
+            "id": "162704829baa06c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/刑诉-审判-多选-41 · 迅辉制药公司逃税案单位财产查封扣押冻结处置规则.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "刑诉-审判-多选-41 · 迅辉制药公司逃税案单位财产查封扣押冻结处置规则"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,36 +226,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15abfc90fa8038b8",
+  "active": "5931c585daf33346",
   "lastOpenFiles": [
+    "raw/notes/200-刑诉-起诉-起诉变更-追加起诉.md",
     "wiki/synthesis/刑诉-审判程序-深度报告.md",
+    "wiki/exam-questions/刑诉-审判-多选-122 · P2P非法集资案通缉与共同犯罪起诉规则辨析.md",
+    "raw/notes/200 刑诉-基本原则-刑事管辖权-刑事管辖之级别管辖详解.md",
+    "wiki/exam-questions/刑诉-审判-单选-29 · 张某A公司集资诈骗案单位犯罪认定与量刑建议调整.md",
+    "wiki/exam-questions/刑诉-审判-多选-41 · 迅辉制药公司逃税案单位财产查封扣押冻结处置规则.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-财产保全类强制措施.md",
+    "wiki/exam-questions/刑诉-审判-多选-125 · 缓刑调查评估与赃款购房及孳息追缴处理辨析.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-查封-法考刑事诉讼法侦查程序查封规则知识点解析.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-冻结规则：2026法考做题实操指南.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-扣押-2026法考刑事诉讼法侦查程序扣押规则知识点解析.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-责令退赔.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-追缴.md",
+    "raw/notes/200-刑诉-基本原则-涉案财物处置-被害人合法财产及时返还规则.md",
+    "raw/notes/200-刑诉-基本原则-.md",
+    "raw/notes/200-刑诉-基本原则-刑法执行-涉案财物处置-被害人合法财产及时返还规则.md",
+    "raw/notes/200-刑诉-基本原则-刑法执行-涉案财物处置-追缴.md",
+    "raw/notes/200-刑事-基本原则-刑法执行-涉案财物处置-被害人合法财产及时返还规则.md",
+    "raw/notes/200-刑事-基本原则-刑法执行-涉案财物出示-点.md",
+    "wiki/答题模型/刑诉-审判-单位犯罪诉讼程序模型.md",
+    "wiki/exam-questions/刑诉-审判-单选-122 · 涉案财物处理规则辨析（选不正确）.md",
+    "wiki/exam-questions/刑诉-审判-多选-58 · 蓝天公司非法集资单位犯罪诉讼程序.md",
+    "wiki/exam-questions/刑诉-审判-多选-40 · F进出口公司走私案诉讼代表人确定与非法证据排除.md",
     "wiki/exam-questions/刑诉-审判-多选-36 · 大山公司走私案诉讼代表人与辩护人职能辨析.md",
     "200-刑诉-基本原则-单位放罪-被告单位组织变更.md",
-    "wiki/exam-questions/刑诉-审判-多选-40 · F进出口公司走私案诉讼代表人确定与非法证据排除.md",
-    "raw/notes/200-刑诉-基本原则-单位犯罪-被告单位组织变动",
-    "raw/notes/200-刑诉-基本原则-三大基本职能-辩护职能.md",
     "wiki/exam-questions/刑诉-审判-多选-33 · 甲公司分立案诉讼代表人资格与回避规则辨析.md",
-    "raw/notes/200-刑诉-基本原则-角色-辩护人-律师权利-会见通讯&阅卷&申请调用隐匿无罪或轻罪&自行调查取证和申请检法调取新证.md",
-    "wiki/exam-questions/刑诉-审判-多选-115 · 单位犯罪诉讼代表人参加庭前会议规则辨析.md",
-    "raw/notes/200-刑诉-基本原则-权利-辩护人-律师权利-会见通讯&阅卷&申请调用隐匿无罪或轻罪&自行调查取证和申请检法调取新证.md",
-    "raw/notes/200-刑诉-基本原则-权利-律师权利-会见通讯&阅卷&申请调用隐匿无罪或轻罪&自行调查取证和申请检法调取新证.md",
-    "raw/notes/200-刑诉-基本原则-权利-诉讼权利.md",
-    "raw/notes/200-刑诉-基本原则-角色-诉讼代理人.md",
-    "raw/notes/200-刑诉-基本原则-角色-诉讼代表人.md",
-    "raw/notes/200-刑诉-基本原则-权力-诉讼权利.md",
-    "wiki/exam-questions/刑诉-审判-多选-24 · 甲乙盗窃药材公司案丙参加庭审诉讼权利辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-31 · 量刑程序相对独立性与检察院制约辨析.md",
-    "raw/notes/200-刑诉-基本原则-三机关关系-量刑程序相对独立.md",
-    "raw/notes/200-刑诉-基本原则-三机关关系原则.md",
-    "wiki/exam-questions/刑诉-审判-单选-28 · 刘某丈夫酒后驾车送医案量刑程序法庭调查恢复规则.md",
-    "wiki/exam-questions/刑诉-审判-单选-115 · 拒不支付劳动报酬案量刑建议与从业禁止辨析.md",
-    "raw/notes/200-刑诉-程序-庭审-新证处理立场.md",
-    "raw/notes/200-刑诉-新证处理立场.md",
-    "raw/notes/200-刑诉-程序-一审-一审程序完整标准流程.md",
+    "raw/notes/200-刑诉-基本原则-tong ji",
+    "raw/notes/200-刑诉-基本原则-单位犯罪-被告单位组织变动",
     "raw/notes/001民法母题（2026）.pdf",
-    "raw/notes/200-刑诉-程序-一审-法庭调查.md",
-    "wiki/答题模型/刑诉-审判-判决形式与庭审阻断模型.md",
-    "raw/notes/200-刑诉-基本原则-认罪认罚.md",
     "raw/notes/promt_考点内容生产.m",
     "raw/mind/~$司法考试.drawio.dtmp",
     "wiki/答题模型/刑诉-审判-一审普通程序庭审模型.md.tmp.73437.1c0e6837f44b",
@@ -234,7 +264,6 @@
     "wiki/exam-questions/刑诉-审判-单选-92 · 二审改判是否违反上诉不加刑原则的四情形辨析.md.tmp.67287.0fba4243d70c",
     "index.md.tmp.63153.244b2b079971",
     "wiki/synthesis/刑诉-强制措施制度-深度报告.md.tmp.44796.158ba0f7f04a",
-    "raw/notes/006刑诉母题（2026）.pdf",
     "Untitled.canvas"
   ]
 }
