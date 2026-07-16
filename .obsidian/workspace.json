@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "刑诉-审判程序-深度报告"
             }
-          },
-          {
-            "id": "391cd1f50c006321",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/刑诉-审判-审判组织与人民陪审员模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-审判-审判组织与人民陪审员模型"
-            }
           }
         ]
       }
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 682.5
+    "width": 628.5
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -188,72 +174,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "db5043e9ff79be4a",
-        "type": "window",
-        "children": [
-          {
-            "id": "46959b8d98a881b9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e92aaba818a16362",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/exam-questions/刑诉-审判-多选-54 · 庭审中更换合议庭成员与集中审理原则.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刑诉-审判-多选-54 · 庭审中更换合议庭成员与集中审理原则"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1827,
-        "y": 101,
-        "width": 1024,
-        "height": 1774,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "8d22723cad8692fa",
-        "type": "window",
-        "children": [
-          {
-            "id": "d9abed41ad369249",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8365075826da2715",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/答题模型/刑诉-审判-庭审取证特别规则模型.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刑诉-审判-庭审取证特别规则模型"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1918,
-        "y": 315,
-        "width": 1024,
-        "height": 1639,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
         "id": "47e71cfd1b59cf28",
         "type": "window",
         "children": [
@@ -287,134 +207,167 @@
         "zoom": 0
       },
       {
-        "id": "46ee1baa57a5c3f5",
+        "id": "10f60bf8b409d1ff",
         "type": "window",
         "children": [
           {
-            "id": "2a1176695fbb6e56",
+            "id": "0cbe78f0829b4b4e",
             "type": "tabs",
             "children": [
               {
-                "id": "adcb5725d632e5f6",
+                "id": "2dcb20ecdb32df35",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/答题模型/刑诉-审判-起诉与审判关系模型.md",
+                    "file": "wiki/答题模型/刑诉-审判-上诉抗诉与开庭审理模型.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "刑诉-审判-起诉与审判关系模型"
+                  "title": "刑诉-审判-上诉抗诉与开庭审理模型"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1861,
-        "y": 324,
-        "width": 1024,
-        "height": 1606,
+        "x": 2441,
+        "y": 100,
+        "width": 1280,
+        "height": 1819,
         "maximize": false,
         "zoom": 0
       },
       {
-        "id": "9e889ebe6d88b850",
+        "id": "a2e0d111af69c843",
         "type": "window",
         "children": [
           {
-            "id": "e97eb551618af7af",
+            "id": "f09a9b94914e5735",
             "type": "tabs",
             "children": [
               {
-                "id": "a4020b90d6456847",
+                "id": "04bf25abb409d810",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/答题模型/刑诉-审判-审判组织与人民陪审员模型.md",
+                    "file": "wiki/exam-questions/刑诉-审判-多选-86 · 小刘未成年伤害自诉附民案简易程序与上诉方式.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "刑诉-审判-审判组织与人民陪审员模型"
+                  "title": "刑诉-审判-多选-86 · 小刘未成年伤害自诉附民案简易程序与上诉方式"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1673,
-        "y": 313,
-        "width": 1024,
-        "height": 1581,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "bb981b5702b4a4bd",
-        "type": "window",
-        "children": [
-          {
-            "id": "8def1cbbeffda764",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c8b53bd09a2227f6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/答题模型/刑诉-审判-起诉与审判关系模型.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刑诉-审判-起诉与审判关系模型"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1675,
-        "y": 350,
+        "x": 1408,
+        "y": 624,
         "width": 1024,
         "height": 1511,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "5b59db9b59046bf2",
+        "type": "window",
+        "children": [
+          {
+            "id": "20e41a6309437f82",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ea1dd594303e033a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/答题模型/刑诉-审判-二审全面审查与处理方式模型.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "刑诉-审判-二审全面审查与处理方式模型"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1408,
+        "y": 30,
+        "width": 1024,
+        "height": 1963,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "40348e4185d68e93",
+        "type": "window",
+        "children": [
+          {
+            "id": "8339f1101d523114",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e35db5d1810e7ed2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/答题模型/刑诉-审判-上诉抗诉与开庭审理模型.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "刑诉-审判-上诉抗诉与开庭审理模型"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1547,
+        "y": 142,
+        "width": 1024,
+        "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "c8b53bd09a2227f6",
+  "active": "15abfc90fa8038b8",
   "lastOpenFiles": [
+    "wiki/答题模型/刑诉-审判-二审全面审查与处理方式模型.md",
+    "wiki/答题模型/刑诉-审判-上诉抗诉与开庭审理模型.md",
     "wiki/synthesis/刑诉-审判程序-深度报告.md",
-    "wiki/答题模型/刑诉-审判-起诉与审判关系模型.md",
-    "wiki/答题模型/刑诉-审判-审判组织与人民陪审员模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-53 · 电子数据移送与侦查实验及变更罪名综合辨析.md",
+    "wiki/答题模型/民法-侵权-无意思联络分别侵权模型.md",
+    "wiki/答题模型/民法-合同-建设工程模型.md",
+    "wiki/答题模型/民法-合同-无因管理模型.md",
     "wiki/答题模型/刑诉-审判-庭审取证特别规则模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-48 · 可以讯问犯罪嫌疑人的诉讼阶段.md",
-    "wiki/exam-questions/刑诉-审判-多选-54 · 庭审中更换合议庭成员与集中审理原则.md",
+    "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
     "wiki/答题模型/刑诉-证据-证人鉴定人出庭制度模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-50 · 电信诈骗涉众型抽样取证与线上通知规则.md",
-    "wiki/exam-questions/刑诉-审判-多选-49 · 境外网络诈骗涉众型抽样取证与通缉规则.md",
-    "wiki/exam-questions/刑诉-审判-多选-47 · 境外电信诈骗涉众型案件庭审取证规则.md",
-    "wiki/exam-questions/刑诉-审判-多选-114 · 宋某涉众型诈骗案被害人出庭与庭前会议辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-59 · 投毒案两份鉴定专家辅助人与鉴定意见效力.md",
-    "wiki/exam-questions/刑诉-审判-多选-55 · 投毒案三份鉴定专家辅助人与强制出庭规则.md",
-    "wiki/exam-questions/刑诉-审判-多选-126 · 申请重新鉴定的主体范围辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-121 · 诈骗案鉴定意见异议重新鉴定与鉴定人出庭辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-120 · 污染环境案鉴定意见与有专门知识的人辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-119 · 赵某非法持枪案被告人辩解与专家辅助人辨析.md",
-    "wiki/exam-questions/刑诉-审判-单选-119 · 精神病鉴定诊断证明与鉴定人出庭辨析.md",
-    "wiki/exam-questions/刑诉-审判-单选-114 · 田某制毒案有专门知识的人出庭与前科材料辨析.md",
-    "wiki/exam-questions/刑诉-审判-单选-33 · 刑事判决与裁定的性质区别辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-63 · 被告人审理期间死亡终止审理与确证无罪宣告.md",
-    "wiki/答题模型/刑法-总论-共同犯罪模型.md",
+    "wiki/exam-questions/刑诉-审判-多选-153 · 甲防卫过当致重伤案二审补充抗诉与抗诉主体出庭辨析.md",
+    "wiki/exam-questions/刑诉-审判-多选-157 · 张某李某共同犯罪部分上诉全案不生效与抗诉主体上诉不加刑.md",
+    "wiki/exam-questions/刑诉-审判-单选-153 · 甲盗窃案当庭宣判服判被害人请求抗诉的判决生效时间.md",
+    "wiki/exam-questions/刑诉-审判-多选-86 · 小刘未成年伤害自诉附民案简易程序与上诉方式.md",
+    "wiki/exam-questions/刑诉-审判-多选-85 · 廖某之子被推下楼案死刑审委会与被害人上诉权.md",
+    "wiki/exam-questions/刑诉-审判-单选-91 · 各类诉讼主体法定代理人上诉权辨析.md",
+    "wiki/exam-questions/刑诉-审判-单选-13 · 上诉抗诉主体与期限起算辨析（仿真题）.md",
+    "wiki/答题模型/刑法-总论-主观要件与认识错误模型.md",
     "wiki/答题模型/刑法-分论-侵犯财产罪模型.md",
-    "wiki/exam-questions/刑诉-审判-单选-32 · 精神病人危害结果特殊情形应以判决处理.md",
-    "wiki/答题模型/刑诉-审判-判决形式与庭审阻断模型.md",
+    "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
+    "wiki/答题模型/刑法-分论-人身自由犯罪模型.md",
+    "wiki/答题模型/刑诉-审判-死刑复核程序模型.md",
+    "wiki/答题模型/刑诉-侦查-技术侦查措施模型.md",
+    "wiki/答题模型/刑诉-审判-上诉不加刑模型.md",
+    "wiki/exam-questions/刑诉-审判-多选-118 · 伍某黑社会案证人出庭发问与保护措施辨析.md",
+    "wiki/exam-questions/刑诉-审判-多选-117 · 证人强制到庭与视频作证规则辨析.md",
+    "wiki/exam-questions/刑诉-审判-多选-116 · 甲故意伤害案证人出庭与上诉期辨析.md",
     "raw/notes/200-刑诉-基本原则-tong ji",
     "raw/notes/200-刑诉-基本原则-单位犯罪-被告单位组织变动",
     "raw/notes/001民法母题（2026）.pdf",
