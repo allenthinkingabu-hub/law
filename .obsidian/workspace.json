@@ -207,72 +207,6 @@
         "zoom": 0
       },
       {
-        "id": "10f60bf8b409d1ff",
-        "type": "window",
-        "children": [
-          {
-            "id": "0cbe78f0829b4b4e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2dcb20ecdb32df35",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/答题模型/刑诉-审判-上诉抗诉与开庭审理模型.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刑诉-审判-上诉抗诉与开庭审理模型"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2441,
-        "y": 100,
-        "width": 1280,
-        "height": 1819,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "a2e0d111af69c843",
-        "type": "window",
-        "children": [
-          {
-            "id": "f09a9b94914e5735",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "04bf25abb409d810",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/exam-questions/刑诉-审判-多选-86 · 小刘未成年伤害自诉附民案简易程序与上诉方式.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刑诉-审判-多选-86 · 小刘未成年伤害自诉附民案简易程序与上诉方式"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1408,
-        "y": 624,
-        "width": 1024,
-        "height": 1511,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
         "id": "5b59db9b59046bf2",
         "type": "window",
         "children": [
@@ -298,7 +232,7 @@
           }
         ],
         "direction": "vertical",
-        "x": 1408,
+        "x": 1493,
         "y": 30,
         "width": 1024,
         "height": 1963,
@@ -306,15 +240,48 @@
         "zoom": 0
       },
       {
-        "id": "40348e4185d68e93",
+        "id": "321cb9f1d0577e11",
         "type": "window",
         "children": [
           {
-            "id": "8339f1101d523114",
+            "id": "e15547cbd7a85411",
             "type": "tabs",
             "children": [
               {
-                "id": "e35db5d1810e7ed2",
+                "id": "edf84309966f189a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "raw/notes/二审纠正：一审量刑明显过轻时的直接改判纠错机制.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "二审纠正：一审量刑明显过轻时的直接改判纠错机制"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2580,
+        "y": 405,
+        "width": 1024,
+        "height": 1213,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "e1627ffe3277dd5d",
+        "type": "window",
+        "children": [
+          {
+            "id": "d44aa369c8a3f9b7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3bbcce34e8bce4e1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -331,10 +298,109 @@
           }
         ],
         "direction": "vertical",
-        "x": 1547,
-        "y": 142,
+        "x": 1467,
+        "y": 923,
         "width": 1024,
-        "height": 800,
+        "height": 1235,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "84e94a4b333edcdc",
+        "type": "window",
+        "children": [
+          {
+            "id": "384c3cbe125d4bc5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3f50e80474de4b5c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/exam-questions/刑诉-审判-多选-104 · 甲集资诈骗改判非吸案发回重审后抗诉撤回与再次发回限制.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "刑诉-审判-多选-104 · 甲集资诈骗改判非吸案发回重审后抗诉撤回与再次发回限制"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2569,
+        "y": 132,
+        "width": 1024,
+        "height": 1966,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "f24a922529142bb3",
+        "type": "window",
+        "children": [
+          {
+            "id": "05b89dc36f7efc8f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "17dcb557b4b680ae",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "raw/notes/刑事诉讼法中事实不清、证据不足的认定标准与典型情形.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "刑事诉讼法中事实不清、证据不足的认定标准与典型情形"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 810,
+        "y": 671,
+        "width": 1024,
+        "height": 1420,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "692a75f3c1f437c9",
+        "type": "window",
+        "children": [
+          {
+            "id": "23aeeacbe2fadc27",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bcd63ed448f5cc48",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "raw/notes/200-刑诉-基本原则-法律适用-法律适用错误7种情况-法律适用错误考点全梳理.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "200-刑诉-基本原则-法律适用-法律适用错误7种情况-法律适用错误考点全梳理"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1408,
+        "y": 624,
+        "width": 1024,
+        "height": 1484,
         "maximize": false,
         "zoom": 0
       }
@@ -342,32 +408,33 @@
   },
   "active": "15abfc90fa8038b8",
   "lastOpenFiles": [
+    "raw/notes/2026法考刑法数罪并罚考点解析.md",
+    "raw/notes/200-刑诉-基本原则-法律适用-法律适用错误7种情况-法律适用错误考点全梳理.md",
+    "wiki/exam-questions/刑诉-审判-多选-104 · 甲集资诈骗改判非吸案发回重审后抗诉撤回与再次发回限制.md",
     "wiki/答题模型/刑诉-审判-二审全面审查与处理方式模型.md",
-    "wiki/答题模型/刑诉-审判-上诉抗诉与开庭审理模型.md",
+    "raw/notes/刑事诉讼法中事实不清、证据不足的认定标准与典型情形.md",
     "wiki/synthesis/刑诉-审判程序-深度报告.md",
-    "wiki/答题模型/民法-侵权-无意思联络分别侵权模型.md",
-    "wiki/答题模型/民法-合同-建设工程模型.md",
-    "wiki/答题模型/民法-合同-无因管理模型.md",
-    "wiki/答题模型/刑诉-审判-庭审取证特别规则模型.md",
-    "wiki/答题模型/刑诉-证据-非法证据排除实体标准.md",
+    "wiki/答题模型/刑诉-审判-上诉抗诉与开庭审理模型.md",
+    "wiki/exam-questions/刑诉-审判-多选-103 · 交警甲乙徇私枉法案二审剥夺辩护权发回重审与全面审查.md",
+    "wiki/exam-questions/刑诉-审判-单选-111 · 唐某贩毒案准许撤回起诉后被告人上诉的二审处理.md",
+    "raw/notes/刑事诉讼中检察院撤诉的审查权与被告人上诉权解析.md",
+    "raw/notes/刑事诉讼中检察院撤诉的审查权与被告人上诉权解析 (1).md",
+    "raw/xiaohongshu/刑事诉讼中检察院撤诉的审查权与被告人上诉权解析 (1).md",
+    "raw/notes/二审纠正：一审量刑明显过轻时的直接改判纠错机制.md",
+    "wiki/exam-questions/刑诉-审判-单选-110 · 郭某郑某共同贩毒案二审发现漏罪的分案发回处理.md",
+    "wiki/exam-questions/刑诉-审判-多选-94 · 孙某伤害案发回重审后审判人员进入审委会的回避.md",
+    "raw/notes/刑事二审纠正与再审纠错的区分标准及适用情形.md",
+    "raw/notes/上诉后撤诉规则完整解读.md",
     "wiki/答题模型/刑诉-证据-证人鉴定人出庭制度模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-153 · 甲防卫过当致重伤案二审补充抗诉与抗诉主体出庭辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-157 · 张某李某共同犯罪部分上诉全案不生效与抗诉主体上诉不加刑.md",
-    "wiki/exam-questions/刑诉-审判-单选-153 · 甲盗窃案当庭宣判服判被害人请求抗诉的判决生效时间.md",
-    "wiki/exam-questions/刑诉-审判-多选-86 · 小刘未成年伤害自诉附民案简易程序与上诉方式.md",
-    "wiki/exam-questions/刑诉-审判-多选-85 · 廖某之子被推下楼案死刑审委会与被害人上诉权.md",
-    "wiki/exam-questions/刑诉-审判-单选-91 · 各类诉讼主体法定代理人上诉权辨析.md",
-    "wiki/exam-questions/刑诉-审判-单选-13 · 上诉抗诉主体与期限起算辨析（仿真题）.md",
-    "wiki/答题模型/刑法-总论-主观要件与认识错误模型.md",
-    "wiki/答题模型/刑法-分论-侵犯财产罪模型.md",
-    "wiki/答题模型/刑法-分论-侵犯人身权利犯罪模型.md",
-    "wiki/答题模型/刑法-分论-人身自由犯罪模型.md",
-    "wiki/答题模型/刑诉-审判-死刑复核程序模型.md",
-    "wiki/答题模型/刑诉-侦查-技术侦查措施模型.md",
     "wiki/答题模型/刑诉-审判-上诉不加刑模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-118 · 伍某黑社会案证人出庭发问与保护措施辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-117 · 证人强制到庭与视频作证规则辨析.md",
-    "wiki/exam-questions/刑诉-审判-多选-116 · 甲故意伤害案证人出庭与上诉期辨析.md",
+    "raw/notes/200-刑诉-基本原则-审判监督程序-审判监督程序通俗叫法就是再审，二者完全等同.md",
+    "raw/notes/结论：是的，审判监督程序通俗叫法就是再审，二者完全等同.md",
+    "wiki/exam-questions/刑诉-审判-多选-158 · 陈某刘某共同杀人死刑案二审全面审查合议庭组成与程序违法处理.md",
+    "raw/notes/2026法考刑诉二审裁判规则：法律适用错误考点全梳理 (1).md",
+    "raw/notes/200-刑诉-基本原则-二审-二审全面审查-未上诉-抗诉之罪-刑事附带民事上诉案件二审审查与改判规则解析.md",
+    "raw/notes/抗诉之罪-刑事附带民事上诉案件二审审查与改判规则解析.md",
+    "raw/notes/200-刑诉-基本原则-二审-二审全面审查-未上诉/抗诉之罪-刑事附带民事上诉案件二审审查与改判规则解析.md",
+    "raw/notes/200-刑诉-基本原则-二审-二审全面审查-未上诉",
     "raw/notes/200-刑诉-基本原则-tong ji",
     "raw/notes/200-刑诉-基本原则-单位犯罪-被告单位组织变动",
     "raw/notes/001民法母题（2026）.pdf",
@@ -377,7 +444,6 @@
     "wiki/答题模型/刑诉-审判-自诉程序模型.md.tmp.73437.10f570a39fba",
     "wiki/exam-questions/刑诉-审判-单选-92 · 二审改判是否违反上诉不加刑原则的四情形辨析.md.tmp.67287.0fba4243d70c",
     "index.md.tmp.63153.244b2b079971",
-    "wiki/synthesis/刑诉-强制措施制度-深度报告.md.tmp.44796.158ba0f7f04a",
     "Untitled.canvas"
   ]
 }
