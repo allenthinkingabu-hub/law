@@ -13,40 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/刑诉-审判程序-深度报告.md",
+                "file": "wiki/synthesis/合同总则考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判程序-深度报告"
+              "title": "合同总则考点-深度报告"
             }
           },
           {
-            "id": "e32e5b7defe1c0fe",
+            "id": "cfa9832b1d6e0498",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/刑诉-审判-单选-126 · 重婚罪自诉共同被告一并起诉与调取证据.md",
+                "file": "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刑诉-审判-单选-126 · 重婚罪自诉共同被告一并起诉与调取证据"
-            }
-          },
-          {
-            "id": "6f8a4b3949e982c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/刑诉-认罪认罚从宽制度-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "刑诉-认罪认罚从宽制度-深度报告"
+              "title": "民诉-客观题考点全景-深度报告"
             }
           }
         ]
@@ -106,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 359.5
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -202,69 +188,70 @@
     "type": "floating",
     "children": [
       {
-        "id": "5d9b96e04bf861f3",
+        "id": "c7cbed6cc0b25089",
         "type": "window",
         "children": [
           {
-            "id": "b1419d2008df18b5",
+            "id": "dc89327e79f6e250",
             "type": "tabs",
             "children": [
               {
-                "id": "b86d22b5b8708913",
+                "id": "dfb7834e5bd8cc57",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/exam-questions/刑诉-审判-多选-01 · 甲女遭强行发生性关系案不公开审理与附带民事诉讼发问权.md",
+                    "file": "wiki/答题模型/民法-合同-缔约过失责任模型.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "刑诉-审判-多选-01 · 甲女遭强行发生性关系案不公开审理与附带民事诉讼发问权"
+                  "title": "民法-合同-缔约过失责任模型"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1408,
-        "y": 624,
+        "x": 1452,
+        "y": 96,
         "width": 1024,
-        "height": 1383,
+        "height": 1943,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "8242076721d7acec",
+  "active": "dfb7834e5bd8cc57",
   "lastOpenFiles": [
-    "raw/notes/200-民俗-开题-2026民诉经典母题（独立文档 384-400）.md",
-    "raw/notes/2026民诉经典母题（独立文档 384-400）.md",
-    "raw/notes/200-民诉-考题-2026民诉经典母题（独立文档 353-383）.md",
-    "wiki/templates/民诉-题卡模版.md",
-    "wiki/templates",
-    "raw/notes/2026民诉经典母题（独立文档 353-383）.md",
-    "wiki/exam-questions/刑诉-审判-单选-126 · 重婚罪自诉共同被告一并起诉与调取证据.md",
-    "wiki/exam-questions/刑诉-证据-多选-03 · 行政执法证据向刑事证据的转化.md",
-    "wiki/exam-questions/刑诉-证据-单选-18 · 刑事公诉与自诉中说服责任与举证责任分配.md",
-    "wiki/exam-questions/刑诉-证据-单选-15 · 证据证明力调整规则与证据能力规则判定.md",
-    "wiki/exam-questions/侵权责任-多选-33 · 饲养动物-烈性犬与普通犬致损归责原则与免责事由综合对比案.md",
+    "wiki/synthesis/合同总则考点-深度报告.md",
+    "wiki/答题模型/民法-合同-成立与生效模型.md",
+    "wiki/exam-questions/C1-单选-78.md",
     "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "raw/notes/200-民诉-考题-2026民诉经典母题（独立文档 322-352）.md",
-    "raw/notes/2026民诉经典母题（独立文档 322-352）.md",
-    "raw/notes/200-民诉-考题-2026民诉经典母题（291-321）.md",
-    "raw/notes/2026民诉经典母题（291-321）.md",
-    "wiki/synthesis/刑诉-审判程序-深度报告.md",
-    "wiki/synthesis/刑诉-认罪认罚从宽制度-深度报告.md",
-    "wiki/答题模型/刑诉-审判-附带民事诉讼模型.md",
-    "wiki/exam-questions/刑诉-审判-多选-03 · 化工厂违法排污案附带民事公益诉讼管辖与判项.md",
-    "wiki/答题模型/刑诉-审判-认罪认罚从宽模型.md",
-    "wiki/答题模型/刑诉-审判-违法所得没收程序模型.md",
-    "wiki/答题模型/刑诉-审判-缺席审判程序模型.md",
-    "wiki/答题模型/刑诉-审判-刑事和解模型.md",
-    "wiki/exam-questions/刑诉-审判-单选-04 · 姜某打伤王某案附带民事诉讼财产保全程序.md",
-    "wiki/exam-questions/刑诉-审判-多选-01 · 甲女遭强行发生性关系案不公开审理与附带民事诉讼发问权.md",
-    "raw/notes/200-刑诉-基本原则-P1-刑事诉讼调解流程详解.md",
+    "wiki/答题模型/民法-合同-预约合同模型.md",
+    "raw/notes/民事诉讼法真题汇总1-29.md",
+    "raw/notes/民事诉讼法真题汇总（第30-42题更新版）.md",
+    "raw/notes/民事诉讼法真题汇总（第43-54题）.md",
+    "raw/notes/民事诉讼法真题汇总（第54-72题）.md",
+    "raw/notes/民事诉讼法真题汇总（第73-89题）.md",
+    "raw/notes/民事诉讼法真题汇总（第92-116题）.md",
+    "wiki/exam-questions/C1-多选-45 · 报批义务条款独立性与报批未获通过法律后果认定案 V2.md",
+    "wiki/exam-questions/民诉-证据-多选-399 · 未成年人的证人资格与证言效力（同题指向 385）.md",
+    "wiki/exam-questions/民诉-证据-多选-398 · 书证提出命令与拒不提交的后果（同题指向 384）.md",
+    "wiki/exam-questions/民诉-证据-多选-397 · 证人保证书与作证资格（同题指向 383）.md",
+    "wiki/exam-questions/民诉-证据-多选-396 · 专家辅助人的回避与询问规则（同题指向 382）.md",
+    "wiki/exam-questions/民诉-证据-单选-395 · 域外法查明与专家辅助人（同题指向 381）.md",
+    "wiki/exam-questions/民诉-证据-单选-394 · 林木折断致害的过错推定（同题指向 380）.md",
+    "wiki/exam-questions/民诉-证据-单选-393 · 收条复印件的直接证据定性（同题指向 379）.md",
+    "wiki/exam-questions/民诉-当事人-单选-400 · 受托收款人到庭的诉讼地位.md",
+    "wiki/exam-questions/民诉-证据-多选-392 · 自认的对象与保证责任范围.md",
+    "wiki/exam-questions/民诉-证据-单选-391 · 转账凭证的证据分类（书证·间接证据）.md",
+    "wiki/exam-questions/民诉-证据-多选-390 · 法院依职权与依申请调查收集证据.md",
+    "wiki/exam-questions/民诉-仲裁-多选-389 · 仲裁中的证据保全（新仲裁法）.md",
+    "wiki/exam-questions/民诉-再审-多选-388 · 再审中的质证对象与不公开出示.md",
+    "wiki/exam-questions/C1-单选-81 · 违反报批义务合同解除与期待利益损失赔偿判定案 V2.md",
+    "wiki/synthesis/民诉-客观题考点全景-深度报告.md.tmp.63788.d458084b34b4",
+    "wiki/templates",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
@@ -273,7 +260,6 @@
     "raw/notes/200-刑诉-基本原则-tong ji",
     "raw/notes/200-刑诉-基本原则-单位犯罪-被告单位组织变动",
     "raw/notes/001民法母题（2026）.pdf",
-    "raw/notes/promt_考点内容生产.m",
     "Untitled.canvas"
   ]
 }
