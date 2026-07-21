@@ -183,83 +183,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "4dfd30be52984aa6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c7cbed6cc0b25089",
-        "type": "window",
-        "children": [
-          {
-            "id": "dc89327e79f6e250",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dfb7834e5bd8cc57",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/答题模型/民法-合同-缔约过失责任模型.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "民法-合同-缔约过失责任模型"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1452,
-        "y": 96,
-        "width": 1024,
-        "height": 1943,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "dfb7834e5bd8cc57",
+  "active": "c0dfdbae2a47bb68",
   "lastOpenFiles": [
-    "wiki/synthesis/合同总则考点-深度报告.md",
-    "wiki/答题模型/民法-合同-成立与生效模型.md",
-    "wiki/exam-questions/C1-单选-78.md",
-    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
+    "wiki/exam-questions/民诉-二审程序-单选-212 · 二审审理范围仅限上诉的利息部分.md",
+    "wiki/exam-questions/民诉-二审程序-多选-211 · 二审审理范围围绕上诉请求.md",
+    "wiki/exam-questions/民诉-二审程序-多选-210 · 二审独任新证据质证与巡回开庭.md",
+    "wiki/exam-questions/民诉-二审程序-单选-209 · 二审独任制须经双方当事人同意.md",
+    "wiki/exam-questions/民诉-二审程序-单选-208 · 代位权诉讼中第三人上诉超范围的二审地位.md",
+    "wiki/答题模型/民法-合同-格式条款模型.md",
+    "wiki/exam-questions/民诉-二审程序-单选-207 · 上诉同时涉及对方与共同被告的二审地位.md",
+    "wiki/exam-questions/民诉-二审程序-单选-206 · 原告被告均上诉指向同一方的二审地位.md",
+    "wiki/exam-questions/民诉-二审程序-单选-205 · 共同侵权被告针对同案被告上诉的二审地位.md",
+    "wiki/exam-questions/民诉-二审程序-单选-204 · 遗产继承共同原告一人上诉的二审地位.md",
     "wiki/答题模型/民法-合同-预约合同模型.md",
-    "raw/notes/民事诉讼法真题汇总1-29.md",
-    "raw/notes/民事诉讼法真题汇总（第30-42题更新版）.md",
-    "raw/notes/民事诉讼法真题汇总（第43-54题）.md",
-    "raw/notes/民事诉讼法真题汇总（第54-72题）.md",
-    "raw/notes/民事诉讼法真题汇总（第73-89题）.md",
-    "raw/notes/民事诉讼法真题汇总（第92-116题）.md",
-    "wiki/exam-questions/C1-多选-45 · 报批义务条款独立性与报批未获通过法律后果认定案 V2.md",
-    "wiki/exam-questions/民诉-证据-多选-399 · 未成年人的证人资格与证言效力（同题指向 385）.md",
-    "wiki/exam-questions/民诉-证据-多选-398 · 书证提出命令与拒不提交的后果（同题指向 384）.md",
-    "wiki/exam-questions/民诉-证据-多选-397 · 证人保证书与作证资格（同题指向 383）.md",
-    "wiki/exam-questions/民诉-证据-多选-396 · 专家辅助人的回避与询问规则（同题指向 382）.md",
-    "wiki/exam-questions/民诉-证据-单选-395 · 域外法查明与专家辅助人（同题指向 381）.md",
-    "wiki/exam-questions/民诉-证据-单选-394 · 林木折断致害的过错推定（同题指向 380）.md",
-    "wiki/exam-questions/民诉-证据-单选-393 · 收条复印件的直接证据定性（同题指向 379）.md",
-    "wiki/exam-questions/民诉-当事人-单选-400 · 受托收款人到庭的诉讼地位.md",
-    "wiki/exam-questions/民诉-证据-多选-392 · 自认的对象与保证责任范围.md",
-    "wiki/exam-questions/民诉-证据-单选-391 · 转账凭证的证据分类（书证·间接证据）.md",
-    "wiki/exam-questions/民诉-证据-多选-390 · 法院依职权与依申请调查收集证据.md",
-    "wiki/exam-questions/民诉-仲裁-多选-389 · 仲裁中的证据保全（新仲裁法）.md",
-    "wiki/exam-questions/民诉-再审-多选-388 · 再审中的质证对象与不公开出示.md",
-    "wiki/exam-questions/C1-单选-81 · 违反报批义务合同解除与期待利益损失赔偿判定案 V2.md",
+    "wiki/synthesis/合同总则考点-深度报告.md",
+    "wiki/答题模型/民法-合同-要约与承诺模型.md",
+    "wiki/exam-questions/民诉-二审程序-单选-203 · 上诉超期原审法院应移送二审法院.md",
+    "wiki/exam-questions/民诉-二审程序-单选-202 · 判决书分别送达上诉期各自起算.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-201 · 撤销之诉并入再审后的调解与中止执行.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-200 · 撤销之诉并入再审按二审程序审理的处理.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-199 · 原判决被裁定再审时撤销之诉并入再审.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-多选-198 · 股东提起第三人撤销之诉的要件.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-197 · 撤销请求成立但权利主张不成立的处理.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-196 · 第三人撤销之诉中原案被告仍列被告.md",
+    "wiki/答题模型/民法-合同-成立与生效模型.md",
+    "wiki/entities/预约合同.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-195 · 代位权调解后第三人撤销之诉的当事人列置.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-单选-194 · 代表人诉讼未登记权利人的救济不是第三人撤销之诉.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-多选-193 · 债权人对确权判决的救济途径.md",
+    "raw/notes/2026客观真金题民诉戴鹏 287 45.pdf",
+    "raw/notes/2026客观真金题民诉戴鹏 287 56.pdf",
+    "raw/notes/2026客观真金题民诉戴鹏 287 67.pdf",
+    "raw/notes/2026客观真金题民诉戴鹏 287 87.pdf",
     "wiki/synthesis/民诉-客观题考点全景-深度报告.md.tmp.63788.d458084b34b4",
     "wiki/templates",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "raw/notes/200-刑诉-基本原则-二审-二审全面审查-未上诉",
-    "raw/notes/200-刑诉-基本原则-tong ji",
-    "raw/notes/200-刑诉-基本原则-单位犯罪-被告单位组织变动",
-    "raw/notes/001民法母题（2026）.pdf",
     "Untitled.canvas"
   ]
 }
