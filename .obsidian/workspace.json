@@ -22,20 +22,35 @@
             }
           },
           {
-            "id": "66d4820b5784567e",
+            "id": "1d42bfe24b58520e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/民诉-总论-四大基本制度模型.md",
+                "file": "wiki/答题模型/民诉-管辖-管辖确定模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "民诉-总论-四大基本制度模型"
+              "title": "民诉-管辖-管辖确定模型"
+            }
+          },
+          {
+            "id": "d957d5c25d6f9a79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/民诉-管辖-多选-30 · 违反级别管辖不因应诉或恒定而治愈.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民诉-管辖-多选-30 · 违反级别管辖不因应诉或恒定而治愈"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -188,101 +204,101 @@
     "type": "floating",
     "children": [
       {
-        "id": "4de9fa676f5a5ff0",
+        "id": "8426932962927c74",
         "type": "window",
         "children": [
           {
-            "id": "9fa703524a831e16",
+            "id": "0f07422cf008dd76",
             "type": "tabs",
             "children": [
               {
-                "id": "9c29ba3d3b177aba",
+                "id": "3e39dd8bd72ab5b1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/答题模型/民法-合同-代位权模型.md",
+                    "file": "raw/notes/民诉·管辖完整知识图谱（适配2026法考｜依据《民诉法》+民诉解释）.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "民法-合同-代位权模型"
+                  "title": "民诉·管辖完整知识图谱（适配2026法考｜依据《民诉法》+民诉解释）"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 2409,
-        "y": 167,
+        "x": 1744,
+        "y": 294,
         "width": 1024,
-        "height": 1434,
+        "height": 1483,
         "maximize": false,
         "zoom": 0
       },
       {
-        "id": "0f06cdb4b1214b05",
+        "id": "5077e79e12571d34",
         "type": "window",
         "children": [
           {
-            "id": "7b07bb1c12f6fc5a",
+            "id": "1877970c51a1cd38",
             "type": "tabs",
             "children": [
               {
-                "id": "d353bef305a73085",
+                "id": "fa872ba81d78095f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/答题模型/民法-合同-代位权模型.md",
+                    "file": "wiki/答题模型/民诉-管辖-管辖确定模型.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "民法-合同-代位权模型"
+                  "title": "民诉-管辖-管辖确定模型"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1408,
-        "y": 624,
+        "x": 1503,
+        "y": 83,
         "width": 1024,
-        "height": 800,
+        "height": 2061,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "c0dfdbae2a47bb68",
+  "active": "fa872ba81d78095f",
   "lastOpenFiles": [
-    "wiki/答题模型/民法-合同-撤销权模型.md",
+    "wiki/exam-questions/民诉-管辖-多选-30 · 违反级别管辖不因应诉或恒定而治愈.md",
+    "wiki/答题模型/民诉-管辖-管辖确定模型.md",
+    "raw/notes/民诉解释管辖恒定规则解析.md",
+    "raw/notes/民诉·管辖完整知识图谱（适配2026法考｜依据《民诉法》+民诉解释）.md",
     "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "wiki/答题模型/民诉-总论-四大基本制度模型.md",
+    "wiki/exam-questions/民诉-诉讼总论-单选-02 · 增加诉讼请求的处理.md",
     "wiki/答题模型/民诉-总论-主管与诉模型.md",
+    "raw/notes/一般保证、先诉抗辩权、连带保证｜法条释义+案例（2026法考专属）.md",
+    "raw/notes/协议管辖四大高频失效场景全解（2026法考｜法条+案例）.md",
+    "raw/notes/协议管辖失效场景：约定不明（守约方所在地）法条释义+案例（2026法考）.md",
+    "raw/notes/2026法考｜民诉专属管辖最高位阶规则（原版原文）.md",
+    "raw/notes/装修以外的房屋服务合同.md",
+    "raw/notes/代位析产之诉.md",
+    "raw/notes/300-民诉-双向划界.md",
+    "raw/notes/双向划界.md",
     "wiki/答题模型/民诉-总论-基本原则模型.md",
-    "wiki/答题模型/民法-合同-代位权模型.md",
-    "wiki/synthesis/合同总则考点-深度报告.md",
-    "wiki/synthesis/刑诉-刑事证据制度-深度报告.md",
-    "wiki/synthesis/总则编考点-深度报告.md",
-    "wiki/exam-questions/民诉-仲裁-不定项-333戴鹏 · 仲裁庭组成合法与裁决按多数意见首席可不签名及撤销申请归中院.md",
-    "wiki/exam-questions/民诉-管辖-不定项-332戴鹏 · 公司解散之诉被告是公司由公司住所地管辖保全需担保且不影响经营.md",
-    "wiki/exam-questions/民诉-执行-不定项-331戴鹏 · 案外人异议15日审查中止执行与申请执行人异议之诉当事人地位.md",
-    "wiki/exam-questions/民诉-证据-不定项-330戴鹏 · 约定管辖二选一与清偿及代理权证明责任归被告付某系证人.md",
-    "wiki/exam-questions/民诉-仲裁-不定项-329戴鹏 · 仲裁委已决效力法院不受理及仲裁调解结案与超裁不予执行.md",
-    "wiki/exam-questions/民诉-管辖-不定项-328戴鹏 · 确认仲裁条款无效可请求两仲裁委或中院及协议管辖与法定管辖.md",
-    "wiki/exam-questions/民诉-调解-不定项-327戴鹏 · 人民调解失败救济与调解协议起诉被告及司法确认双方共同申请.md",
-    "wiki/exam-questions/民诉-仲裁-单选-326戴鹏 · 仲裁裁决被撤销后原仲裁协议失效只能就租赁合同向房屋所在地起诉.md",
-    "wiki/exam-questions/民诉-仲裁-单选-325戴鹏 · 撤销仲裁裁决裁定不得抗诉需报请高院审核撤销后可另行起诉.md",
-    "wiki/exam-questions/合同通则-多选-28.md",
-    "wiki/exam-questions/民诉-仲裁-多选-324戴鹏 · 违反约定的三人合议庭而独任裁决构成组成违法可撤销.md",
-    "wiki/exam-questions/民诉-仲裁-单选-323戴鹏 · 仲裁员回避由主任决定回避后当事人可请求程序重新进行.md",
-    "wiki/exam-questions/民诉-仲裁-单选-322戴鹏 · 仲裁程序中无先予执行制度当事人无权申请先予执行.md",
-    "wiki/exam-questions/民诉-仲裁-单选-321戴鹏 · 合同权利义务转让仲裁条款对知情受让人有效应申请仲裁.md",
-    "wiki/exam-questions/民诉-仲裁-单选-320戴鹏 · 仲裁条款独立于主合同一方请求仲裁委一方请求法院由法院裁定.md",
-    "wiki/exam-questions/民诉-仲裁-多选-319戴鹏 · 确认仲裁协议效力由仲裁机构所在地或签订地中院管辖.md",
-    "wiki/exam-questions/民诉-仲裁-单选-318戴鹏 · 未在首次开庭前提出效力异议仲裁庭应驳回异议继续审理.md",
+    "wiki/exam-questions/民诉-审判监督程序-单选-226 · 隐匿证据后以公告送达及新证据申请再审违反诚信.md",
+    "wiki/exam-questions/民诉-保全-单选-135 · 先予执行后和解撤诉的处理.md",
+    "wiki/exam-questions/民诉-证据-单选-121 · 借条真实但未转款与辩论原则.md",
+    "raw/notes/300-民事诉讼｜先予执行（2026法考极简满分版）.md",
+    "raw/notes/民事诉讼｜先予执行（2026法考极简满分版）.md",
+    "raw/notes/300-民诉-检察监督三大前置情形（逐条释义+案例）.md",
+    "raw/notes/民事诉讼｜第220条 检察监督三大前置情形（逐条释义+案例）.md",
+    "raw/notes/300-民诉-再审法条依据.md",
+    "wiki/答题模型/民诉-总论-四大基本制度模型.md",
+    "raw/notes/300-民诉-民诉法｜督促程序（支付令）完整释义+考点+案例（§228）.md",
     "raw/notes/2026客观真金题民诉戴鹏 287 45.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 56.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 67.pdf",
