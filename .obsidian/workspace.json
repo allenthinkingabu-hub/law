@@ -36,21 +36,77 @@
             }
           },
           {
-            "id": "d957d5c25d6f9a79",
+            "id": "62921715b388623a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/民诉-管辖-多选-30 · 违反级别管辖不因应诉或恒定而治愈.md",
+                "file": "wiki/exam-questions/民诉-管辖-多选-43 · 主从合同并存时的管辖协议适用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "民诉-管辖-多选-30 · 违反级别管辖不因应诉或恒定而治愈"
+              "title": "民诉-管辖-多选-43 · 主从合同并存时的管辖协议适用"
+            }
+          },
+          {
+            "id": "e108c0e3b302c2fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/民诉-仲裁-单选-326戴鹏 · 仲裁裁决被撤销后原仲裁协议失效只能就租赁合同向房屋所在地起诉.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民诉-仲裁-单选-326戴鹏 · 仲裁裁决被撤销后原仲裁协议失效只能就租赁合同向房屋所在地起诉"
+            }
+          },
+          {
+            "id": "f75fcbeb4306fcce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/民诉-仲裁-单选-315戴鹏 · 仅约定仲裁规则与仲裁地未定机构且有分歧协议无效由工程所在地法院管辖.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民诉-仲裁-单选-315戴鹏 · 仅约定仲裁规则与仲裁地未定机构且有分歧协议无效由工程所在地法院管辖"
+            }
+          },
+          {
+            "id": "99b51ff3c7861306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/民诉-执行-单选-288 · 代位析产之诉涉及不动产由不动产所在地专属管辖.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民诉-执行-单选-288 · 代位析产之诉涉及不动产由不动产所在地专属管辖"
+            }
+          },
+          {
+            "id": "57e47a3347615c01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/exam-questions/民诉-管辖-不定项-332戴鹏 · 公司解散之诉被告是公司由公司住所地管辖保全需担保且不影响经营.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民诉-管辖-不定项-332戴鹏 · 公司解散之诉被告是公司由公司住所地管辖保全需担保且不影响经营"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,8 +285,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1744,
-        "y": 294,
+        "x": 2315,
+        "y": 190,
         "width": 1024,
         "height": 1483,
         "maximize": false,
@@ -257,48 +313,228 @@
                   "icon": "lucide-file",
                   "title": "民诉-管辖-管辖确定模型"
                 }
+              },
+              {
+                "id": "512b9e09010f8d53",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/答题模型/民诉-总论-主管与诉模型.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "民诉-总论-主管与诉模型"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 1545,
+        "y": 266,
+        "width": 1025,
+        "height": 2061,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "92dccb74cffe4b6f",
+        "type": "window",
+        "children": [
+          {
+            "id": "ed046298259ed358",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5c04bcf2588c899c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/答题模型/民诉-管辖-管辖变动与异议模型.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "民诉-管辖-管辖变动与异议模型"
+                }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1503,
-        "y": 83,
+        "x": 2317,
+        "y": 374,
         "width": 1024,
-        "height": 2061,
+        "height": 1454,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "f899f2b3b20ac348",
+        "type": "window",
+        "children": [
+          {
+            "id": "f815566be3be49aa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a823e00eb9683fb6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "raw/notes/商事仲裁完整流程与法院交互关系解析.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "商事仲裁完整流程与法院交互关系解析"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 875,
+        "y": 523,
+        "width": 1024,
+        "height": 1388,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "f2a4edbfeb2c6999",
+        "type": "window",
+        "children": [
+          {
+            "id": "1075664338a07fde",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "116f42897e11fb2e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/exam-questions/民诉-管辖-不定项-328戴鹏 · 确认仲裁条款无效可请求两仲裁委或中院及协议管辖与法定管辖.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "民诉-管辖-不定项-328戴鹏 · 确认仲裁条款无效可请求两仲裁委或中院及协议管辖与法定管辖"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2504,
+        "y": 129,
+        "width": 1024,
+        "height": 1782,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "fb73b0f43185a17f",
+        "type": "window",
+        "children": [
+          {
+            "id": "4b6da5db2f351b7e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2d9728fde2a46c9c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "raw/notes/商事仲裁完整流程与法院交互关系解析.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "商事仲裁完整流程与法院交互关系解析"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2581,
+        "y": 30,
+        "width": 1024,
+        "height": 1840,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "b615b60a5cfb1f39",
+        "type": "window",
+        "children": [
+          {
+            "id": "6566e5a1e06d2ca7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a929fba323ee1b72",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/exam-questions/民诉-证据-不定项-330戴鹏 · 约定管辖二选一与清偿及代理权证明责任归被告付某系证人.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "民诉-证据-不定项-330戴鹏 · 约定管辖二选一与清偿及代理权证明责任归被告付某系证人"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1280,
+        "y": 30,
+        "width": 1024,
+        "height": 1936,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "fa872ba81d78095f",
+  "active": "a929fba323ee1b72",
   "lastOpenFiles": [
-    "wiki/exam-questions/民诉-管辖-多选-30 · 违反级别管辖不因应诉或恒定而治愈.md",
     "wiki/答题模型/民诉-管辖-管辖确定模型.md",
-    "raw/notes/民诉解释管辖恒定规则解析.md",
-    "raw/notes/民诉·管辖完整知识图谱（适配2026法考｜依据《民诉法》+民诉解释）.md",
-    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "wiki/exam-questions/民诉-诉讼总论-单选-02 · 增加诉讼请求的处理.md",
     "wiki/答题模型/民诉-总论-主管与诉模型.md",
-    "raw/notes/一般保证、先诉抗辩权、连带保证｜法条释义+案例（2026法考专属）.md",
-    "raw/notes/协议管辖四大高频失效场景全解（2026法考｜法条+案例）.md",
-    "raw/notes/协议管辖失效场景：约定不明（守约方所在地）法条释义+案例（2026法考）.md",
-    "raw/notes/2026法考｜民诉专属管辖最高位阶规则（原版原文）.md",
-    "raw/notes/装修以外的房屋服务合同.md",
-    "raw/notes/代位析产之诉.md",
-    "raw/notes/300-民诉-双向划界.md",
-    "raw/notes/双向划界.md",
-    "wiki/答题模型/民诉-总论-基本原则模型.md",
-    "wiki/exam-questions/民诉-审判监督程序-单选-226 · 隐匿证据后以公告送达及新证据申请再审违反诚信.md",
-    "wiki/exam-questions/民诉-保全-单选-135 · 先予执行后和解撤诉的处理.md",
-    "wiki/exam-questions/民诉-证据-单选-121 · 借条真实但未转款与辩论原则.md",
-    "raw/notes/300-民事诉讼｜先予执行（2026法考极简满分版）.md",
-    "raw/notes/民事诉讼｜先予执行（2026法考极简满分版）.md",
-    "raw/notes/300-民诉-检察监督三大前置情形（逐条释义+案例）.md",
-    "raw/notes/民事诉讼｜第220条 检察监督三大前置情形（逐条释义+案例）.md",
-    "raw/notes/300-民诉-再审法条依据.md",
+    "wiki/exam-questions/民诉-管辖-不定项-328戴鹏 · 确认仲裁条款无效可请求两仲裁委或中院及协议管辖与法定管辖.md",
+    "raw/notes/商事仲裁完整流程与法院交互关系解析.md",
+    "wiki/exam-questions/民诉-管辖-多选-315 · 仲裁协议无效后的协议管辖范围.md",
+    "wiki/exam-questions/民诉-管辖-多选-305 · 选择性管辖协议的效力与可选法院.md",
+    "raw/notes/民诉·管辖完整知识图谱（适配2026法考｜依据《民诉法》+民诉解释）.md",
+    "wiki/exam-questions/民诉-管辖-多选-43 · 主从合同并存时的管辖协议适用.md",
+    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
+    "wiki/答题模型/民诉-管辖-管辖变动与异议模型.md",
+    "wiki/exam-questions/民诉-管辖-单选-46 · 移送后受移送法院不得再自行移送.md",
+    "wiki/exam-questions/民诉-管辖-多选-44 · 一般保证不得单独起诉担保人对管辖的影响.md",
+    "wiki/exam-questions/民诉-仲裁-单选-326戴鹏 · 仲裁裁决被撤销后原仲裁协议失效只能就租赁合同向房屋所在地起诉.md",
+    "wiki/exam-questions/民诉-仲裁-单选-315戴鹏 · 仅约定仲裁规则与仲裁地未定机构且有分歧协议无效由工程所在地法院管辖.md",
+    "wiki/exam-questions/民诉-执行-单选-288 · 代位析产之诉涉及不动产由不动产所在地专属管辖.md",
+    "wiki/exam-questions/民诉-管辖-不定项-332戴鹏 · 公司解散之诉被告是公司由公司住所地管辖保全需担保且不影响经营.md",
+    "wiki/exam-questions/民诉-管辖-多选-319 · 守约方所在地管辖约定的效力.md",
     "wiki/答题模型/民诉-总论-四大基本制度模型.md",
-    "raw/notes/300-民诉-民诉法｜督促程序（支付令）完整释义+考点+案例（§228）.md",
+    "wiki/exam-questions/民诉-管辖-单选-318 · 一并起诉债务人与保证人的管辖.md",
+    "wiki/exam-questions/民诉-管辖-多选-310 · 管辖错误表述四连辨析.md",
+    "raw/notes/管辖权转移真实法考案例解析（《民诉法》第39条）.md",
+    "wiki/exam-questions/民诉-管辖-单选-300 · 应诉管辖与二审中的管辖异议.md",
+    "wiki/exam-questions/民诉-管辖-单选-304 · 公司解散之诉由公司住所地管辖.md",
+    "wiki/exam-questions/民诉-管辖-多选-307 · 管辖协议对债权受让人的效力.md",
+    "wiki/exam-questions/民诉-管辖-单选-303 · 保险代位求偿之诉的管辖.md",
+    "wiki/exam-questions/民诉-当事人-多选-53 · 未领营业执照分支机构的被告与管辖.md",
     "raw/notes/2026客观真金题民诉戴鹏 287 45.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 56.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 67.pdf",
