@@ -22,59 +22,17 @@
             }
           },
           {
-            "id": "7ee2669fdd442745",
+            "id": "7adb77d68411c469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/民诉-证据-多选-117 · 工程造价举证责任与单方委托鉴定报告定性.md",
+                "file": "wiki/答题模型/民诉-二审-上诉提起与审理模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "民诉-证据-多选-117 · 工程造价举证责任与单方委托鉴定报告定性"
-            }
-          },
-          {
-            "id": "e1a7084518797c91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/民诉-证据-多选-115 · 收货确认单签名真伪的鉴定申请.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民诉-证据-多选-115 · 收货确认单签名真伪的鉴定申请"
-            }
-          },
-          {
-            "id": "9cda409b3f8f9e0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/民诉-证据-多选-110 · 借条抗辩为赌债的举证责任.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民诉-证据-多选-110 · 借条抗辩为赌债的举证责任"
-            }
-          },
-          {
-            "id": "b63e32feff7ecb4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/民诉-证据-多选-114 · 借条真伪鉴定申请的举证责任.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民诉-证据-多选-114 · 借条真伪鉴定申请的举证责任"
+              "title": "民诉-二审-上诉提起与审理模型"
             }
           }
         ],
@@ -110,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "小额",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -232,92 +189,78 @@
     "type": "floating",
     "children": [
       {
-        "id": "30a0cf28a542319a",
+        "id": "1066deceb4772701",
         "type": "window",
         "children": [
           {
-            "id": "09abd94a1e0ea92d",
+            "id": "30dfd3c9be0efc06",
             "type": "tabs",
             "children": [
               {
-                "id": "41dbae84ef5f473e",
+                "id": "01b54914460d0e4a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/答题模型/民诉-证据-证明责任与免证自认模型.md",
+                    "file": "wiki/答题模型/民诉-一审-简易小额与独任模型.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "民诉-证据-证明责任与免证自认模型"
-                }
-              },
-              {
-                "id": "cf622100bd27393d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/答题模型/民诉-证据-证据种类与形式模型.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "民诉-证据-证据种类与形式模型"
+                  "title": "民诉-一审-简易小额与独任模型"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1860,
-        "y": 188,
+        "x": 763,
+        "y": 112,
         "width": 1024,
-        "height": 1992,
+        "height": 1033,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "7ee2669fdd442745",
+  "active": "7adb77d68411c469",
   "lastOpenFiles": [
-    "raw/notes/300-prompt-考点考题答题思路.md",
+    "raw/notes/民事诉讼法上诉流程详解（2023年修正版）.md",
     "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "wiki/exam-questions/民诉-证据-多选-115 · 收货确认单签名真伪的鉴定申请.md",
-    "wiki/答题模型/民诉-证据-证明责任与免证自认模型.md",
+    "wiki/答题模型/民诉-一审-简易小额与独任模型.md",
+    "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
+    "raw/notes/300-民诉- 简易程序、小额诉讼 法定准入要件（2026法考完整版）.md",
+    "wiki/答题模型/民诉-一审-审理进程与裁判形式模型.md",
+    "raw/notes/民诉解释第257条：七类案件禁止适用简易程序（含小额诉讼）详解.md",
     "wiki/答题模型/民诉-证据-证据种类与形式模型.md",
-    "wiki/exam-questions/民诉-证据-多选-110 · 借条抗辩为赌债的举证责任.md",
-    "wiki/exam-questions/民诉-证据-多选-114 · 借条真伪鉴定申请的举证责任.md",
-    "wiki/exam-questions/民诉-证据-多选-107 · 电子签名真伪与共同借款的举证责任.md",
-    "wiki/exam-questions/民诉-证据-多选-109 · 理财纠纷的证明标准与举证责任转移.md",
-    "wiki/exam-questions/民诉-证据-多选-108 · 还款收条签名真伪的举证责任.md",
-    "wiki/exam-questions/民诉-证据-单选-102 · 当事人拒不到庭接受询问的后果.md",
-    "wiki/exam-questions/民诉-证据-多选-100 · 借条已还款抗辩的举证责任.md",
-    "wiki/exam-questions/民诉-证据-多选-97 · 仅凭转账凭证起诉的举证责任.md",
-    "wiki/exam-questions/民诉-证据-多选-392 · 自认的对象与保证责任范围.md",
-    "wiki/exam-questions/民诉-证据-单选-89 · 个人劳务致害的被告与证明对象（同题指向 374）.md",
-    "wiki/exam-questions/民诉-证据-单选-372 · 自认的构成与限制.md",
-    "wiki/exam-questions/民诉-证据-单选-371 · 借条收条的本证反证与自认.md",
+    "wiki/答题模型/民诉-一审-起诉与受理模型.md",
+    "raw/notes/民事诉讼法法庭调查当事人陈述要点解析.md",
+    "wiki/exam-questions/民诉-保全-多选-126 · 诉前保全法院与执行法院.md",
+    "wiki/exam-questions/民诉-第三人撤销之诉-多选-193 · 债权人对确权判决的救济途径.md",
+    "wiki/exam-questions/民诉-保全-单选-127 · 保全财产移送遇管辖争议的处理.md",
+    "wiki/答题模型/民诉-管辖-管辖确定模型.md",
+    "wiki/答题模型/民诉-保全-保全与先予执行模型.md",
+    "wiki/exam-questions/民诉-保全-单选-128 · 判决生效后申请执行前的保全管辖.md",
+    "wiki/exam-questions/民诉-保全-单选-333 · 先予执行规则错误项辨析.md",
+    "wiki/exam-questions/民诉-保全-单选-334 · 可以先予执行的案件类型.md",
+    "wiki/exam-questions/民诉-保全-单选-135 · 先予执行后和解撤诉的处理.md",
+    "~$葵花宝典.docx",
+    "葵花宝典.docx",
+    "wiki/exam-questions/民诉-保全-单选-332 · 财产保全规则四项辨析.md",
+    "wiki/exam-questions/民诉-管辖-不定项-332戴鹏 · 公司解散之诉被告是公司由公司住所地管辖保全需担保且不影响经营.md",
+    "wiki/exam-questions/民诉-证据-单选-92 · 堆放物倒塌致害的过错推定（干净版）.md",
+    "wiki/答题模型/民诉-证据-证明责任与免证自认模型.md",
+    "wiki/exam-questions/民诉-证据-不定项-330戴鹏 · 约定管辖二选一与清偿及代理权证明责任归被告付某系证人.md",
+    "wiki/exam-questions/民诉-证据-单选-374 · 个人劳务致害的被告与证明对象.md",
+    "wiki/exam-questions/民诉-证据-多选-117 · 工程造价举证责任与单方委托鉴定报告定性.md",
     "Untitled 5.base",
     "Untitled 4.base",
-    "wiki/exam-questions/民诉-证据-多选-87 · 共同被告的自认与拟制自认.md",
-    "wiki/exam-questions/民诉-证据-单选-95 · 借条收条的本证反证与自认（同题指向 371）.md",
-    "wiki/exam-questions/民诉-证据-多选-86 · 自认的对象与保证责任范围（同题指向 392）.md",
-    "wiki/exam-questions/民诉-证据-单选-85 · 拟制自认与私下承认的区分.md",
-    "wiki/exam-questions/民诉-证据-单选-84 · 自认的成立与四种排除情形.md",
-    "wiki/exam-questions/民诉-证据-单选-373 · 预决事实与因果关系证明责任.md",
-    "wiki/exam-questions/民诉-证据-单选-103 · 未经承认的外国判决书的证据地位.md",
-    "wiki/exam-questions/民诉-证据-单选-88 · 预决事实与因果关系证明责任的转移.md",
-    "wiki/答题模型/民诉-当事人-共同诉讼与群体诉讼模型.md",
     "raw/notes/2026客观真金题民诉戴鹏 287 45.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 56.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 67.pdf",
     "raw/notes/2026客观真金题民诉戴鹏 287 87.pdf",
     "wiki/synthesis/民诉-客观题考点全景-深度报告.md.tmp.63788.d458084b34b4",
     "wiki/templates",
-    "Untitled 3.base",
-    "Untitled 2.base",
     "Untitled.canvas"
   ]
 }
