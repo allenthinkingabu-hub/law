@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "915aefe5a8b5a1c0",
+        "id": "b7822453f655193e",
         "type": "tabs",
         "children": [
           {
-            "id": "f4ef1c2a61708e75",
+            "id": "edd2a6f2df5ab209",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/300-民诉-执行程序-执行依据与执行管辖.md",
+                "file": "raw/notes/300-行政法-.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "300-民诉-执行程序-执行依据与执行管辖"
+              "title": "300-行政法-"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 565.74609375
+    "width": 429.53125
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -171,34 +171,73 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4ef1c2a61708e75",
+  "floating": {
+    "id": "fcc31ce649c31e8f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4ce553a840f72cd2",
+        "type": "window",
+        "children": [
+          {
+            "id": "b1f89cdfe649baa9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "715f307d23485c3c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "raw/notes/300-民诉-仲裁-撤销仲裁裁决.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "300-民诉-仲裁-撤销仲裁裁决"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2786,
+        "y": 155,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "edd2a6f2df5ab209",
   "lastOpenFiles": [
-    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "raw/notes/300-民诉-执行-执行措施体系.md",
-    "300-民诉-执行-申请执行期间.md",
-    "raw/notes/300-民诉-执行-申请执行开始.md",
-    "raw/notes/300-民诉-执行-申请执行期间.md",
-    "wiki/exam-questions/民诉-执行-单选-353 · 执行依据的范围与给付内容.md",
-    "wiki/答题模型/300-民诉-执行程序-执行依据与执行管辖.md",
-    "wiki/exam-questions/民诉-执行-单选-350 · 执行管辖规则辨析.md",
-    "wiki/exam-questions/民诉-二审程序-单选-220 · 二审撤回上诉后依一审判决申请执行.md",
-    "wiki/exam-questions/民诉-保全-多选-126 · 诉前保全法院与执行法院.md",
-    "wiki/synthesis/总则编考点-深度报告.md",
-    "raw/notes/民事【全部可进入执行情形】完整汇总（法考终极版）.md",
-    "raw/notes/民事诉讼执行时效中断与中止的法律依据及案例解析.md",
-    "raw/notes/300-民诉-执行-生效法律文书.md",
-    "wiki/答题模型/民诉-执行-执行总论与措施模型.md",
     "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
-    "wiki/答题模型/民诉-特别程序-非讼案件模型.md",
-    "wiki/exam-questions/民诉-第三人撤销之诉-单选-200 · 撤销之诉并入再审按二审程序审理的处理.md",
-    "wiki/exam-questions/民诉-第三人撤销之诉-单选-199 · 原判决被裁定再审时撤销之诉并入再审.md",
-    "wiki/exam-questions/民诉-再审-多选-388 · 再审中的质证对象与不公开出示.md",
-    "wiki/exam-questions/民诉-再审-单选-365 · 再审审理程序特征辨析.md",
-    "wiki/exam-questions/民诉-审判监督程序-单选-238 · 再审调解书取代原判决应申请执行调解书.md",
-    "wiki/exam-questions/民诉-审判监督程序-单选-239 · 执行和解履行完毕后申请再审裁定终结审查.md",
-    "wiki/exam-questions/民诉-审判监督程序-多选-237 · 抗诉发回重审按一审程序全面审理可追加当事人.md",
-    "wiki/exam-questions/民诉-审判监督程序-多选-235 · 再审中超出原审诉请的新请求告知另行起诉.md",
-    "wiki/exam-questions/民诉-审判监督程序-多选-236 · 再审发回重审后按一审程序可反诉且反诉独立于撤诉.md",
+    "raw/notes/300-行政法-.md",
+    "raw/notes/300-民诉-仲裁-撤销仲裁裁决.md",
+    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
+    "wiki/exam-questions/民诉-仲裁-不定项-329戴鹏 · 仲裁委已决效力法院不受理及仲裁调解结案与超裁不予执行.md",
+    "raw/notes/300-民诉-仲裁-仲裁程序基本流程.md",
+    "raw/notes/300-民诉-仲裁-不予执行仲裁裁决.md",
+    "wiki/exam-questions/民诉-仲裁-不定项-333戴鹏 · 仲裁庭组成合法与裁决按多数意见首席可不签名及撤销申请归中院.md",
+    "wiki/exam-questions/民诉-仲裁-单选-282 · 仲裁裁决被撤销后须重新达成仲裁协议方可再仲裁.md",
+    "wiki/exam-questions/民诉-仲裁-多选-324戴鹏 · 违反约定的三人合议庭而独任裁决构成组成违法可撤销.md",
+    "wiki/exam-questions/民诉-仲裁-单选-325戴鹏 · 撤销仲裁裁决裁定不得抗诉需报请高院审核撤销后可另行起诉.md",
+    "wiki/exam-questions/民诉-仲裁-多选-281 · 重新仲裁仲裁庭可拒绝无需另组庭且裁决终局.md",
+    "wiki/exam-questions/民诉-仲裁-多选-277 · 仲裁裁决被申请执行时可申请撤销或不予执行.md",
+    "raw/notes/300-民诉-仲裁-仲裁协议的有效要件与可仲裁性.md",
+    "wiki/exam-questions/民诉-管辖-不定项-328戴鹏 · 确认仲裁条款无效可请求两仲裁委或中院及协议管辖与法定管辖.md",
+    "wiki/exam-questions/民诉-仲裁-单选-320戴鹏 · 仲裁条款独立于主合同一方请求仲裁委一方请求法院由法院裁定.md",
+    "raw/notes/300-民诉-仲裁-仲裁协议效力的独立性与异议.md",
+    "wiki/exam-questions/民诉-仲裁-单选-318戴鹏 · 未在首次开庭前提出效力异议仲裁庭应驳回异议继续审理.md",
+    "wiki/exam-questions/民诉-仲裁-多选-316戴鹏 · 或裁或诉条款仲裁协议无效但管辖协议有效及未异议例外.md",
+    "wiki/exam-questions/民诉-仲裁-多选-314戴鹏 · 约定两个仲裁委须协议选定当事人可向仲裁委申请确认效力.md",
+    "wiki/exam-questions/民诉-总论-多选-297 · 人民调解不成后的纠纷解决途径.md",
+    "wiki/exam-questions/民诉-仲裁-多选-317戴鹏 · 或裁或诉仲裁协议无效被告住所地基层法院应受理.md",
+    "raw/notes/默示拟制仲裁协议（2025修订《仲裁法》第27条第3款，2026‑03‑01施行，2026法考新增必考）.md",
+    "wiki/exam-questions/民诉-管辖-多选-315 · 仲裁协议无效后的协议管辖范围.md",
+    "wiki/exam-questions/民诉-仲裁-单选-315戴鹏 · 仅约定仲裁规则与仲裁地未定机构且有分歧协议无效由工程所在地法院管辖.md",
+    "wiki/exam-questions/民诉-仲裁-多选-313戴鹏 · 约定向本市仲裁机构而市内有两个仲裁委的协议不明.md",
     "~$葵花宝典.docx",
     "~$Prompt.docx",
     "葵花宝典.docx",
