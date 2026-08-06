@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b7822453f655193e",
+        "id": "8212679ae65c3169",
         "type": "tabs",
         "children": [
           {
-            "id": "edd2a6f2df5ab209",
+            "id": "2955f45b814db262",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/notes/300-行政法-.md",
+                "file": "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "300-行政法-"
+              "title": "行政法-客观题考点全景-深度报告"
             }
           }
         ]
@@ -210,34 +210,34 @@
       }
     ]
   },
-  "active": "edd2a6f2df5ab209",
+  "active": "2955f45b814db262",
   "lastOpenFiles": [
+    "行政法-多选-01 · 比例原则之必要性与妥当性要件&.md",
     "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
+    "行政法-单选-01.md",
+    "行政法-多选-01.md",
     "raw/notes/300-行政法-.md",
-    "raw/notes/300-民诉-仲裁-撤销仲裁裁决.md",
-    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "wiki/exam-questions/民诉-仲裁-不定项-329戴鹏 · 仲裁委已决效力法院不受理及仲裁调解结案与超裁不予执行.md",
-    "raw/notes/300-民诉-仲裁-仲裁程序基本流程.md",
-    "raw/notes/300-民诉-仲裁-不予执行仲裁裁决.md",
-    "wiki/exam-questions/民诉-仲裁-不定项-333戴鹏 · 仲裁庭组成合法与裁决按多数意见首席可不签名及撤销申请归中院.md",
-    "wiki/exam-questions/民诉-仲裁-单选-282 · 仲裁裁决被撤销后须重新达成仲裁协议方可再仲裁.md",
-    "wiki/exam-questions/民诉-仲裁-多选-324戴鹏 · 违反约定的三人合议庭而独任裁决构成组成违法可撤销.md",
-    "wiki/exam-questions/民诉-仲裁-单选-325戴鹏 · 撤销仲裁裁决裁定不得抗诉需报请高院审核撤销后可另行起诉.md",
-    "wiki/exam-questions/民诉-仲裁-多选-281 · 重新仲裁仲裁庭可拒绝无需另组庭且裁决终局.md",
-    "wiki/exam-questions/民诉-仲裁-多选-277 · 仲裁裁决被申请执行时可申请撤销或不予执行.md",
-    "raw/notes/300-民诉-仲裁-仲裁协议的有效要件与可仲裁性.md",
-    "wiki/exam-questions/民诉-管辖-不定项-328戴鹏 · 确认仲裁条款无效可请求两仲裁委或中院及协议管辖与法定管辖.md",
-    "wiki/exam-questions/民诉-仲裁-单选-320戴鹏 · 仲裁条款独立于主合同一方请求仲裁委一方请求法院由法院裁定.md",
-    "raw/notes/300-民诉-仲裁-仲裁协议效力的独立性与异议.md",
-    "wiki/exam-questions/民诉-仲裁-单选-318戴鹏 · 未在首次开庭前提出效力异议仲裁庭应驳回异议继续审理.md",
-    "wiki/exam-questions/民诉-仲裁-多选-316戴鹏 · 或裁或诉条款仲裁协议无效但管辖协议有效及未异议例外.md",
-    "wiki/exam-questions/民诉-仲裁-多选-314戴鹏 · 约定两个仲裁委须协议选定当事人可向仲裁委申请确认效力.md",
-    "wiki/exam-questions/民诉-总论-多选-297 · 人民调解不成后的纠纷解决途径.md",
-    "wiki/exam-questions/民诉-仲裁-多选-317戴鹏 · 或裁或诉仲裁协议无效被告住所地基层法院应受理.md",
-    "raw/notes/默示拟制仲裁协议（2025修订《仲裁法》第27条第3款，2026‑03‑01施行，2026法考新增必考）.md",
-    "wiki/exam-questions/民诉-管辖-多选-315 · 仲裁协议无效后的协议管辖范围.md",
-    "wiki/exam-questions/民诉-仲裁-单选-315戴鹏 · 仅约定仲裁规则与仲裁地未定机构且有分歧协议无效由工程所在地法院管辖.md",
-    "wiki/exam-questions/民诉-仲裁-多选-313戴鹏 · 约定向本市仲裁机构而市内有两个仲裁委的协议不明.md",
+    "wiki/exam-questions/行政法-单选-24 · 领导干部引咎辞职法律后果.md",
+    "wiki/exam-questions/行政法-多选-20 · 法定公务员处分种类识别.md",
+    "wiki/exam-questions/行政法-多选-19 · 公务员机关外兼职批准与报酬限制.md",
+    "wiki/exam-questions/行政法-单选-14 · 县环保局与水利局职责划分异议处理.md",
+    "wiki/exam-questions/行政法-单选-23 · 离民警每年一次定期考核.md",
+    "wiki/exam-questions/行政法-多选-18 · 公务员年度考核不称职后果与程序.md",
+    "wiki/exam-questions/行政法-单选-13 · 地方政府部门合并批准机关.md",
+    "wiki/exam-questions/行政法-单选-04 · 非强制手段优先与比例原则.md",
+    "wiki/exam-questions/行政法-单选-22 · 公务员记大过处分期限与影响.md",
+    "wiki/exam-questions/行政法-多选-11 · 国家知识产权局调整为直属机构之领导职数与编制.md",
+    "wiki/exam-questions/行政法-单选-12 · 国家税务总局司级机构设立与报告制度.md",
+    "wiki/exam-questions/行政法-单选-03 · 查封正常经营商铺违反合理行政原则.md",
+    "wiki/exam-questions/行政法-单选-21 · 参加培训属于公务员权利而非义务.md",
+    "wiki/exam-questions/行政法-多选-07 · 权责一致原则之主动纠错与违法追责.md",
+    "wiki/exam-questions/行政法-单选-11 · 中国证监会内设部门与规章制定权.md",
+    "wiki/exam-questions/行政法-单选-20 · 工作满30年申请提前退休审批.md",
+    "wiki/exam-questions/行政法-多选-06 · 合理行政原则之平等对待与符合目的.md",
+    "wiki/exam-questions/行政法-多选-17 · 公务员辞职限制与辞退失业保险.md",
+    "wiki/exam-questions/行政法-单选-10 · 国家数据局机构性质与编制审批.md",
+    "wiki/exam-questions/行政法-多选-05 · 程序正当原则之听取意见与回避要求.md",
+    "wiki/exam-questions/行政法-多选-16 · 公务员交流法定方式.md",
     "~$葵花宝典.docx",
     "~$Prompt.docx",
     "葵花宝典.docx",
