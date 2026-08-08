@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2955f45b814db262",
+            "id": "df3ccea53af82a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "民诉-客观题考点全景-深度报告"
+            }
+          },
+          {
+            "id": "ea2675695e89b173",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "行政法-客观题考点全景-深度报告"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,73 +186,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "fcc31ce649c31e8f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "4ce553a840f72cd2",
-        "type": "window",
-        "children": [
-          {
-            "id": "b1f89cdfe649baa9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "715f307d23485c3c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-民诉-仲裁-撤销仲裁裁决.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-民诉-仲裁-撤销仲裁裁决"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2786,
-        "y": 155,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "2955f45b814db262",
+  "active": "ea2675695e89b173",
   "lastOpenFiles": [
-    "行政法-多选-01 · 比例原则之必要性与妥当性要件&.md",
-    "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
-    "行政法-单选-01.md",
-    "行政法-多选-01.md",
-    "raw/notes/300-行政法-.md",
-    "wiki/exam-questions/行政法-单选-24 · 领导干部引咎辞职法律后果.md",
-    "wiki/exam-questions/行政法-多选-20 · 法定公务员处分种类识别.md",
-    "wiki/exam-questions/行政法-多选-19 · 公务员机关外兼职批准与报酬限制.md",
-    "wiki/exam-questions/行政法-单选-14 · 县环保局与水利局职责划分异议处理.md",
-    "wiki/exam-questions/行政法-单选-23 · 离民警每年一次定期考核.md",
-    "wiki/exam-questions/行政法-多选-18 · 公务员年度考核不称职后果与程序.md",
-    "wiki/exam-questions/行政法-单选-13 · 地方政府部门合并批准机关.md",
-    "wiki/exam-questions/行政法-单选-04 · 非强制手段优先与比例原则.md",
-    "wiki/exam-questions/行政法-单选-22 · 公务员记大过处分期限与影响.md",
-    "wiki/exam-questions/行政法-多选-11 · 国家知识产权局调整为直属机构之领导职数与编制.md",
-    "wiki/exam-questions/行政法-单选-12 · 国家税务总局司级机构设立与报告制度.md",
-    "wiki/exam-questions/行政法-单选-03 · 查封正常经营商铺违反合理行政原则.md",
-    "wiki/exam-questions/行政法-单选-21 · 参加培训属于公务员权利而非义务.md",
-    "wiki/exam-questions/行政法-多选-07 · 权责一致原则之主动纠错与违法追责.md",
-    "wiki/exam-questions/行政法-单选-11 · 中国证监会内设部门与规章制定权.md",
-    "wiki/exam-questions/行政法-单选-20 · 工作满30年申请提前退休审批.md",
-    "wiki/exam-questions/行政法-多选-06 · 合理行政原则之平等对待与符合目的.md",
-    "wiki/exam-questions/行政法-多选-17 · 公务员辞职限制与辞退失业保险.md",
-    "wiki/exam-questions/行政法-单选-10 · 国家数据局机构性质与编制审批.md",
-    "wiki/exam-questions/行政法-多选-05 · 程序正当原则之听取意见与回避要求.md",
-    "wiki/exam-questions/行政法-多选-16 · 公务员交流法定方式.md",
+    "wiki/sources/2026-08-07-考点自主生成题目行政复议与国家赔偿.md",
+    "wiki/exam-questions/行政法-单选-189 · 法院查封房屋裁定过户超标的赔偿范围.md",
+    "wiki/exam-questions/行政法-单选-188 · 二审改判无罪拘留逮捕赔偿义务机关确定.md",
+    "wiki/exam-questions/行政法-多选-249 · 民事行政司法赔偿违法强措与未生效执行.md",
+    "wiki/exam-questions/行政法-单选-187 · 解除取保后申请国家赔偿复议救济.md",
+    "wiki/exam-questions/行政法-多选-248 · 当面递交赔偿申请凭证与时效计算.md",
+    "wiki/exam-questions/行政法-多选-247 · 不起诉后监视居住期满国家赔偿受理条件.md",
+    "wiki/exam-questions/行政法-多选-246 · 错误轻伤鉴定批捕撤案赔偿机关与取保免赔.md",
+    "wiki/exam-questions/行政法-单选-186 · 服刑期间受伤出狱申请国家赔偿机关.md",
+    "wiki/exam-questions/行政法-单选-185 · 法院判无罪赔偿义务机关与时效.md",
+    "wiki/exam-questions/行政法-多选-245 · 审查起诉不起诉赔偿协商与取保免赔.md",
+    "wiki/exam-questions/行政法-多选-244 · 省高院改判无罪赔偿义务机关与救济程序.md",
+    "wiki/exam-questions/行政法-多选-243 · 重审改判无罪共同赔偿与检察院撤案.md",
+    "wiki/exam-questions/行政法-单选-184 · 发回重审改判无罪赔偿义务机关确定.md",
+    "wiki/exam-questions/行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议.md",
+    "wiki/exam-questions/行政法-单选-183 · 二审改判无罪赔偿义务机关市中院.md",
+    "wiki/exam-questions/行政法-单选-182 · 撤案退还申请书面凭证收据盖章.md",
+    "wiki/exam-questions/行政法-多选-241 · 情节显著轻微不起诉赔偿拒绝与赔委组成.md",
+    "wiki/exam-questions/行政法-多选-240 · 未满16周岁改判无罪国家赔偿羁押起止计算.md",
+    "wiki/exam-questions/行政法-多选-239 · 职务侵占改判无罪复议与中院赔委申请.md",
+    "wiki/exam-questions/行政法-多选-238 · 逮捕后不起诉书面拒绝与上级复议.md",
+    "wiki/exam-questions/行政法-单选-181 · 合同诈骗取保候审不属赔偿与工资标准.md",
+    "wiki/exam-questions/行政法-多选-237 · 强拆房屋申请赔偿期限与利息及追责.md",
+    "wiki/exam-questions/行政法-单选-180 · 扣押无证营运车辆营运损失直接损失认定.md",
+    "wiki/exam-questions/行政法-多选-236 · 强拆未保全物品损毁赔偿举证与追责管辖.md",
+    "wiki/exam-questions/行政法-单选-179 · 运活鱼扣车损害最小化与合理性审查.md",
     "~$葵花宝典.docx",
     "~$Prompt.docx",
     "葵花宝典.docx",
