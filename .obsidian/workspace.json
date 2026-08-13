@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df3ccea53af82a47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "民诉-客观题考点全景-深度报告"
-            }
-          },
-          {
-            "id": "1092d68d64476bcf",
+            "id": "f3efa3a5b6924588",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,105 +22,35 @@
             }
           },
           {
-            "id": "ff317c4aa513e070",
+            "id": "fcf828d777fcff81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/行政法-多选-37 · 行政行为生效时点溯及力与诉讼拘束力辨析.md",
+                "file": "wiki/exam-questions/行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行政法-多选-37 · 行政行为生效时点溯及力与诉讼拘束力辨析"
+              "title": "行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议"
             }
           },
           {
-            "id": "b45569db2322467d",
+            "id": "38ca4b2c8d6fc316",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/行政法-多选-36 · 送达领受程序与废止补偿性质辨析.md",
+                "file": "wiki/exam-questions/行政法-多选-95 · 税务征税与加处滞纳金及罚款救济途径.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行政法-多选-36 · 送达领受程序与废止补偿性质辨析"
-            }
-          },
-          {
-            "id": "e479fb1cfe3737ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/行政法-多选-36 · 送达领受程序与废止补偿性质辨析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "行政法-多选-36 · 送达领受程序与废止补偿性质辨析"
-            }
-          },
-          {
-            "id": "432abc45f20fc83e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/行政法-多选-34 · 法定程序必要条件与无效行为多样性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "行政法-多选-34 · 法定程序必要条件与无效行为多样性"
-            }
-          },
-          {
-            "id": "8040451d87ec9420",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/行政法-多选-33 · 具体行政行为程序违法与约束力及废止效力辨析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "行政法-多选-33 · 具体行政行为程序违法与约束力及废止效力辨析"
-            }
-          },
-          {
-            "id": "83d5c332ae8c9d5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/行政法-单选-49 · 具体行政行为撤销前具有拘束力要件.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "行政法-单选-49 · 具体行政行为撤销前具有拘束力要件"
-            }
-          },
-          {
-            "id": "c7d262a7f2b3e27c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/exam-questions/行政法-单选-48 · 确认无效对作出机关无拘束力判定.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "行政法-单选-48 · 确认无效对作出机关无拘束力判定"
+              "title": "行政法-多选-95 · 税务征税与加处滞纳金及罚款救济途径"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.53125
+    "width": 429.53125,
+    "collapsed": true
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -289,158 +206,124 @@
     "type": "floating",
     "children": [
       {
-        "id": "798b004c96ec727d",
+        "id": "99cd3da436ef1ef6",
         "type": "window",
         "children": [
           {
-            "id": "5f7ed4a2f8f00f42",
+            "id": "687d8033765eeb0f",
             "type": "tabs",
             "children": [
               {
-                "id": "9ae31b9e25f79950",
+                "id": "6ddcc9e58094dca9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "raw/notes/300-行政法-无效·可撤销·废止.md",
+                    "file": "raw/notes/300-行政法-复议范围.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "300-行政法-无效·可撤销·废止"
+                  "title": "300-行政法-复议范围"
                 }
               },
               {
-                "id": "e6d2644d476bb43d",
+                "id": "1802d7b284580411",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "raw/notes/300-行政法-行政法基本原则.md",
+                    "file": "raw/notes/300-行政法-审理程序.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "300-行政法-行政法基本原则"
+                  "title": "300-行政法-审理程序"
                 }
               },
               {
-                "id": "fd244973307b7cb3",
+                "id": "54296c31d6da2a14",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "raw/notes/300-行政法-行政法规与规章的制定权限.md",
+                    "file": "raw/notes/300-行政法-原告资格与被告确定.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "300-行政法-行政法规与规章的制定权限"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 1309,
-        "y": 256,
-        "width": 1024,
-        "height": 1478,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "03126ce2e2e6d8d5",
-        "type": "window",
-        "children": [
-          {
-            "id": "39608f65b1d47c2c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "99bd18ee64b2ee9b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-行政法-无效·可撤销·废止.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-行政法-无效·可撤销·废止"
+                  "title": "300-行政法-原告资格与被告确定"
                 }
               },
               {
-                "id": "f550e4f0864c7ec6",
+                "id": "c362a4aa0a7a55ce",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "raw/notes/行政行为与无效行政行为的通俗解读.md",
+                    "file": "raw/notes/300-行政法-原告资格与被告确定.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "行政行为与无效行政行为的通俗解读"
+                  "title": "300-行政法-原告资格与被告确定"
                 }
               },
               {
-                "id": "23ec879497f4df5e",
+                "id": "39cb1ce83badf6af",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "raw/notes/300-行政法-行政法规与规章的制定权限.md",
+                    "file": "raw/notes/300-行政法-级别管辖.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "300-行政法-行政法规与规章的制定权限"
+                  "title": "300-行政法-级别管辖"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1273,
-        "y": 255,
-        "width": 942,
-        "height": 1293,
+        "x": 1214,
+        "y": 257,
+        "width": 1024,
+        "height": 1711,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "99bd18ee64b2ee9b",
+  "active": "6ddcc9e58094dca9",
   "lastOpenFiles": [
-    "raw/notes/行政行为与无效行政行为的通俗解读 (1).md",
-    "raw/notes/行政行为与无效行政行为的通俗解读.md",
-    "raw/notes/300-行政法-无效·可撤销·废止.md",
+    "行政复议前置：税务与自然资源争议的法律程序解析.md",
+    "wiki/exam-questions/行政法-多选-95 · 税务征税与加处滞纳金及罚款救济途径.md",
     "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
+    "wiki/exam-questions/行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议.md",
+    "raw/notes/300-行政法-复议范围.md",
+    "wiki/exam-questions/行政法-多选-238 · 逮捕后不起诉书面拒绝与上级复议.md",
+    "wiki/exam-questions/行政法-多选-152 · 逆行罚款复议补证与法院调证质证.md",
+    "300 Overall.md",
+    "raw/notes/300-行政法-原告资格与被告确定.md",
+    "raw/notes/300-行政法-审理程序.md",
+    "wiki/exam-questions/行政法-多选-136 · 引进外资奖励诚实守信与省政府复议.md",
+    "wiki/exam-questions/行政法-多选-103 · 执法冲突复议撤销后诉讼被告与反诉限制.md",
+    "raw/notes/300-行政法-级别管辖.md",
+    "wiki/exam-questions/行政法-单选-157 · 化工厂超标排污复议超时诉被告举证.md",
+    "wiki/exam-questions/行政法-单选-156 · 养老保险转入复议维持一并裁判.md",
+    "wiki/exam-questions/行政法-单选-143 · 生态环境部复议办法规章刊载与权限.md",
     "raw/notes/300-行政法-行政法规与规章的制定权限.md",
-    "raw/notes/300-行政法-行政主体资格.md",
-    "wiki/exam-questions/行政法-多选-37 · 行政行为生效时点溯及力与诉讼拘束力辨析.md",
-    "wiki/exam-questions/行政法-多选-36 · 送达领受程序与废止补偿性质辨析.md",
-    "wiki/exam-questions/行政法-多选-34 · 法定程序必要条件与无效行为多样性.md",
-    "raw/notes/行政复议问题解析.md",
-    "wiki/exam-questions/行政法-多选-33 · 具体行政行为程序违法与约束力及废止效力辨析.md",
-    "raw/notes/300-行政法-行政法基本原则.md",
     "raw/notes/300-行政法-规范性文件.md",
-    "raw/notes/300-行政法-公务员制度.md",
-    "raw/notes/行政法可撤销行政行为核心要点解析.md",
-    "wiki/exam-questions/行政法-单选-49 · 具体行政行为撤销前具有拘束力要件.md",
-    "wiki/exam-questions/行政法-单选-48 · 确认无效对作出机关无拘束力判定.md",
-    "raw/notes/行政行为废止的法律分析.md",
-    "raw/notes/300-prompt-权威大白话口径解释.md",
-    "wiki/synthesis/民诉-客观题考点全景-深度报告.md",
-    "wiki/exam-questions/行政法-单选-132 · 棚改征收补偿协议仲裁条款无效与举证.md",
-    "wiki/exam-questions/行政法-单选-02 · 拆迁补偿与诚实守信信赖保护原则.md",
-    "wiki/exam-questions/行政法-多选-54 · 地方政府规章立法权限与罚款限额.md",
-    "wiki/exam-questions/行政法-多选-30 · 行政法规解释权归属与同等效力.md",
-    "wiki/exam-questions/行政法-多选-26 · 行政法规签署公布后刊载载体范围.md",
-    "wiki/exam-questions/行政法-多选-207 · 金管总局裁量办法从轻减轻与违法所得.md",
+    "raw/notes/2026法考｜行政立法四大文件权限满分体系（法律_行政法规_地方性法规_规章）.md",
+    "raw/notes/行政法附带审查：条件、流程与法考要点.md",
+    "raw/notes/法考客观题：规章权限秒杀做题方法论（直接套用，看到题干10秒出答案）.md",
+    "raw/notes/300-行政法-行政法基本原则.md",
+    "raw/notes/300-行政法-行政主体资格.md",
+    "raw/notes/行政法附带审查核心原理：法考逻辑解析.md",
+    "raw/notes/300-行政法-复议管辖.md",
+    "raw/notes/300-行政法-证据规则.md",
     "~$葵花宝典.docx",
     "~$Prompt.docx",
     "葵花宝典.docx",
