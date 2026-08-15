@@ -13,44 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
+                "file": "wiki/synthesis/商经知-客观题考点全景-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行政法-客观题考点全景-深度报告"
+              "title": "商经知-客观题考点全景-深度报告"
             }
           },
           {
-            "id": "fcf828d777fcff81",
+            "id": "1758f62ac4f07ec7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议.md",
+                "file": "wiki/答题模型/商法-公司-股东出资责任与未届期股权转让模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议"
+              "title": "商法-公司-股东出资责任与未届期股权转让模型"
             }
           },
           {
-            "id": "38ca4b2c8d6fc316",
+            "id": "b13e89bb4e4aeb4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/exam-questions/行政法-多选-95 · 税务征税与加处滞纳金及罚款救济途径.md",
+                "file": "wiki/答题模型/商法-公司-股东出资责任与未届期股权转让模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行政法-多选-95 · 税务征税与加处滞纳金及罚款救济途径"
+              "title": "商法-公司-股东出资责任与未届期股权转让模型"
+            }
+          },
+          {
+            "id": "1cbcd64ac70358b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/答题模型/商法-公司-认缴出资与股东失权模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "商法-公司-认缴出资与股东失权模型"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.53125,
-    "collapsed": true
+    "width": 429.53125
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -201,139 +214,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "2023d0db141e8085",
-    "type": "floating",
-    "children": [
-      {
-        "id": "99cd3da436ef1ef6",
-        "type": "window",
-        "children": [
-          {
-            "id": "687d8033765eeb0f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6ddcc9e58094dca9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-行政法-复议范围.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-行政法-复议范围"
-                }
-              },
-              {
-                "id": "1802d7b284580411",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-行政法-审理程序.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-行政法-审理程序"
-                }
-              },
-              {
-                "id": "54296c31d6da2a14",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-行政法-原告资格与被告确定.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-行政法-原告资格与被告确定"
-                }
-              },
-              {
-                "id": "c362a4aa0a7a55ce",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-行政法-原告资格与被告确定.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-行政法-原告资格与被告确定"
-                }
-              },
-              {
-                "id": "39cb1ce83badf6af",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "raw/notes/300-行政法-级别管辖.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "300-行政法-级别管辖"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1214,
-        "y": 257,
-        "width": 1024,
-        "height": 1711,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "6ddcc9e58094dca9",
+  "active": "1758f62ac4f07ec7",
   "lastOpenFiles": [
-    "行政复议前置：税务与自然资源争议的法律程序解析.md",
-    "wiki/exam-questions/行政法-多选-95 · 税务征税与加处滞纳金及罚款救济途径.md",
-    "wiki/synthesis/行政法-客观题考点全景-深度报告.md",
-    "wiki/exam-questions/行政法-多选-242 · 市中院赔委申诉与合议庭人数及复议.md",
-    "raw/notes/300-行政法-复议范围.md",
-    "wiki/exam-questions/行政法-多选-238 · 逮捕后不起诉书面拒绝与上级复议.md",
-    "wiki/exam-questions/行政法-多选-152 · 逆行罚款复议补证与法院调证质证.md",
-    "300 Overall.md",
-    "raw/notes/300-行政法-原告资格与被告确定.md",
-    "raw/notes/300-行政法-审理程序.md",
-    "wiki/exam-questions/行政法-多选-136 · 引进外资奖励诚实守信与省政府复议.md",
-    "wiki/exam-questions/行政法-多选-103 · 执法冲突复议撤销后诉讼被告与反诉限制.md",
-    "raw/notes/300-行政法-级别管辖.md",
-    "wiki/exam-questions/行政法-单选-157 · 化工厂超标排污复议超时诉被告举证.md",
-    "wiki/exam-questions/行政法-单选-156 · 养老保险转入复议维持一并裁判.md",
-    "wiki/exam-questions/行政法-单选-143 · 生态环境部复议办法规章刊载与权限.md",
-    "raw/notes/300-行政法-行政法规与规章的制定权限.md",
-    "raw/notes/300-行政法-规范性文件.md",
-    "raw/notes/2026法考｜行政立法四大文件权限满分体系（法律_行政法规_地方性法规_规章）.md",
-    "raw/notes/行政法附带审查：条件、流程与法考要点.md",
-    "raw/notes/法考客观题：规章权限秒杀做题方法论（直接套用，看到题干10秒出答案）.md",
-    "raw/notes/300-行政法-行政法基本原则.md",
-    "raw/notes/300-行政法-行政主体资格.md",
-    "raw/notes/行政法附带审查核心原理：法考逻辑解析.md",
-    "raw/notes/300-行政法-复议管辖.md",
-    "raw/notes/300-行政法-证据规则.md",
-    "~$葵花宝典.docx",
-    "~$Prompt.docx",
-    "葵花宝典.docx",
-    "Untitled 5.base",
-    "Untitled 4.base",
-    "raw/notes/2026客观真金题民诉戴鹏 287 45.pdf",
-    "raw/notes/2026客观真金题民诉戴鹏 287 56.pdf",
-    "raw/notes/2026客观真金题民诉戴鹏 287 67.pdf",
-    "raw/notes/2026客观真金题民诉戴鹏 287 87.pdf",
-    "wiki/synthesis/民诉-客观题考点全景-深度报告.md.tmp.63788.d458084b34b4",
+    "wiki/synthesis/商经知-客观题考点全景-深度报告.md",
+    "wiki/答题模型/商法-公司-股东出资责任与未届期股权转让模型.md",
+    "wiki/答题模型/商法-公司-认缴出资与股东失权模型.md",
+    "wiki/exam-questions/商法-公司-单选-11 · 新公司法出资加速到期与资本公积金冲抵出资无效案.md",
+    "wiki/exam-questions/商法-公司-多选-12 · 非货币财产出资交付登记与股东权利享有案.md",
+    "wiki/exam-questions/商法-公司-多选-13 · 债权出资客观贬值与赃款出资处置案.md",
+    "wiki/exam-questions/知产-著作权-多选-175 · 录音制品法定许可与著作权人声明排除案.md",
+    "wiki/exam-questions/知产-著作权-单选-174 · 九年义务教育教科书汇编法定许可与付酬义务案.md",
+    "wiki/exam-questions/知产-著作权-多选-173 · 免费表演合理使用三不原则构成要件案.md",
+    "wiki/exam-questions/知产-著作权-多选-172 · 公共场所艺术作品摄影商业利用与合理使用案.md",
+    "wiki/exam-questions/知产-著作权-单选-171 · 汉译少与少译汉外译中合理使用边界案.md",
+    "wiki/答题模型/知产法-著作权-合理使用与法定许可模型.md",
+    "wiki/exam-questions/经济-消保-多选-170 · 直播带货虚假宣传责任承担与连带责任案.md",
+    "wiki/exam-questions/经济-消保-多选-169 · 食品安全十倍惩罚性赔偿与知假买假索赔案.md",
+    "wiki/exam-questions/经济-消保-单选-168 · 欺诈消费三倍惩罚性赔偿与500元保底计算案.md",
+    "wiki/exam-questions/经济-消保-多选-167 · 网络购物七日无理由退货法定排除与确认排除案.md",
+    "wiki/exam-questions/经济-消保-单选-166 · 自动续费提前5日提醒与网络平台先行赔付案.md",
+    "wiki/答题模型/经济法-消保-网络消费新规与惩罚性赔偿模型.md",
+    "wiki/答题模型/商法-公司-法人人格否认与横向纵向穿透模型.md",
+    "raw/notes/法人人格否认三大铁律（2026法考·最新法条完整版）.md",
+    "wiki/exam-questions/商法-公司-单选-02 · 人格否认之诉被告列明与法院释明程序案.md",
+    "raw/notes/纵向人格穿透（法人人格否认·股东↔公司）.md",
+    "wiki/exam-questions/经济-反垄断-多选-165 · 滥用行政权力排除限制竞争与公平竞争审查案.md",
+    "wiki/exam-questions/经济-反垄断-多选-164 · 滥用市场支配地位掠夺性定价与正当理由抗辩案.md",
+    "wiki/exam-questions/经济-反垄断-单选-163 · 市场支配地位推定份额标准与排除规则案.md",
+    "wiki/exam-questions/经济-反垄断-单选-162 · 纵向转售价格限制与安全港及无竞争损害抗辩案.md",
+    "ocr_direct",
+    "scratch_plain_ocr.m",
+    "ocr.swift",
+    "ocr_fast",
+    "ocr_insurance.txt",
+    "ocr2",
+    "scratch_ocr2.m",
+    "tmp_module_cache/2R7GY2NH1LU5Q/modules.idx",
+    "tmp_module_cache/2R7GY2NH1LU5Q/modules.idx.lock-1ab03078",
+    "tmp_module_cache/2R7GY2NH1LU5Q/Vision-9U9D1FI22KID.pcm",
+    "Pasted image 20260813192418.png",
+    "Pasted image 20260813192417.png",
     "Untitled.canvas"
   ]
 }
