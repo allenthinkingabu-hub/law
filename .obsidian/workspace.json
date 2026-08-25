@@ -8,59 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3efa3a5b6924588",
+            "id": "032a22475cd591f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/商经知-客观题考点全景-深度报告.md",
+                "file": "wiki/synthesis/侵权责任编考点-深度报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "商经知-客观题考点全景-深度报告"
+              "title": "侵权责任编考点-深度报告"
             }
           },
           {
-            "id": "1758f62ac4f07ec7",
+            "id": "7028a4b07dddfe04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/答题模型/商法-公司-股东出资责任与未届期股权转让模型.md",
+                "file": "wiki/答题模型/民法-侵权-机动车交通事故责任模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "商法-公司-股东出资责任与未届期股权转让模型"
-            }
-          },
-          {
-            "id": "b13e89bb4e4aeb4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/商法-公司-股东出资责任与未届期股权转让模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "商法-公司-股东出资责任与未届期股权转让模型"
-            }
-          },
-          {
-            "id": "1cbcd64ac70358b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/答题模型/商法-公司-认缴出资与股东失权模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "商法-公司-认缴出资与股东失权模型"
+              "title": "民法-侵权-机动车交通事故责任模型"
             }
           }
         ],
@@ -123,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.53125
+    "width": 403.8671875
   },
   "right": {
     "id": "fe5df85959401e32",
@@ -214,34 +186,89 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1758f62ac4f07ec7",
+  "floating": {
+    "id": "2023d0db141e8085",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ddf097a3cd00c95f",
+        "type": "window",
+        "children": [
+          {
+            "id": "9580bc4abad84d5f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c88f4363b78c0e22",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/答题模型/劳动法-社保-延迟法定退休年龄与养老保险新规模型.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "劳动法-社保-延迟法定退休年龄与养老保险新规模型"
+                }
+              },
+              {
+                "id": "3698687928c5208f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/exam-questions/劳动-社保-多选-152 · 职工自愿弹性提前退休与最低年龄限制案.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "劳动-社保-多选-152 · 职工自愿弹性提前退休与最低年龄限制案"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 495,
+        "y": 39,
+        "width": 1368,
+        "height": 1290,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7028a4b07dddfe04",
   "lastOpenFiles": [
-    "wiki/synthesis/商经知-客观题考点全景-深度报告.md",
-    "wiki/答题模型/商法-公司-股东出资责任与未届期股权转让模型.md",
-    "wiki/答题模型/商法-公司-认缴出资与股东失权模型.md",
-    "wiki/exam-questions/商法-公司-单选-11 · 新公司法出资加速到期与资本公积金冲抵出资无效案.md",
-    "wiki/exam-questions/商法-公司-多选-12 · 非货币财产出资交付登记与股东权利享有案.md",
-    "wiki/exam-questions/商法-公司-多选-13 · 债权出资客观贬值与赃款出资处置案.md",
-    "wiki/exam-questions/知产-著作权-多选-175 · 录音制品法定许可与著作权人声明排除案.md",
-    "wiki/exam-questions/知产-著作权-单选-174 · 九年义务教育教科书汇编法定许可与付酬义务案.md",
-    "wiki/exam-questions/知产-著作权-多选-173 · 免费表演合理使用三不原则构成要件案.md",
-    "wiki/exam-questions/知产-著作权-多选-172 · 公共场所艺术作品摄影商业利用与合理使用案.md",
-    "wiki/exam-questions/知产-著作权-单选-171 · 汉译少与少译汉外译中合理使用边界案.md",
-    "wiki/答题模型/知产法-著作权-合理使用与法定许可模型.md",
-    "wiki/exam-questions/经济-消保-多选-170 · 直播带货虚假宣传责任承担与连带责任案.md",
-    "wiki/exam-questions/经济-消保-多选-169 · 食品安全十倍惩罚性赔偿与知假买假索赔案.md",
-    "wiki/exam-questions/经济-消保-单选-168 · 欺诈消费三倍惩罚性赔偿与500元保底计算案.md",
-    "wiki/exam-questions/经济-消保-多选-167 · 网络购物七日无理由退货法定排除与确认排除案.md",
-    "wiki/exam-questions/经济-消保-单选-166 · 自动续费提前5日提醒与网络平台先行赔付案.md",
-    "wiki/答题模型/经济法-消保-网络消费新规与惩罚性赔偿模型.md",
-    "wiki/答题模型/商法-公司-法人人格否认与横向纵向穿透模型.md",
-    "raw/notes/法人人格否认三大铁律（2026法考·最新法条完整版）.md",
-    "wiki/exam-questions/商法-公司-单选-02 · 人格否认之诉被告列明与法院释明程序案.md",
-    "raw/notes/纵向人格穿透（法人人格否认·股东↔公司）.md",
-    "wiki/exam-questions/经济-反垄断-多选-165 · 滥用行政权力排除限制竞争与公平竞争审查案.md",
-    "wiki/exam-questions/经济-反垄断-多选-164 · 滥用市场支配地位掠夺性定价与正当理由抗辩案.md",
-    "wiki/exam-questions/经济-反垄断-单选-163 · 市场支配地位推定份额标准与排除规则案.md",
-    "wiki/exam-questions/经济-反垄断-单选-162 · 纵向转售价格限制与安全港及无竞争损害抗辩案.md",
+    "wiki/答题模型/民法-侵权-建筑物和物件损害责任模型.md",
+    "wiki/答题模型/民法-侵权-机动车交通事故责任模型.md",
+    "wiki/答题模型/民法-侵权-饲养动物损害责任模型.md",
+    "wiki/synthesis/侵权责任编考点-深度报告.md",
+    "wiki/exam-questions/侵权责任-多选-35 · 饲养动物-第三人过错致烈性犬伤人之绝对责任与多重请求权综合案.md",
+    "wiki/exam-questions/侵权责任-多选-20 · 动物致害各类型-饲养人责任综合.md",
+    "wiki/exam-questions/侵权责任-单选-51 · 饲养动物-第三人过错致动物伤人之受害人选择权与追偿案.md",
+    "wiki/exam-questions/侵权责任-多选-34 · 饲养动物-动物园动物致损与自甘风险规则竞合判定案.md",
+    "wiki/exam-questions/侵权责任-多选-33 · 饲养动物-烈性犬与普通犬致损归责原则与免责事由综合对比案.md",
+    "wiki/exam-questions/侵权责任-单选-23 · 偷狗被咬-故意引发损失自担.md",
+    "wiki/exam-questions/侵权责任-单选-22 · 饲养动物施救者-错误判断无因管理.md",
+    "wiki/答题模型/民法-侵权-侵权责任模型.md",
+    "raw/notes/无过错责任过错推定的被告救济方法.md",
+    "raw/notes/✅核心结论（2026法考必背｜《民法典》1245）.md",
+    "wiki/exam-questions/侵权责任-多选-22 · 粪坑致人死亡-过错推定责任.md",
+    "wiki/exam-questions/侵权责任-多选-05 · 高空坠物-补偿责任与调查义务.md",
+    "wiki/exam-questions/侵权责任-单选-18 · 高空抛物-顶层业主证明无人可免责.md",
+    "raw/notes/✅2026法考标准：补充责任 vs 补偿责任（适当补偿_公平补偿）.md",
+    "wiki/exam-questions/侵权责任-多选-21 · 建筑物倒塌-所有人占有人施工人连带.md",
+    "wiki/答题模型/民法-侵权-产品责任模型.md",
+    "wiki/exam-questions/侵权责任-多选-43 · 产品责任-民法消法食安法三类惩罚性赔偿构成要件综合比对案.md",
+    "wiki/exam-questions/侵权责任-单选-69 · 产品责任-消法欺诈三倍赔偿与民法典惩罚性赔偿基数计算案.md",
+    "wiki/exam-questions/侵权责任-单选-68 · 产品责任-明知缺陷销售但未造成死伤之惩罚性赔偿排除案.md",
+    "wiki/exam-questions/侵权责任-单选-66 · 产品责任-运输者过错致缺陷之对外连带与内部追偿案.md",
+    "wiki/exam-questions/侵权责任-多选-13 · 产品责任-车床按份共有缺陷致损.md",
+    "wiki/exam-questions/侵权责任-单选-46 · 教育机构责任-校外第三人侵权之诉讼共同被告与先行赔付案.md",
+    "scratch_ocr_check_t3.m",
     "ocr_direct",
     "scratch_plain_ocr.m",
     "ocr.swift",
@@ -251,7 +278,6 @@
     "scratch_ocr2.m",
     "tmp_module_cache/2R7GY2NH1LU5Q/modules.idx",
     "tmp_module_cache/2R7GY2NH1LU5Q/modules.idx.lock-1ab03078",
-    "tmp_module_cache/2R7GY2NH1LU5Q/Vision-9U9D1FI22KID.pcm",
     "Pasted image 20260813192418.png",
     "Pasted image 20260813192417.png",
     "Untitled.canvas"
